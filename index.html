@@ -1,75 +1,320 @@
-﻿<html>
-<head>
-    <title>激光导航客软件更新客户端</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
-    <link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/sweet.css">
-    <script src="jquery/jquery-1.8.3.min.js"></script>
-    <script>
-        $(document).bind('mobileinit', function () {
-            $.mobile.changePage.defaults.changeHash = false;
-            $.mobile.hashListeningEnabled = false;
-            $.mobile.pushStateEnabled = false;
-        });
-    </script>
-    <script src="jquery/jquery.mobile-1.4.5.min.js"></script>
-    <script type="text/javascript" src="navigation/easeljs.min.js"></script>
-    <script type="text/javascript" src="navigation/eventemitter2.min.js"></script>
-    <script type="text/javascript" src="navigation/ros2d.js"></script>
-    <script type="text/javascript" src="navigation/nav2d.js"></script>
-    <script type="text/javascript" src="navigation/roslib.min.js"></script>
-    <script type="text/javascript" src="navigation/three.min.js"></script>
-    <script type="text/javascript" src="js/navigation.js"></script>
-
-    <script type="text/javascript" src="js/update.js"></script>
-    <script type="text/javascript" src="js/sweet.js"></script>
-
-</head>
-<body>
-
-    <!--软件更新 -->
-    <div data-role="page" id="hrg-software-connect-page">
-        <div data-role="header" data-theme="b">
-            <h1>软件更新</h1>
-            <a href="#" class="ui-btn ui-icon-hrg-networkerror ui-btn-icon-notext ui-corner-all ui-btn-right networkstatus"></a>
-        </div>
-        <div data-role="content">
-            <label for="remote_robot_ip" style="font-weight: 600">机器人IP:</label>
-            <input type="text" id="remote_robot_ip" required placeholder="127.0.0.1" value="192.168.0.7">
-            <a href="#" data-role="button" data-icon="hrg-stop" data-iconpos="right" id="connect">连 接</a>
-        </div>
-        <div data-role="footer" data-theme="b" data-position="fixed" data-id="hrg-footer">
-            <h1>中导机器人</h1>
-        </div>
-    </div>
-    <div data-role="page" id="hrg-software-update-page">
-        <div data-role="header" data-theme="b">
-            <h1>软件更新</h1>
-            <a href="#" class="ui-btn ui-icon-hrg-networkerror ui-btn-icon-notext ui-corner-all ui-btn-right networkstatus"></a>
-        </div>
-        <div data-role="content">
-            <fieldset data-role="controlgroup" id="test">
-                <legend>选择更新方式:</legend>
-                <input type="radio" name="radio-choice" id="在线自动更新" value="在线自动更新" checked="checked" onchange="radio_change(this.id)" />
-                <label for="在线自动更新">在线自动更新</label>
-
-                <input type="radio" name="radio-choice" id="离线本地更新" value="离线本地更新" onchange="radio_change(this.id)" />
-                <label for="离线本地更新">离线本地更新</label>
-
-                <input type="radio" name="radio-choice" id="U盘威尔2升级包" value="dbparam" onchange="radio_change(this.id)" />
-                <label for="U盘威尔2升级包">U盘威尔2升级包</label>
-                <input type="radio" name="radio-choice" id="U盘安装文件传输包" value="openssh" onchange="radio_change(this.id)" />
-                <label for="U盘安装文件传输包">U盘安装文件传输包</label>
-
-            </fieldset>
-
-            <a href="#" data-role="button" data-icon="arrow-d" data-iconpos="right" data-theme="b" id="btn-software-update">更 新</a>
-            <h3 id="update-info">更新信息...</h3>
-        </div>
-        <div data-role="footer" data-theme="b" data-position="fixed" data-id="hrg-footer">
-            <h1>中导机器人</h1>
-        </div>
-    </div>
-</body>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>操作展示</title>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="style/operation_display.css"/>
+	</head>
+	<body>		
+		<div id="container">
+			<ul class="anchor">
+				<div class="head_logo">
+					<img src="image/head_logo.png" height="75%"/>
+				</div>
+				<a href="#content_one"><li style="border-bottom: none;">AGV-3.0</li></a>
+				<a href="#content_fifteen"><li style="border-bottom: none;">AGV 登录</li></a>
+				<a href="#content_two"><li style="border-bottom: none;">AGV 开机</li></a>
+				<a href="#content_three"><li style="border-bottom: none;">创建新地图</li></a>
+				<a href="#content_four"><li style="border-bottom: none;">扫描地图</li></a>
+				<a href="#content_five"><li style="border-bottom: none;">编辑地图</li></a>
+				<a href="#content_six"><li style="border-bottom: none;">添加站点</li></a>
+				<a href="#content_seven"><li style="border-bottom: none;">添加站点详情</li></a>
+				<a href="#content_eight"><li style="border-bottom: none;">添加轨迹详情</li></a>
+				<a href="#content_eleven"><li style="border-bottom: none;">位置估计</li></a>
+				<a href="#content_nine"><li style="border-bottom: none;">网络设置</li></a>			
+				<a href="#content_twelve"><li style="border-bottom: none;">系统诊断</li></a>
+				<a href="#content_thirteen"><li style="border-bottom: none;">代码调试</li></a>
+				<a href="#content_fourteen"><li style="border-bottom: none;">AGV 更新</li></a>
+				<a href="#content_sixteen"><li style="border-bottom: none;">帮助详情</li></a>
+				<a href="#content_ten"><li style="border-bottom: none;">地图详情</li></a>	
+				<a href="#content_eighteen"><li style="border-bottom: none;">产品参数</li></a>
+				<a href="#content_seventeen"><li style="border-bottom: none;">联系我们</li></a>					
+				<a href="#content_one"><li>返回顶部↑</li></a>
+			</ul>
+			<div id="content_one" class="content">
+				<span id="hrg_logo"></span>				
+				<span id="agv_logo"></span>
+				<span id="agv_title">轻载室内激光导航AGV-3.0</span>
+				<span id="agv_English_title">Light Load Indoor Lidar Navigation AGV-3.0</span>
+				<span id="agv_text">操作说明</span>
+			</div>
+			<div id="content_fifteen" class="content">
+				<h2>AGV 登录</h2>
+				<h3>一：根据AGV型号不同，智能提示是否需要登录。</h3>
+				<span class="content_three_show">
+					<img src="image/AGV-13.png" width="100%"/>
+				</span>
+				<p>1.输入已注册的账号。</p>
+				<p>2.输入账号对应的密码。</p>
+				<p>3.账号密码确认无误后点击登录。</p>
+				<p><span style="font-weight: 900;">注：</span>第一次使用是需要注册，点击注册按钮跳转注册页面。</p>
+				<p>4.关闭图标（关闭注册页面返回到登陆页面）。</p>
+				<p>5.注册账号（要求格式：大小写字母开头，允许4-20字节，允许是字母数字下划线）。</p>
+				<p>6.注册密码（要求格式：6-12字节，允许是字母数字下划线）。</p>
+				<p>7.注册确认密码（请保持和注册密码一致）。</p>
+				<p>8.授权码（后台生成的授权码，请联系后台人员获取）。</p>
+			</div>
+			<div id="content_two" class="content">
+				<h2>AGV 开机</h2>
+				<h3>二：确定AGV电池有电的情况下进行操作。</h3>
+				<span class="content_three_shows">
+					<img src="image/AGV-14.png" width="50%"/>
+				</span>
+				<p>1.AGV急停按钮（遇到紧急情况按下急停按钮，AGV会停止当前一切动作，紧急情况解除后，按图标上指示旋转按钮即可恢复正常）。</p>
+				<p>2.AGV开机按钮（按一下指示灯亮起表示正在开机）。</p>
+				<br />
+				<br />
+				<h3>三：开机完成后按以下步骤进行连接AGV。</h3>
+				<p>1.将手机或平板连接上机器人发出的Wifi热点。</p>
+				<p>&nbsp;&nbsp;机器人Wifi热点的名称为：<span style="font-weight: 900;">hitrobot-AGV-***</span>。</p>
+				<p>&nbsp;&nbsp;<span style="font-weight: 900;">注：</span>***为机器人编号，例如hitrobot-AGV-001；Wifi密码为：hitrobot。</p>
+				<p>2.打开手机或平板的浏览器。</p>
+				<p>&nbsp;&nbsp;推荐谷歌（Chrome）、火狐（Firefox）或IOS系统自带的浏览器（Safari）。</p>
+				<p>&nbsp;&nbsp;在地址栏输入机器人地址：10.42.0.1。</p>
+			</div>
+			<div id="content_three" class="content">
+				<h2>创建新地图</h2>
+				<h3>四：首次使用时需要建图，创建新的场景（场景名称可自定义）。</h3>
+				<span class="content_three_show">
+					<img src="image/AGV-1.png" width="100%"/>
+				</span>
+				<p>1.点击地图中间导航（地图名称），滑出选项。</p>
+				<p>2.点击“新建地图”输入地图名称（未输入默认当前地图名称）。</p>
+				<p>3.确认图标（地图名称输入完成后点击确认按钮保存地图名称）。</p>
+				<p>4.删除图标（可删除已保存的地图）。</p>
+				<p>5.禁止删除图标（无法删除已保存的地图）。</p>
+				<p>6.AGV 急停按钮图标。</p>
+				<p>7.AGV 电量显示图标。</p>
+			</div>
+			<div id="content_four" class="content">
+				<h2>扫描地图</h2>
+				<h3>五：选择一个建图起点（该起点今后将作为机器人开机起点）。</h3>
+				<span class="content_three_show">
+					<img src="image/AGV-2.png" width="100%"/>
+				</span>		
+				<p>1.点击地图右侧导航（工具选项图标），滑出右侧边栏。</p>
+				<p>2.点击“手动控制”，弹出手动控制手柄。</p>
+				<p>3.点击发出“前进”指令。</p>
+				<p>4.点击发出“左转”指令。</p>
+				<p>5.点击发出“右转”指令。</p>		
+				<p>6.点击发出“后退”指令。</p>	
+				<p>7.点击保存当前地图（当AGV扫描整个地图后）。</p>
+				<p><span style="font-weight: 900;">注：</span>操作控制手柄使AGV扫描整个地图。</p>
+			</div>
+			<div id="content_five" class="content">
+				<h2>编辑地图</h2>
+				<h3>六：地图保存完成后底部会弹出工具栏，可以对地图进一步进行操作。</h3>
+				<span class="content_three_show">
+					<img src="image/AGV-3.png" width="100%"/>
+				</span>		
+				<p>1.拖拽图标（可对地图进行拖拽移动的功能）。</p>
+				<p>2.放大图标（可对地图进行放大的功能）。</p>
+				<p>3.缩小图标（可对地图进行缩小的功能）。</p>
+				<p>4.自由编辑图标（点击滑出具体功能选项）。</p>
+				<p>5.擦除图标（可对自由编辑的部分进行擦除的功能）。</p>
+				<p>6.撤销图标（可对自由编辑和擦除的部分进行撤销的功能）。</p>
+				<p>7.恢复图标（可对撤销的部分进行恢复的功能）。</p>
+				<p>8.矩形工具图标（可对地图进行矩形框选的功能）。</p>
+				<p>9.圆形工具图标（可对地图进行圆形框选的功能）。</p>
+				<p>10.直线工具图标（可对地图进行直线框选的功能）。</p>
+				<p>11.点工具图标（可对地图进行自由框选的功能）。</p>
+				<p>12.确认图标（可对地图进行保存的功能）。</p>
+				<p><span style="font-weight: 900;">注：</span>自由编辑功能操作步骤，先选中一个点作原点，再选中一个点，以两点距离作图形或者线段。</p>
+			</div>
+			<div id="content_six" class="content">	
+				<h2>添加站点</h2>
+				<h3>七：地图编辑完成后需要添加站点。</h3>
+				<span class="content_three_show">
+					<img src="image/AGV-4.png" width="100%"/>
+				</span>	
+				<p>1.点击地图左侧导航（工具选项图标），滑出左侧边栏。</p>
+				<p>2.地图开关（可对地图进行隐藏和显示的功能）。</p>
+				<p>3.机器人位置开关（可对机器人位置进行隐藏和显示的功能）。</p>
+				<p>4.机器人轮廓开关（可对机器人轮廓进行隐藏和显示的功能）。</p>
+				<p>5.激光开关（可对激光进行隐藏和显示的功能）。</p>
+				<p>6.全局路径开关（可对全局路径进行隐藏和显示的功能）。</p>
+				<p>7.局部路径开关（可对局部路径进行隐藏和显示的功能）。</p>
+				<p>8.轨迹开关（可对轨迹进行隐藏和显示的功能），点击滑出添加轨迹选项，再次点击消失。</p>
+				<p>9.站点开关（可对站点进行隐藏和显示的功能），点击滑出添加站点选项，再次点击消失。</p>
+				<p>10.站点详情图标（点击弹出站点详情）。</p>
+				<p>11.站点名称（点击执行站点命令）。</p>
+				<p>12.删除图标（可对站点进行删除的功能）。</p>				
+				<p>13.点击添加站点（点击弹出添加站点弹框）。</p>				
+			</div>
+			<div id="content_seven" class="content">
+				<h2>添加站点详情</h2>
+				<h3>八：需要根据实际情况对站点类型进行添加。</h3>
+				<span class="content_three_show">
+					<img src="image/AGV-5.png" width="100%"/>
+				</span>			
+				<p>1.站点名称（自定义）。</p>
+				<p>2.默认值：0。</p>
+				<p>3.默认值 ：0。</p>
+				<p><span style="font-weight: 900;">站点类型：</span></p>
+				<p>&nbsp;&nbsp;目标站点：AGV 停止导航的坐标点。&nbsp;&nbsp;&nbsp;充电桩：充电桩的固定位置。</p>
+				<p>&nbsp;&nbsp;订阅器：订阅消息。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;循环：循环执行某些命令。</p>
+				<p>&nbsp;&nbsp;发布-订阅器：先发布消息后订阅消息。&nbsp; 最大速度设置：限制 AGV 行驶的最大速度。</p>
+				<p>&nbsp;&nbsp;速度发布器：设置AGV最大速度 。&nbsp;&nbsp;&nbsp;&nbsp;命令发布器：发布命令。</p>
+				<p>&nbsp;&nbsp;声音播报：播放声音。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;初始位置：AGV开机的位置。</p>
+				<p>&nbsp;&nbsp;充电桩定位：定位充电桩位置。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shell命令：发送Shell命令。</p>
+				<p>&nbsp;&nbsp;跳转：跳转到某个指令。</p>
+				<p><span style="font-weight: 900;">站点模式：</span></p>
+				<p>&nbsp;&nbsp;多次：循环执行指令。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;单次：执行一次指令。</p>
+				<p><span style="font-weight: 900;">注：</span>站点目标和站点模式请根据实际情况选择。</p>
+			</div>
+			<div id="content_eight" class="content">
+				<h2>添加轨迹详情</h2>
+				<h3>九：需要根据实际情况对轨迹类型进行添加。</h3>
+				<span class="content_three_show">
+					<img src="image/AGV-6.png" width="100%"/>
+				</span>
+				<p>1.点击弹出添加轨迹弹框。</p>
+				<p>2.轨迹名称（自定义）。</p>
+				<p>3.根据事情情况选择已添加的站点。</p>
+				<p>4.轨迹详情图标（点击弹出轨迹详情）。</p>
+				<p>5.轨迹名称（点击执行轨迹命令）</p>
+				<p>6.删除图标（可对轨迹进行删除的功能）。</p>
+				
+			</div>
+			<div id="content_eleven" class="content">
+				<h2>位置估计</h2>
+				<h3>一：操控AGV前进方向。</h3>
+				<span class="content_three_show">
+					<img src="image/AGV-9.png" width="100%"/>
+				</span>
+				<p>1.点击地图选中一个点。</p>
+				<p>2.选中AGV面朝的方向的作为目标点。</p>				
+			</div>
+			<div id="content_nine" class="content">
+				<h2>网络设置</h2>
+				<h3>二：自定义或者默认网络设置。</h3>
+				<span class="content_three_show">
+					<img src="image/AGV-7.png" width="100%"/>
+				</span>
+				<p>1.Wifi名称。</p>
+				<p>2.Wifi密码。</p>
+				<p>3.IP地址（可自定义）。</p>
+				<p>4.选中后保存当前设置（未选中不保存）。</p>
+				<p>5.提交图标（点击提交保存更改内容）。</p>
+				<p>6.复位图标（点击复位切换成AP模式）。</p>				
+			</div>
+			<div id="content_twelve" class="content">
+				<h2>系统诊断</h2>
+				<h3>三：当出现错误时可以在这里面查看具体错误信息。</h3>
+				<span class="content_three_show">
+					<img src="image/AGV-10.png" width="100%"/>
+				</span>
+				<p>1.未出现错误。</p>
+				<p>2.错误名称。</p>
+				<p>3.错误内容。</p>				
+			</div>
+			<div id="content_thirteen" class="content">
+				<h2>代码调试</h2>
+				<h3>四：用于简单的代码测试。</h3>
+				<span class="content_three_show">
+					<img src="image/AGV-12.png" width="100%"/>
+				</span>
+				<p>1.需要调试代码的输入位置。</p>			
+				<p>2.默认情况下代码为空。</p>
+				<p>3.向前指令，可控制AGV向前行走。</p>
+				<p>4.向后指令，可控制AGV向后行走。</p>
+				<p>5.向左指令，可控制AGV向左转向。</p>
+				<p>6.向右指令，可控制AGV向右转向。</p>
+				<p>7.代码指令编辑好或者选择好选项后点击提交按钮进行测试。</p>	
+			</div>
+			<div id="content_fourteen" class="content">
+				<h2>AGV 更新</h2>
+				<h3>五：选择合适的更新方式便于对AGV的更好操控。</h3>
+				<span class="content_three_show">
+					<img src="image/AGV-11.png" width="100%"/>
+				</span>
+				<p>1.在线自动更新。</p>
+				<p>&nbsp;&nbsp;请确认导航板可以连接网络！</p>
+				<p>2.离线本地更新。</p>
+				<p>&nbsp;&nbsp;请先把dbparam-***.zip文件放置在pkg文件夹中，然后运行update脚本！</p>
+				<p>3.U盘威尔2升级包。</p>	
+				<p>&nbsp;&nbsp;请先把dbparam-***.zip文件放置在U盘根目录下插入导航板！</p>
+				<p>4.U盘安装文件传输包。</p>	
+				<p>&nbsp;&nbsp;请先把openssh-***.zip文件放置在U盘根目录下插入导航板！</p>
+				<p><span style="font-weight: 900;">注：</span>更新前请确定各更新方式环境良好。</p>
+			</div>
+			<div id="content_sixteen" class="content">
+				<h2>帮助详情</h2>
+				<h3>六：在操作AGV时如有疑问或者有操作不懂的地方，点击帮助查看具体操作流程。</h3>
+				<span class="content_three_show">
+					<img src="image/AGV-15.png" width="100%"/>
+				</span>
+				<p>使用AGV时需要了解的基本详情和操作步骤。</p>
+			</div>
+			<div id="content_ten" class="content">
+				<h2>地图详情</h2>
+				<h3>地图显示部分详情介绍。</h3>
+				<span class="content_three_show">
+					<img src="image/AGV-8.png" width="100%"/>
+				</span>
+				<p>1.框选内橘黄色部分代表激光。</p>
+				<p>2.框选内绿色黄色组合部分代表AGV小车。</p>
+				<p>3.框选内绿色线条部分代表轨迹。</p>
+				<p>4.框选内蓝色部分代表站点。</p>
+				<p>5.框选内浅蓝色部分代表地图。</p>
+				<p>6.框选内浅绿色部分代表AGV小车轮廓。</p>
+				<p><span style="font-weight: 900;">注：</span>地图上所显示内容均可在左侧边栏选择隐藏和显示（地图、机器人、机器人轮廓、激光、路径、站点）。</p>
+			</div>	
+			<div id="content_eighteen" class="content">
+				<h2>产品参数</h2>
+				<h3>有关AGV基本信息参考</h3>
+				<p>1.基本信息：</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;轻载室内激光导航AGV(以下简称AGV)是一款可以实现自主导航的移动机器人平台，能够实时规划路径和及时避障以及多机调度的功能，可以广泛应用于医疗、物流、工业等行业。可根据用户不同需求定制上下电梯和进出门禁的个性化功能。</p>
+				<p>2.故障排查:</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;如果AGV遇到紧急停车的情况，将其拉至安全区域;如果AGV显示路径错误信息，检查目的地是否遭到阻挡或者丢失位置信息;确保AGV的目的地与地图上的位置相符;检查相机是否清晰和工作状态;确保在操作界面显示中AGV的状态为正常;确保车轮没有缠绕异物。</p>
+				<p>3.注意事项:</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;每次机器人关机前，请点击Home站点等待机器人导航至该点后，再关闭机器人；若机器人在Home站点外关机或者重启导航程序，请将机器人推回建图原点，并保证机器人姿态也和建图开始时相同。</p>
+			</div>	
+			<div id="content_seventeen" class="content">
+				<h2>联系我们</h2>
+				<h3>使用期间有关AGV的任何问题请及时联系我们。</h3>
+				<p>1.联系方式：021-31593288。</p>
+				<p>2.地址：上海市浦东新区川桥路399弄11号楼6楼。</p>
+			</div>
+		</div>
+		<script type="text/JavaScript">  
+			//页面加载时触发函数
+			$(document).ready(function() {  
+				//锚点链接平滑过渡
+			    $('a[href*=#]').click(function() {  
+			        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {  
+			            var $target = $(this.hash);  
+			            $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');  
+			            if ($target.length) {  
+			                var targetOffset = $target.offset().top;  
+			                $('html,body').animate({  
+			                    scrollTop: targetOffset  
+			                },  
+			                750);  
+			                return false;  
+			            }  
+			        }  
+			    });
+			    //展示页面高度
+		        var height = Math.max(window.innerHeight , document.body.clientHeight , document.documentElement.clientHeight , 800);
+		        var content = $(".content");
+		        content.css("height", height);        
+			}); 
+			//当浏览器窗口变化时触发，间隔一秒刷新页面
+			function refurbish(){ 
+					window.location.reload(); 
+				} 
+			$(window).resize(function(){
+			    setTimeout("refurbish()",1000);
+			});
+			//点击查看之后字体颜色改变
+			$(".anchor li").on('click', function(){
+				if($(this).css("color") != "#3b6dde"){
+					$(".anchor li").css("color", "#3b6dde").css("background", "#FFFFFF");
+				}
+				$(this).css("color", "#FFFFFF").css("background", "#3b6dde");
+			})
+		</script>  
+	</body>
 </html>
