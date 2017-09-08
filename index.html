@@ -3,12 +3,15 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>操作展示</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
 		<link rel="stylesheet" type="text/css" href="style/operation_display.css"/>
+		<script src="js/anchor.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.lazyload.min.js" type="text/javascript" charset="utf-8"></script> 
 	</head>
-	<body>		
-		<div id="container">
-			<ul class="anchor">
+	<body>
+		<div id="agv_container">
+			<ul class="anchor agv_anchor">
 				<div class="head_logo">
 					<img src="image/head_logo.png" height="75%"/>
 				</div>
@@ -17,7 +20,7 @@
 				<a href="#content_two"><li style="border-bottom: none;">AGV 开机</li></a>
 				<a href="#content_three"><li style="border-bottom: none;">创建新地图</li></a>
 				<a href="#content_four"><li style="border-bottom: none;">扫描地图</li></a>
-				<a href="#content_five"><li style="border-bottom: none;">编辑地图</li></a>
+				<a href="#content_five"><li id="aaa" style="border-bottom: none;">编辑地图</li></a>
 				<a href="#content_six"><li style="border-bottom: none;">添加站点</li></a>
 				<a href="#content_seven"><li style="border-bottom: none;">添加站点详情</li></a>
 				<a href="#content_eight"><li style="border-bottom: none;">添加轨迹详情</li></a>
@@ -43,7 +46,7 @@
 				<h2>AGV 登录</h2>
 				<h3>一：根据AGV型号不同，智能提示是否需要登录。</h3>
 				<span class="content_three_show">
-					<img src="image/AGV-13.png" width="100%"/>
+					<img class="lazy" data-original="image/AGV-13.jpg" width="100%"/>
 				</span>
 				<p>1.输入已注册的账号。</p>
 				<p>2.输入账号对应的密码。</p>
@@ -59,7 +62,7 @@
 				<h2>AGV 开机</h2>
 				<h3>二：确定AGV电池有电的情况下进行操作。</h3>
 				<span class="content_three_shows">
-					<img src="image/AGV-14.png" width="50%"/>
+					<img class="lazy" data-original="image/AGV-14.png" width="50%"/>
 				</span>
 				<p>1.AGV急停按钮（遇到紧急情况按下急停按钮，AGV会停止当前一切动作，紧急情况解除后，按图标上指示旋转按钮即可恢复正常）。</p>
 				<p>2.AGV开机按钮（按一下指示灯亮起表示正在开机）。</p>
@@ -77,7 +80,7 @@
 				<h2>创建新地图</h2>
 				<h3>四：首次使用时需要建图，创建新的场景（场景名称可自定义）。</h3>
 				<span class="content_three_show">
-					<img src="image/AGV-1.png" width="100%"/>
+					<img class="lazy" data-original="image/AGV-1.jpg" width="100%"/>
 				</span>
 				<p>1.点击地图中间导航（地图名称），滑出选项。</p>
 				<p>2.点击“新建地图”输入地图名称（未输入默认当前地图名称）。</p>
@@ -91,7 +94,7 @@
 				<h2>扫描地图</h2>
 				<h3>五：选择一个建图起点（该起点今后将作为机器人开机起点）。</h3>
 				<span class="content_three_show">
-					<img src="image/AGV-2.png" width="100%"/>
+					<img class="lazy" data-original="image/AGV-2.jpg" width="100%"/>
 				</span>		
 				<p>1.点击地图右侧导航（工具选项图标），滑出右侧边栏。</p>
 				<p>2.点击“手动控制”，弹出手动控制手柄。</p>
@@ -106,7 +109,7 @@
 				<h2>编辑地图</h2>
 				<h3>六：地图保存完成后底部会弹出工具栏，可以对地图进一步进行操作。</h3>
 				<span class="content_three_show">
-					<img src="image/AGV-3.png" width="100%"/>
+					<img class="lazy" data-original="image/AGV-3.jpg" width="100%"/>
 				</span>		
 				<p>1.拖拽图标（可对地图进行拖拽移动的功能）。</p>
 				<p>2.放大图标（可对地图进行放大的功能）。</p>
@@ -126,7 +129,7 @@
 				<h2>添加站点</h2>
 				<h3>七：地图编辑完成后需要添加站点。</h3>
 				<span class="content_three_show">
-					<img src="image/AGV-4.png" width="100%"/>
+					<img class="lazy" data-original="image/AGV-4.jpg" width="100%"/>
 				</span>	
 				<p>1.点击地图左侧导航（工具选项图标），滑出左侧边栏。</p>
 				<p>2.地图开关（可对地图进行隐藏和显示的功能）。</p>
@@ -146,7 +149,7 @@
 				<h2>添加站点详情</h2>
 				<h3>八：需要根据实际情况对站点类型进行添加。</h3>
 				<span class="content_three_show">
-					<img src="image/AGV-5.png" width="100%"/>
+					<img class="lazy" data-original="image/AGV-5.jpg" width="100%"/>
 				</span>			
 				<p>1.站点名称（自定义）。</p>
 				<p>2.默认值：0。</p>
@@ -167,7 +170,7 @@
 				<h2>添加轨迹详情</h2>
 				<h3>九：需要根据实际情况对轨迹类型进行添加。</h3>
 				<span class="content_three_show">
-					<img src="image/AGV-6.png" width="100%"/>
+					<img class="lazy" data-original="image/AGV-6.jpg" width="100%"/>
 				</span>
 				<p>1.点击弹出添加轨迹弹框。</p>
 				<p>2.轨迹名称（自定义）。</p>
@@ -181,7 +184,7 @@
 				<h2>位置估计</h2>
 				<h3>一：操控AGV前进方向。</h3>
 				<span class="content_three_show">
-					<img src="image/AGV-9.png" width="100%"/>
+					<img class="lazy" data-original="image/AGV-9.jpg" width="100%"/>
 				</span>
 				<p>1.点击地图选中一个点。</p>
 				<p>2.选中AGV面朝的方向的作为目标点。</p>				
@@ -190,7 +193,7 @@
 				<h2>网络设置</h2>
 				<h3>二：自定义或者默认网络设置。</h3>
 				<span class="content_three_show">
-					<img src="image/AGV-7.png" width="100%"/>
+					<img class="lazy" data-original="image/AGV-7.jpg" width="100%"/>
 				</span>
 				<p>1.Wifi名称。</p>
 				<p>2.Wifi密码。</p>
@@ -203,7 +206,7 @@
 				<h2>系统诊断</h2>
 				<h3>三：当出现错误时可以在这里面查看具体错误信息。</h3>
 				<span class="content_three_show">
-					<img src="image/AGV-10.png" width="100%"/>
+					<img class="lazy" data-original="image/AGV-10.jpg" width="100%"/>
 				</span>
 				<p>1.未出现错误。</p>
 				<p>2.错误名称。</p>
@@ -213,7 +216,7 @@
 				<h2>代码调试</h2>
 				<h3>四：用于简单的代码测试。</h3>
 				<span class="content_three_show">
-					<img src="image/AGV-12.png" width="100%"/>
+					<img class="lazy" data-original="image/AGV-12.jpg" width="100%"/>
 				</span>
 				<p>1.需要调试代码的输入位置。</p>			
 				<p>2.默认情况下代码为空。</p>
@@ -227,7 +230,7 @@
 				<h2>AGV 更新</h2>
 				<h3>五：选择合适的更新方式便于对AGV的更好操控。</h3>
 				<span class="content_three_show">
-					<img src="image/AGV-11.png" width="100%"/>
+					<img class="lazy" data-original="image/AGV-11.jpg" width="100%"/>
 				</span>
 				<p>1.在线自动更新。</p>
 				<p>&nbsp;&nbsp;请确认导航板可以连接网络！</p>
@@ -243,7 +246,7 @@
 				<h2>帮助详情</h2>
 				<h3>六：在操作AGV时如有疑问或者有操作不懂的地方，点击帮助查看具体操作流程。</h3>
 				<span class="content_three_show">
-					<img src="image/AGV-15.png" width="100%"/>
+					<img class="lazy" data-original="image/AGV-15.jpg" width="100%"/>
 				</span>
 				<p>使用AGV时需要了解的基本详情和操作步骤。</p>
 			</div>
@@ -251,7 +254,7 @@
 				<h2>地图详情</h2>
 				<h3>地图显示部分详情介绍。</h3>
 				<span class="content_three_show">
-					<img src="image/AGV-8.png" width="100%"/>
+					<img class="lazy" data-original="image/AGV-8.jpg" width="100%"/>
 				</span>
 				<p>1.框选内橘黄色部分代表激光。</p>
 				<p>2.框选内绿色黄色组合部分代表AGV小车。</p>
@@ -277,44 +280,26 @@
 				<p>1.联系方式：021-31593288。</p>
 				<p>2.地址：上海市浦东新区川桥路399弄11号楼6楼。</p>
 			</div>
-		</div>
-		<script type="text/JavaScript">  
-			//页面加载时触发函数
-			$(document).ready(function() {  
-				//锚点链接平滑过渡
-			    $('a[href*=#]').click(function() {  
-			        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {  
-			            var $target = $(this.hash);  
-			            $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');  
-			            if ($target.length) {  
-			                var targetOffset = $target.offset().top;  
-			                $('html,body').animate({  
-			                    scrollTop: targetOffset  
-			                },  
-			                750);  
-			                return false;  
-			            }  
-			        }  
-			    });
-			    //展示页面高度
-		        var height = Math.max(window.innerHeight , document.body.clientHeight , document.documentElement.clientHeight , 800);
-		        var content = $(".content");
-		        content.css("height", height);        
-			}); 
-			//当浏览器窗口变化时触发，间隔一秒刷新页面
-			function refurbish(){ 
-					window.location.reload(); 
-				} 
-			$(window).resize(function(){
-			    setTimeout("refurbish()",1000);
-			});
-			//点击查看之后字体颜色改变
-			$(".anchor li").on('click', function(){
-				if($(this).css("color") != "#3b6dde"){
-					$(".anchor li").css("color", "#3b6dde").css("background", "#FFFFFF");
-				}
-				$(this).css("color", "#FFFFFF").css("background", "#3b6dde");
-			})
-		</script>  
+		</div> 
+		<div id="forklift_container">
+			<ul class="anchor">
+				<div class="head_logo">
+					<img src="image/head_logo.png" height="75%"/>
+				</div>
+				<li style="border-bottom: none;">叉车1</li>
+				<li style="border-bottom: none;">叉车2</li>
+				<li style="border-bottom: none;">叉车3</li>
+				<li style="border-bottom: none;">叉车4</li>
+				<li>叉车5</li>
+			</ul>
+			<!--<div id="content_one" class="content">
+			</div>-->
+		</div>		
+		<!--<div id="agv_forklift_switch">
+			<ul>
+				<li id="agv" style="border-bottom: none; background: #3B6DDE; color: #FFFFFF;">AGV</li>
+				<li id="forklift">Forklift</li>
+			</ul>
+		</div>-->
 	</body>
 </html>
