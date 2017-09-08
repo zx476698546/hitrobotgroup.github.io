@@ -28,7 +28,7 @@ $(window).resize(function(){
 
 $(function(){
 	//展示页面高度
-    var height = Math.max(window.innerHeight , document.body.clientHeight , document.documentElement.clientHeight , 800);
+    var height = Math.max(window.innerHeight , document.body.clientHeight , document.documentElement.clientHeight , 900);
     var content = $(".content");
     content.css("height", height); 
     //AGV 右侧边功能项点击查看之后字体颜色改变
