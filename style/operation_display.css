@@ -66,7 +66,7 @@ html,body{
 	position: fixed;
 	right: 2.5%;
 	z-index: 99;
-	top: calc(50% - 300px); }
+	top: calc(50% - 285px); }
 .anchor li{
 	width: 100%;
 	height: 30px;
@@ -192,22 +192,93 @@ html,body{
 .text_positions{
 	width: 100%;
 }
-.head_logo{
+/*.head_logo{
 	width: 100%;
 	height: 30px;
 	text-align: center;
-}
+}*/
 .forklift_information1, .forklift_information2, .forklift_information3{
 	text-indent: 2em;
 }
-/*@media only screen and (max-width: 850px) {
-	body{
-		width: 850px; }
+@media only screen and (max-width: 850px) {
+	.content{
+		height: 660px!important;
+	}
+	.content p{
+		font-size: 12px;
+		padding-left: 5px;
+	}
+	.content h2{		
+		font-size: 18px;
+		padding-left: 5px;
+	}
+	.content h3{		
+		font-size: 14px;
+		padding-left: 5px;
+	}
+	#agv_forklift_switch{
+		width: 14%;
+		height: 80px;
+		position: fixed;
+		top: 5%;
+		left: 0.25%;
+		
+	}
+	#agv_forklift_switch ul li{
+		font-size: 12px;
+		height: 25px;
+		border-radius: 3px;
+		border: 1px solid #3B6DDE;
+		overflow: hidden;
+		text-align: center;
+		line-height: 25px;
+		font-weight: 900;
+		color: #3B6DDE;
+	}
+	.anchor{
+		width: 14%;
+		position: fixed;
+		right: 0.5%;
+		z-index: 99;
+		top: calc(50% - 237.5px); }
+	.anchor a li{
+		font-size: 12px;
+		height: 25px;
+		border-radius: 3px;
+		border: 1px solid #3B6DDE;
+		overflow: hidden;
+		text-align: center;
+		line-height: 25px;
+		color: #3B6DDE;
+	}
+	#agv_title, #agv_text{
+		font-size: 20px;
+		top: 325px;
+	}
+	#agv_text{		
+		top: 400px;
+	}
+	#agv_English_title{
+		font-size: 14px;
+		top: 375px;
+	}
+	#hrg_logo{
+		width: 40%;
+		height: 15%;
+	}
 	#agv_logo{
-		width: 70%;
-		left: 15%; }
+		width: 200px;
+		height: 200px;
+		left: calc(50% - 100px);
+		top: 125px;
+	}
+	.content_three_shows{
+		width: 50%;
+		height: 30%;
+		background-size: 80%;
+	}
 }
-@media only screen and (min-width: 1080px) {
+/*@media only screen and (min-width: 1080px) {
 	.content_three_show img{
 		width: 68%;
 	}
