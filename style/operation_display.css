@@ -200,7 +200,7 @@ html,body{
 .forklift_information1, .forklift_information2, .forklift_information3{
 	text-indent: 2em;
 }
-@media only screen and (max-width: 850px) {
+/*@media only screen and (max-width: 850px) {
 	body{
 		width: 850px; }
 	#agv_logo{
@@ -214,6 +214,6 @@ html,body{
 }
 .replace{
 	display: inline-block;
-}
+}*/
 
 
