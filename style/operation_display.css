@@ -278,13 +278,13 @@ html,body{
 		background-size: 80%;
 	}
 }
-/*@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1080px) {
 	.content_three_show img{
 		width: 68%;
 	}
 }
 .replace{
 	display: inline-block;
-}*/
+}
 
 
