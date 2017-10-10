@@ -1,0 +1,197 @@
+html, body, div, nav, section, footer, p, h1, h2, h3, h4, h5, h6, span, image, a, ul, li, ol, dl, dd,
+dt, table, th, tr, td, form, input, select, option, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    vertical-align: top; }
+ul, ol {
+    list-style: none; }
+a {
+    text-decoration: none;
+    color: #000; }
+.clear::after {
+    content: ".";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both; }
+.clear {
+    *zoom: 1; }
+body{
+   	background-image: url(../image/bgimg.png);
+   }
+/*#back{
+	width: 5%;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 5px;
+	border: 1px solid #3B6DDE;
+	position: absolute;
+	top: 25px;
+	left: 2%;
+}*/
+#case_introduction{
+	width: 80%;
+	margin: 0 auto;
+	background-image: url(../image/bgimage.png);
+	position: relative;
+	border: 1px solid #C7C7CC;
+}
+.title{
+	width: 45%;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 48px;
+	font-weight: 600;
+	color: #3b6dde;
+	overflow: hidden;
+}
+#box{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	border-top: 1px solid #C7C7CC;
+}
+#product{
+	width: 45%;
+	height: 600px;
+	background-image: url(../image/forklift.png);
+	background-position: center center; 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border-right: 1px solid #C7C7CC;
+	transition:all 1s linear;
+}
+#product:hover{
+	background-size: 125%;
+}
+#introduce{	
+	width: 55%;
+	height: 600px;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+	color: #3B6DDE;
+}
+#introduce h1{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+#introduce h2{
+	padding-left: 25px;
+	padding-top: 10px;
+}
+#introduce p{
+	padding-top: 5px;
+	padding-left: 2.5em;
+}
+#parameter{
+	width: 100%;
+	height: 400px;
+	color: #3B6DDE;
+	margin: 0 auto;
+	border-top: 1px solid #C7C7CC;
+	position: relative;
+}
+#structure{
+	display: block;
+	width: 35%;
+	height: 70%;
+	position: absolute;
+	right: 5%;
+	top: 15%;
+	background-image: url(../image/structure.png);
+	background-position: center center; 
+	background-size: 70%;
+	background-repeat: no-repeat;
+	transition:all 1s linear;
+}
+#structure:hover{	
+	right: 35%;
+}
+#parameter h1{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+#parameter p{
+	padding-top: 5px;
+	padding-left: 2.5em;
+}
+#detailed{
+	width: 80%;
+	height: 375px;
+	border: 1px solid #C7C7CC;
+	border-top: none;
+	border-bottom: none;
+	margin: 0 auto;
+}
+#detailed ul li{
+	width: 30%;
+	height: 350px;
+	float: left;
+	margin-left: 2.5%;
+	margin-top: 12.5px;
+	border: 2px solid #3B6DDE;
+	box-sizing: border-box;
+	background-position: center center; 
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.introduce1{
+	background-image: url(../image/introduce1.png);
+}
+.introduce2{
+	background-image: url(../image/introduce2.png);
+}
+.introduce3{
+	background-image: url(../image/introduce3.png);
+}
+#detailed_text{	
+	width: 80%;
+	border: 1px solid #C7C7CC;
+	border-top: none;
+	margin: 0 auto;
+}
+#detailed_text ul li{
+	width: 30%;
+	float: left;
+	margin-left: 2.5%;
+	color: #3B6DDE;
+}
+#detailed_text ul li p{	
+	padding-bottom: 15px;
+	word-break:break-all;	
+}
+#dispatch_container{	
+	width: 80%;
+	border: 1px solid #C7C7CC;
+	color: #3B6DDE;
+	border-top: none;
+	margin: 0 auto;
+	position: relative;
+}
+#dispatch_container h1{
+	padding-top: 25px;
+	padding-left: 25px;	
+}
+.dispatch_container_left{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 25px;
+	border: 1px solid #3B6DDE;
+}
+.dispatch_container_right{
+	width: 80%;
+	height: 240px;
+	border: 1px solid #3B6DDE;
+	border-top: none;
+	margin: 0 auto;
+}
+@media only screen and (max-width: 800px) {
+	body{
+		width: 800px; }
+}

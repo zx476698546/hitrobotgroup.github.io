@@ -23,9 +23,8 @@ $(window).resize(function(){
     setTimeout("refurbish()",1000);
 });
  $(function() {  
-	        $("img.lazy").lazyload({effect: "fadeIn", threshold : 100});  
+	$("img.lazy").lazyload({effect: "fadeIn", threshold : 100});  
 }); 
-
 $(function(){
 	//展示页面高度
     var height = Math.max(window.innerHeight , document.body.clientHeight , document.documentElement.clientHeight , 900);
@@ -34,19 +33,19 @@ $(function(){
     //AGV 右侧边功能项点击查看之后字体颜色改变
 	$(".anchor li").on('click', function(){
 		if($(this).css("color") != "#3b6dde"){
-			$(".anchor li").css("color", "#3b6dde").css("background", "#FFFFFF");
+			$(".anchor li").css("color", "#3b6dde").css("background-color", "#FFFFFF");
 		}
-		$(this).css("color", "#FFFFFF").css("background", "#3b6dde");
+		$(this).css("color", "#FFFFFF").css("background-color", "#3b6dde");
 	}) 
 	//AGV forklift 切换颜色改变
 	$("#agv_forklift_switch ul li").on('click', function(){
 		if($(this).css("color") != "#3b6dde"){
-			$("#agv_forklift_switch ul li").css("color", "#3b6dde").css("background", "#FFFFFF");
+			$("#agv_forklift_switch ul li").css("color", "#3b6dde").css("background-color", "#FFFFFF");
 		}
-		$(this).css("color", "#FFFFFF").css("background", "#3b6dde");
+		$(this).css("color", "#FFFFFF").css("background-color", "#3b6dde");
 	})
 	//点击切换 
-	$("#agv").on('click', function(){
+/*	$("#agv").on('click', function(){
 		setTimeout(function () {
 			if($("#forklift_container").css("display") != "none"){
 				$("#forklift_container").css("display", "none");
@@ -59,11 +58,26 @@ $(function(){
 			$("#forklift_container").css("display", "block");
 			$("#agv_container").css("display", "none");
 		}, 300)
+	})*/
+	$("#forklift").on('click', function(){
+		$(".replace").text('叉车');
+		$("#agv_title").text('无人托盘叉车');
+		$("#agv_English_title").text('Unmanned Tray Forklift');
+		$("#agv_logo").css("background-image", "url(image/forklift.png)");
+		$(".forklift_information1").text('请参考产品手册');		
+		$(".forklift_information2").text('请参考产品手册');		
+		$(".forklift_information3").text('请参考产品手册');
+		$(".content_three_shows").css("background-image", "url(image/forklift.png)");
 	})
-	var scrollTop = $(window).scrollTop();
-
-
-
+	$("#agv").on('click', function(){
+		$(".replace").text('AGV');
+		$("#agv_title").text('轻载室内激光导航AGV-3.0');
+		$("#agv_English_title").text('Light Load Indoor Lidar Navigation AGV-3.0');
+		$("#agv_logo").css("background-image", "url(image/AGV-3.0.png)");
+		$(".forklift_information1").text('轻载室内激光导航AGV(以下简称AGV)是一款可以实现自主导航的移动机器人平台，能够实时规划路径和及时避障以及多机调度的功能，可以广泛应用于医疗、物流、工业等行业。可根据用户不同需求定制上下电梯和进出门禁的个性化功能。');		
+		$(".forklift_information2").text('如果AGV遇到紧急停车的情况，将其拉至安全区域;如果AGV显示路径错误信息，检查目的地是否遭到阻挡或者丢失位置信息;确保AGV的目的地与地图上的位置相符;检查相机是否清晰和工作状态;确保在操作界面显示中AGV的状态为正常;确保车轮没有缠绕异物。');		
+		$(".forklift_information3").text('每次机器人关机前，请点击Home站点等待机器人导航至该点后，再关闭机器人；若机器人在Home站点外关机或者重启导航程序，请将机器人推回建图原点，并保证机器人姿态也和建图开始时相同。');		
+		$(".content_three_shows").css("background-image", "url(image/AGV-14.png)");
+	})
 })
-	
 
