@@ -5,6 +5,14 @@
 		<title></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="style/case_introduction.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.lazyload.min.js" type="text/javascript" charset="utf-8"></script> 
+		<script type="text/javascript">
+			//图片懒加载
+			$(function() {  
+				$("img.lazy").lazyload({effect: "fadeIn", threshold : 100});  
+			}); 
+		</script>
 	</head>
 	<body>
 		<!--<span id="back">
@@ -55,9 +63,21 @@
 		</div>	
 		<div id="detailed">
 			<ul>
-				<li class="introduce1"></li>
-				<li class="introduce2"></li>
-				<li class="introduce3"></li>
+				<li class="introduce1">
+					<span class="shadow">
+						<span class="shadow_title">工作站</span>
+					</span>
+				</li>
+				<li class="introduce2">
+					<span class="shadow1">
+						<span class="shadow_title">电池</span>
+					</span>					
+				</li>
+				<li class="introduce3">					
+					<span class="shadow2">
+						<span class="shadow_title">交流电机</span>
+					</span>
+				</li>
 				<div class="clear"></div>
 			</ul>
 		</div>	
@@ -65,20 +85,17 @@
 		<div id="detailed_text">
 			<ul>
 				<li>
-					<h2>工作站</h2>
 					<p>1.彩色多功能显示器，容易与人体的菜单结构;</p>
 					<p>2.卡车访问控制通过PIN码或点火钥匙;</p>
 					<p>3.广泛而深入的工作手套的储藏室、书写工具等;</p>
 					<p>4.支持剪贴板DIN A4，闪光灯可供选择。</p>
 				</li>
 				<li>
-					<h2>电池及充电器</h2>
 					<p>1.DIN电池用3电池托盘;</p>					
 					<p>2.24v电池容量：345Ah（3pzs）500Ah（4pzs）;</p>					
 					<p>3.侧电池更换符合人体工程学的电池杆和弹簧（选项）。</p>					
 				</li>
 				<li> 
-					<h2>交流电机</h2>
 					<p>1.功能强大的3千瓦驱动电机;</p>						
 					<p>2.免维护、防潮、防尘的交流电机;</p>						
 					<p>3.三电源设置;</p>						
@@ -92,16 +109,21 @@
 		<div id="dispatch_container">
 			<h1>叉车调度</h1>
 			<div class="dispatch_container_left">
-				<image src="image/scheduling_diagram.jpg" width="100%"/>
+				<img class="lazy" data-original="image/scheduling_diagram.jpg" width="100%"/>
 			</div>
 			<div class="dispatch_container_right">					
 				<span style="width: 48.5%; margin-top: 3px; display: inline-block; margin-left: 1%;">
-					<image src="image/5739a1d32f961.gif" width="100%"/>
+					<img class="lazy" data-original="image/5739a1d32f961.gif" width="100%"/>
 				</span>
 				<span style="float: right; display: inline-block; width: 48.5%; margin-right: 1%; margin-top: 3px;">
-					<image src="image/5739a1d5011a2.gif" width="100%"/>
+					<img class="lazy" data-original="image/5739a1d5011a2.gif" width="100%"/>
 				</span>
 				<div class="clear"></div>
+			</div>
+			<div id="video_add">
+				<video width="100%" controls="controls">
+				  	<source src="image/video_yankuang.mp4" type="video/mp4">
+				</video>
 			</div>
 		</div>
 	</body>

@@ -141,6 +141,63 @@ body{
 	background-position: center center; 
 	background-size: 100%;
 	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	border-radius: 3px;
+}
+.shadow{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	transition:all 0.3s linear;
+	position: absolute;
+	left: -100%;
+	top: 0;
+}
+.shadow1{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	transition:all 0.3s linear;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: -100%;
+}
+.shadow2{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	transition:all 0.3s linear;
+	position: absolute;
+	right: -100%;
+	top: 0;
+}
+.shadow_title{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+	display: inline-block;
+	transition:all 0.5s linear;
+	position: absolute;
+	top: calc(50% - 15px);
+	left: 0;
+}
+#detailed ul li:hover .shadow{
+	left: 0;	
+}
+#detailed ul li:hover .shadow1{
+	top: 0;
+}
+#detailed ul li:hover .shadow2{
+	right: 0;	
 }
 .introduce1{
 	background-image: url(../image/introduce1.png);
@@ -192,6 +249,11 @@ body{
 	margin: 0 auto;
 	overflow: hidden;
 }
+#video_add{
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid #3B6DDE;
+}
 @media only screen and (max-width: 800px) {
 	.title{
 		font-size: 24px;
@@ -212,5 +274,13 @@ body{
 	}
 	#detailed ul li{
 		height: 180px;
+	}
+	.shadow_title{
+		font-size: 18px;
+	}
+}
+@media only screen and (min-width: 1600px) {
+	#structure{
+		background-size: 50%;
 	}
 }

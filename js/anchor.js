@@ -22,7 +22,7 @@ function refurbish(){
 $(window).resize(function(){
     setTimeout("refurbish()",1000);
 });
- $(function() {  
+$(function() {  
 	$("img.lazy").lazyload({effect: "fadeIn", threshold : 100});  
 }); 
 $(function(){
