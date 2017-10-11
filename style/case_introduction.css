@@ -36,7 +36,6 @@ body{
 #case_introduction{
 	width: 80%;
 	margin: 0 auto;
-	background-image: url(../image/bgimage.png);
 	position: relative;
 	border: 1px solid #C7C7CC;
 }
@@ -254,6 +253,38 @@ body{
 	margin: 0 auto;
 	border: 1px solid #3B6DDE;
 }
+#details{
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid #C7C7CC;
+	border-top: none;
+	position: relative;
+}
+.details_left{
+	width: 60%;
+	border-right: 1px solid #C7C7CC;
+}
+.details_left h3{
+	color: #3B6DDE;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+.details_left p{
+	color: #666666;
+	padding-top: 7.5px;
+	text-indent: 2em;
+}
+.details_right{
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-position: center center; 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(../image/introduce.png);
+}
 @media only screen and (max-width: 800px) {
 	.title{
 		font-size: 24px;
@@ -279,8 +310,18 @@ body{
 		font-size: 18px;
 	}
 }
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1500px) {
+	#product{		
+		background-size: 70%;
+	}
+	#product:hover{
+	background-size: 95%;
+}
 	#structure{
 		background-size: 50%;
 	}
+	.details_right{
+		background-size: 75%;
+	}
+		
 }
