@@ -17,15 +17,14 @@ $(document).ready(function() {
 }); 
 //当浏览器窗口变化时触发，间隔一秒刷新页面
 function refurbish(){ 
-		window.location.reload(); 
-	} 
+	window.location.reload(); 
+} 
 $(window).resize(function(){
     setTimeout("refurbish()",1000);
 });
-$(function() {  
-	$("img.lazy").lazyload({effect: "fadeIn", threshold : 100});  
-}); 
 $(function(){
+	//图片懒加载
+	$("img.lazy").lazyload({effect: "fadeIn", threshold : 100});  
 	//展示页面高度
     var height = Math.max(window.innerHeight , document.body.clientHeight , document.documentElement.clientHeight , 900);
     var content = $(".content");
