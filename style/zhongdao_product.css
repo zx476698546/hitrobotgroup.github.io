@@ -99,13 +99,14 @@ html,body{
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.75em;
 	font-weight: 600;
 	margin-top: 50px;
 }
 .catalog_page h3{
 	padding-top: 7.5%;
 	padding-left: 15%;
+	font-size: 16px;
 }
 .catalog_page p{
 	padding-top: 2%;
