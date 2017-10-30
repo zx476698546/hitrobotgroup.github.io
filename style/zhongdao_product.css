@@ -124,6 +124,7 @@ html,body{
 	margin: 0 auto;
 	padding-top: 10px;
 	text-indent: 2em;
+	line-height: 20px;
 }
 .agv_page h4{
 	width: 100%;
@@ -147,11 +148,16 @@ html,body{
 	.zhongdao_title_English{
 		font-size: 14px;
 	}
+	.content{
+		top: calc(50% - 180px);
+	}
 	.content li{
 		font-size: 14px;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
+		height: 30px;
+		line-height: 30px;
 	}
 	h2{
 		font-size: 20px;
