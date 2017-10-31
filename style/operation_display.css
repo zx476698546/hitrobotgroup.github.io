@@ -162,9 +162,11 @@ html,body{
 	left: 0;
 	bottom: 12.5%;	}
 .content h2{
-	height: 30px;
-	line-height: 30px;
-	background: #F5F5DC;}
+	height: 50px;
+	line-height: 50px;
+	text-indent: 1.5em;
+	color: #FFFFFF;
+	background: #36648B;}
 .content h3{
 	width: 85%;
 	margin: 0 auto;
@@ -213,6 +215,8 @@ html,body{
 		padding-left: 5px;
 	}
 	.content h2{		
+		height: 35px;
+		line-height: 35px;
 		font-size: 18px;
 		padding-left: 5px;
 	}
