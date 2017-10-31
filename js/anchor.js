@@ -26,7 +26,7 @@ $(function(){
 	//图片懒加载
 	$("img.lazy").lazyload({effect: "fadeIn", threshold : 100});  
 	//展示页面高度
-    var height = Math.max(window.innerHeight , document.body.clientHeight , document.documentElement.clientHeight , 900);
+    var height = Math.max(window.innerHeight , document.body.clientHeight , document.documentElement.clientHeight , 850);
     var content = $(".content");
     content.css("height", height); 
     //AGV 右侧边功能项点击查看之后字体颜色改变

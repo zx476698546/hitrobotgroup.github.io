@@ -36,7 +36,7 @@ html,body{
 }
 .option{
 	width: 1200%;
-	transition: all 0.5s linear;
+	transition: all 0.3s linear;
 	box-sizing: border-box;
 	position: absolute;
 	left: 0;
@@ -70,7 +70,7 @@ html,body{
 	color: #3b6dde;
 	background: #ffffff;
 	font-size: 14px;
-	border: 1px solid #3b6dde;
+	border: 1px solid #cccccc;
 	border-bottom: none;
 	box-sizing: border-box;
 	text-align: center;
@@ -120,7 +120,7 @@ html,body{
 	padding-top: 1%;
 }
 .agv_page p{
-	width: 80%;
+	width: 78%;
 	margin: 0 auto;
 	padding-top: 10px;
 	text-indent: 2em;
@@ -142,7 +142,7 @@ html,body{
 }
 @media only screen and (max-width: 750px) {
 	.zhongdao_title{
-		font-size: 22px;
+		font-size: 20px;
 		margin-top: 60%;
 	}
 	.zhongdao_title_English{
@@ -150,14 +150,6 @@ html,body{
 	}
 	.content{
 		top: calc(50% - 180px);
-	}
-	.content li{
-		font-size: 14px;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-		height: 30px;
-		line-height: 30px;
 	}
 	h2{
 		font-size: 20px;
@@ -170,6 +162,14 @@ html,body{
 	}
 	.agv{
 		width: 70%;
+	}
+	.content li{
+		font-size: 12px!important;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		height: 30px;
+		line-height: 30px;
 	}
 }
 @media only screen and (min-width: 1080px) {
