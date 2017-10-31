@@ -41,7 +41,7 @@ html,body{
 #agv_forklift_switch{
 	width: 11%;
 	height: 80px;
-	position: fixed;
+	position: absolute;
 	top: 10%;
 	left: 2%;
 }
@@ -226,7 +226,7 @@ html,body{
 	}
 	#agv_forklift_switch{
 		width: 17.5%;
-		position: fixed;
+		position: absolute;
 		top: 12.5%;
 		left: 2%;
 		
