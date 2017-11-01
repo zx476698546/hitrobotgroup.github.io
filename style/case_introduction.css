@@ -42,13 +42,13 @@ body{
 	border: 1px solid #C7C7CC;
 }
 .title{
-	width: 45%;
+	width: 100%;
 	height: 100px;
-	text-align: center;
 	line-height: 100px;
-	font-size: 48px;
+	font-size: 36px;
 	font-weight: 600;
-	color: #3b6dde;
+	text-indent: 1em;
+	color: #3B6DDE;
 	overflow: hidden;
 }
 #box{
@@ -58,32 +58,29 @@ body{
 	border-top: 1px solid #C7C7CC;
 }
 #product{
-	width: 45%;
-	height: 600px;
+	width: 100%;
+	height: 200px;
 	background-image: url(../image/forklift.png);
 	background-position: center center; 
-	background-size: 100%;
+	background-size: 50%;
 	background-repeat: no-repeat;
 	border-right: 1px solid #C7C7CC;
 	transition:all 1s linear;
 }
 #product:hover{
-	background-size: 125%;
+	background-size: 70%;
 }
 #introduce{	
-	width: 55%;
+	width: 100%;
 	height: 600px;
-	position: absolute;
 	overflow: hidden;
-	top: 0;
-	right: 0;
 	color: #3B6DDE;
 }
 #introduce h1{
 	width: 100%;
 	height: 50px;
 	line-height: 50px;
-	background: #f2eada;
+	background: #E0EEE0;
 	border-left: 1px solid #C7C7CC;
 	padding-left: 20px;
 }
@@ -93,7 +90,7 @@ body{
 	height: 35px;
 	line-height: 35px;
 	border-left: 1px solid #C7C7CC;
-	background: #f2eada;
+	background: #E0EEE0;
 }
 #introduce p{
 	padding-top: 5px;
@@ -128,7 +125,7 @@ body{
 	width: 100%;
 	height: 50px;
 	line-height: 50px;
-	background: #f2eada;
+	background: #E0EEE0;
 	padding-left: 20px;
 }
 #parameter p{
@@ -137,15 +134,24 @@ body{
 }
 #detailed{
 	width: 80%;
-	height: 375px;
+	height: 400px;
 	border: 1px solid #C7C7CC;
 	border-top: none;
 	border-bottom: none;
 	margin: 0 auto;
+	overflow: hidden;
+}
+#detailed h1{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #E0EEE0;
+	color: #3B6DDE;
+	padding-left: 20px;
 }
 #detailed ul li{
 	width: 30%;
-	height: 350px;
+	height: 325px;
 	float: left;
 	margin-left: 2.5%;
 	margin-top: 12.5px;
@@ -250,7 +256,7 @@ body{
 	width: 100%;
 	height: 50px;
 	line-height: 50px;
-	background: #f2eada;
+	background: #E0EEE0;
 	padding-left: 20px;	
 }
 .dispatch_container_left{
@@ -276,10 +282,9 @@ body{
 	margin: 0 auto;
 	border: 1px solid #C7C7CC;
 	border-top: none;
-	position: relative;
 }
 .details_left{
-	width: 60%;
+	width: 100%;
 	overflow: hidden;
 	border-right: 1px solid #C7C7CC;
 }
@@ -288,20 +293,17 @@ body{
 	width: 100%;
 	height: 35px;
 	line-height: 35px;
-	background: #f2eada;
+	background: #E0EEE0;
 	padding-left: 5px;
 }
 .details_left p{
-	color: #666666;
+	color: #3B6DDE;
 	padding: 5px 0;
 	text-indent: 2em;
 }
 .details_right{
-	width: 40%;
-	height: 100%;
-	position: absolute;
-	right: 0;
-	top: 0;
+	width: 100%;
+	height: 400px;
 	background-position: center center; 
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -326,16 +328,18 @@ body{
 		height: 200px;
 	}
 	#detailed ul li{
-		height: 180px;
+		height: 150px;
 	}
 	.shadow_title{
 		font-size: 18px;
 	}
-	.details_right{
-		background-image: url(../image/introduce_1.png);
-		background-position: top center;
+	#structure{
+		height: 25%;
+		top: 60%;
+		background-size: 90%;
 	}
-	#introduce{
+	#structure:hover{	
+		right: 60%;
 	}
 	#introduce h1{
 		font-size: 16px;
@@ -350,13 +354,14 @@ body{
 		padding-top: 0!important;
 	}
 	#introduce p{
-		padding-top: 1px;
+		text-indent: 1.5em;
+		padding-top: 7.5px;
 	}
 	#dispatch_container h1{
 		width: 100%;
 		height: 30px;
 		line-height: 30px;
-		background: #f2eada;
+		background: #E0EEE0;
 		padding-left: 20px;	
 		padding-top: 0!important;
 	}
@@ -364,7 +369,18 @@ body{
 		width: 100%;
 		height: 30px;
 		line-height: 30px;
-		background: #f2eada;
+		background: #E0EEE0;
+		padding-left: 20px;
+		padding-top: 0!important;
+	}
+	#parameter p{
+		text-indent: 1.5em;
+	}
+	#detailed h1{
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		background: #E0EEE0;
 		padding-left: 20px;
 		padding-top: 0!important;
 	}
@@ -373,38 +389,41 @@ body{
 		width: 100%;
 		height: 30px;
 		line-height: 30px;
-		background: #f2eada;
+		background: #E0EEE0;
 		padding-left: 5px;
 		padding-top: 0!important;
-}
+	}	
+	.details_right{
+		height: 200px;
+		background-size: 100%;
+	}
 }
 @media only screen and (min-width: 1220px) {
 	#product{		
-		background-size: 70%;
+		height: 500px;
+		background-size: 40%;
 	}
 	#product:hover{
-		background-size: 95%;
+		background-size: 50%;
 	}
 	#structure{
 		background-size: 50%;
-	}
-	.details_right{
-		background-size: 80%;
 	}
 		
 }
 @media only screen and (min-width: 1450px) {
 	#product{		
-		background-size: 70%;
+		height: 700px;
+		background-size: 32.5%;
 	}
 	#product:hover{
-		background-size: 95%;
+		background-size: 45%;
 	}
 	#structure{
 		background-size: 50%;
 	}
 	.details_right{
-		background-size: 55%;
+		background-size: 70%;
 	}
 		
 }
