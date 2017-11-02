@@ -77,6 +77,69 @@ $(function(){
 		$(".forklift_information2").text('如果AGV遇到紧急停车的情况，将其拉至安全区域;如果AGV显示路径错误信息，检查目的地是否遭到阻挡或者丢失位置信息;确保AGV的目的地与地图上的位置相符;检查相机是否清晰和工作状态;确保在操作界面显示中AGV的状态为正常;确保车轮没有缠绕异物。');		
 		$(".forklift_information3").text('每次机器人关机前，请点击Home站点等待机器人导航至该点后，再关闭机器人；若机器人在Home站点外关机或者重启导航程序，请将机器人推回建图原点，并保证机器人姿态也和建图开始时相同。');		
 		$(".content_three_shows").css("background-image", "url(image/AGV-14.png)");
-	})
+	})	
+    var screenHeight = $(window).height();
+    $(".clickagv1").on('click', function () {
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-1.png)");
+    	$("#title_content").text('创建新地图');
+    })
+    $(".clickagv2").on('click', function () {
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-2.png)");
+    	$("#title_content").text('扫描地图');
+    })
+    $(".clickagv3").on('click', function () {
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-3.png)");
+    	$("#title_content").text('编辑地图');
+    })
+    $(".clickagv4").on('click', function () {
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-4.png)");
+   		$("#title_content").text('添加站点');
+    })
+    $(".clickagv5").on('click', function () {
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-5.png)");
+    	$("#title_content").text('添加站点详情');
+    })
+    $(".clickagv6").on('click', function () {
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-6.png)");
+    	$("#title_content").text('添加轨迹详情');
+    })
+    $(".clickagv7").on('click', function () {
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-7.png)");
+    	$("#title_content").text('网络设置');
+    })
+    $(".clickagv8").on('click', function () {
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-8.png)");
+    	$("#title_content").text('地图详情');
+    })
+    $(".clickagv9").on('click', function () {
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-9.png)");
+    	$("#title_content").text('位置估计');
+    })
+    $(".clickagv10").on('click', function () {
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-10.png)");
+    	$("#title_content").text('系统诊断');
+    })
+    $(".clickagv11").on('click', function () {
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-11.png)");
+    	$("#title_content").text('更新');
+    })
+    $(".clickagv12").on('click', function () {
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-12.png)");
+    	$("#title_content").text('代码调试');
+    })
+    $(".clickagv13").on('click', function () {
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-13.png)");
+    	$("#title_content").text('登录');
+    })
+    $(".clickagv15").on('click', function () {
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-15.png)");
+    	$("#title_content").text('帮助详情');
+    })
+//	$("#enlarge").on('click', function () {
+//		$(this).css("background-size", "120%")
+//	})  
+	$("#display_pictures").on('click', function () {
+    	$($(this)).css("display", "none");
+    })
 })
 
