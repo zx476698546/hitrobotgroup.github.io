@@ -241,6 +241,9 @@ html,body{
 	text-align: center;
 	padding-top: 10%;
 }
+.replace{
+	display: inline-block;
+}
 .forklift_information1, .forklift_information2, .forklift_information3{
 	text-indent: 2em;
 }
@@ -339,8 +342,6 @@ html,body{
 		background-size: 60%;
 	}
 }
-.replace{
-	display: inline-block;
-}
+
 
 
