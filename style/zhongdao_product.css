@@ -45,7 +45,6 @@ html,body{
 .option li{
 	width: 8.333%;
 	float: left;
-	/*background: rosybrown;*/
 	position: relative;
 	overflow-y: auto;
 	overflow-x: hidden;

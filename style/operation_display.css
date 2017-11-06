@@ -56,9 +56,6 @@ html,body{
 	top: 10%;
 	left: 2%;
 }
-/*#forklift_one, #forklift_two, #forklift_three, #forklift_four, #forklift_five{
-	background: #d9f2cc;
-}*/
 #agv_forklift_switch ul{
 	width: 100%;
 }
@@ -212,27 +209,6 @@ html,body{
 .text_positions{
 	width: 100%;
 }
-/*.head_logo{
-	width: 100%;
-	height: 30px;
-	text-align: center;
-}*/
-/*#enlarge{
-	width: 30px;
-	height: 30px;
-	background: red;
-	position: absolute;
-	right: calc(44% - 15px);
-	bottom: 10%;
-}
-#narrow{	
-	width: 30px;
-	height: 30px;
-	background: green;
-	position: absolute;
-	left: calc(44% - 15px);
-	bottom: 10%;
-}*/
 #title_content{
 	color: #3B6DDE;
 	width: 100%;
@@ -291,7 +267,8 @@ html,body{
 		position: fixed;
 		right: 2.5%;
 		z-index: 99;
-		top: calc(50% - 217.75px); }
+		top: calc(50% - 217.75px); 
+		}
 	.anchor a li{
 		font-size: 12px;
 		height: 22.5px;
