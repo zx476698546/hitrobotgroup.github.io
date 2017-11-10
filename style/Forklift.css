@@ -144,7 +144,7 @@ body {
 	color: #3B6DDE;
 }
 .table tr td{
-	text-indent: 2em;
+	text-indent: 1em;
 	font-size: 14px;
 }
 .forklift_information{
@@ -152,10 +152,15 @@ body {
 }
 @media only screen and (max-width: 414px) {
 	#hrg_logo{
-		width: 30%;}
+		width: 30%;
+		top: 15px;}
 	#agv_logo{
 		width: 40%;
 		left: 30%; }
+	#forklift_logo{
+		width: 40%;
+		left: 30%;
+	}
 	#agv_title{
 		height: 60px;
 		font-size: 26px;
@@ -179,7 +184,7 @@ body {
 	}
 	.content p{
 		width: 90%;
-		font-size: 14px;   }
+		font-size: 2px;   }
 	.content_three_show{
 		width: 55%;
 		margin-left: 22.5%;
@@ -190,4 +195,7 @@ body {
 		margin-top: 5px;   }
 	#display_pictures{
 		background-size: 95%;}	
+	.table tr td{		
+		font-size: 12px!important;
+	}
 }

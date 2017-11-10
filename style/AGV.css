@@ -144,7 +144,7 @@ body {
 	color: #3B6DDE;
 }
 .table tr td{
-	text-indent: 2em;
+	text-indent: 1em;
 	font-size: 14px;
 }
 .forklift_information{
@@ -153,7 +153,8 @@ body {
 
 @media only screen and (max-width: 414px) {
 	#hrg_logo{
-		width: 30%;}
+		width: 30%;
+		top: 15px;}
 	#agv_logo{
 		width: 40%;
 		left: 30%; }
@@ -178,9 +179,12 @@ body {
 		font-size: 16px;
 		padding: 5px 0;
 	}
+	.table tr td{		
+		font-size: 12px!important;
+	}
 	.content p{
 		width: 90%;
-		font-size: 14px;   }
+		font-size: 12px;   }
 	.content_three_show{
 		width: 55%;
 		margin-left: 22.5%;
