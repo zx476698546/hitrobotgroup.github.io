@@ -1,0 +1,200 @@
+html, body, div, nav, section, footer, p, h1, h2, h3, h4, h5, h6, span, img, a, ul, li, ol, dl, dd,
+dt, table, th, tr, td, form, input, select, option, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    vertical-align: top; }
+ul, ol {
+    list-style: none; }
+a {
+    text-decoration: none;
+    color: #3B6DDE; 
+    font-weight: 600;}
+.clear::after {
+    content: ".";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both; }
+.clear {
+    *zoom: 1; }
+/*Collective declaration*/
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+	background: #f6f5ec;
+   	font-family: "新宋体";
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+	color: #3B6DDE;
+}
+.catalog{
+	width: 100%;
+	text-align: center;
+	margin: 2.5% 0;
+	margin-top: 15%;
+	font-size: 48px;
+}
+#hrg_logo{
+	width: 15%;
+	display: block;
+	position: absolute;
+	left: 2.5%;
+	top: 2.5%; }
+.ZDCatalog p{
+	width: 55%;
+	margin: 0 auto;
+	font-size: 28px;
+	margin-top: 7.5px;
+}
+.ZDCatalog h2{
+	width: 55%;
+	font-size: 32px;
+	margin: 0 auto;
+}
+.ZDDetails p{	
+	width: 70%;
+	margin: 0 auto;
+	font-size: 28px;
+	margin-top: 7.5px;
+	text-indent: 2em;
+}
+.enterprise_profile{	
+	width: 100%;
+	text-align: center;
+	margin: 5% 0;
+	font-size: 48px;
+}
+.AGV_page p{
+	width: 70%;
+	margin: 0 auto;
+	padding: 5px 0;
+	text-indent: 2em;
+}
+.AGV_page h2{
+	line-height: 50px;
+	padding-left: 15%;
+}
+.AGV_page h3{
+	width: 70%;
+	margin: 0 auto;
+	height: 35px;
+	line-height: 35px;
+	background: #C1CDC1;
+	text-indent: 1em;
+}
+.font_weight{
+	font-weight: 600;
+}
+.agv{
+	display:  block;
+	width: 17.5%;
+	margin: 1.5% auto;
+}
+.table{
+	width: 65%;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.control{
+	right: 2.5%!important;
+}
+.padding{
+	padding: 15px 0!important;
+}
+
+.parameter{
+	display: none;
+	font-size: 20px!important;
+	line-height: 45px!important;
+	height: 45px!important;
+}
+.BlockImg{
+	width: 60%;
+	margin: 10% auto;
+	display: none;
+}
+@media only screen and (max-width: 414px) {
+	#hrg_logo{
+		width: 30%;}
+	.control{
+		right: 5%!important;
+	}
+	.catalog{
+		font-size: 28px;
+		margin-top: 20%;
+	}
+	.ZDCatalog p{
+		width: 70%;
+		font-size: 16px;
+	}
+	.ZDCatalog h2{
+		width: 70%;
+		font-size: 18px;
+	}
+	.ZDDetails p{	
+		width: 80%;
+		font-size: 16px;
+	}
+	.enterprise_profile{	
+		font-size: 24px;
+		margin-top: 10%;
+	}
+	.AGV_page p{
+		width: 85%;
+		padding: 2.5px 0;
+		text-indent: 2em;
+	}
+	.AGV_page h2{
+		line-height: 45px;
+		font-size: 20px;
+		padding-left: 5%;
+	}
+	.AGV_page h3{
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		font-size: 14px;
+		padding-left: 5%;
+	}
+	.agv{
+		display: none;
+	}
+	.table{
+		width: 90%!important;
+		margin: 0 auto;
+		margin-top: 10px!important;
+	}
+	.hide{
+		display: none;
+		width: 100%;
+		height: 100%;
+		background-image: url(../image/bgimg.png);
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 999;
+	}
+	.button{
+		width: 30%!important;
+		text-align: center;
+		margin: 5% auto!important;
+		border-radius: 5px;
+		background: #FFFFFF!important;
+		color: #3B6DDE;
+		border: 1px solid #3B6DDE;
+		padding-left: 0!important;
+		transition: all 0.5s linear;
+	}
+	.BlockImg{
+		display: block!important;
+	}
+}

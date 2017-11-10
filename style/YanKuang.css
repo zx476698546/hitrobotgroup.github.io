@@ -1,0 +1,268 @@
+html, body, div, nav, section, footer, p, h1, h2, h3, h4, h5, h6, span, img, a, ul, li, ol, dl, dd,
+dt, table, th, tr, td, form, input, select, option, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    vertical-align: top; }
+ul, ol {
+    list-style: none; }
+a {
+    text-decoration: none;
+    color: #3B6DDE; 
+    font-weight: 600;}
+.clear::after {
+    content: ".";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both; }
+.clear {
+    *zoom: 1; }
+/*Collective declaration*/
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #f6f5ec;
+   	font-family: "新宋体";
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+	color: #3B6DDE;
+}
+#hrg_logo{
+	width: 15%;
+	display: block;
+	position: absolute;
+	left: 2.5%;
+	top: 2.5%; }
+#product{
+	width: 20%;
+	margin: 0 auto;
+	transition:all 1s linear;
+}
+#product:hover{
+	width: 25%;
+}
+.title{
+	width: 70%;
+	margin: 0 auto;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 42px;
+	margin-top: 2.5%;
+	color: #3B6DDE;
+}
+.introduce h2{
+	width: 70%;
+	height: 35px;
+	line-height: 35px;
+	background: #C1CDC1;
+	text-indent: 0.5em;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+.introduce h3{
+	width: 70%;
+	height: 35px;
+	line-height: 35px;
+	text-indent: 0.5em;
+	margin: 0 auto;
+	background: #C1CDC1;
+}
+.introduce_p{
+	width: 70%;
+	margin: 0 auto;
+	font-size: 16px;
+	padding-top: 5px;
+	text-indent: 2em;
+}
+.table{
+	width: 70%;
+	margin: 10px auto;
+	text-indent: 2em;
+}
+#structure{
+	display: block;
+	width: 10%;
+	position: absolute;
+	right: 15%;
+	top: 21%;
+	transition:all 1s linear;
+}
+#detailed li{
+	width: 30%;
+	height: 250px;
+	float: left;
+	margin-left: 2.5%;
+	margin-top: 12.5px;
+	border: 1px solid #3B6DDE;
+	box-sizing: border-box;
+	background-position: center center; 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	border-radius: 3px;
+}
+.shadow{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	transition:all 0.3s linear;
+	position: absolute;
+	left: -100%;
+	top: 0;
+}
+.shadow1{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	transition:all 0.3s linear;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: -100%;
+}
+.shadow2{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	transition:all 0.3s linear;
+	position: absolute;
+	right: -100%;
+	top: 0;
+}
+.shadow_title{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+	display: inline-block;
+	transition:all 0.5s linear;
+	position: absolute;
+	top: calc(50% - 15px);
+	left: 0;
+}
+#detailed li:hover .shadow{
+	left: 0;	
+}
+#detailed li:hover .shadow1{
+	top: 0;
+}
+#detailed li:hover .shadow2{
+	right: 0;	
+}
+.introduce1{
+	background-image: url(../image/introduce1.png);
+}
+.introduce2{
+	background-image: url(../image/introduce2.png);
+}
+.introduce3{
+	background-image: url(../image/introduce3.png);
+}
+#detailed_text li{
+	width: 30%;
+	float: left;
+	margin-left: 2.5%;
+	color: #3B6DDE;
+}
+.detailed_text_p{
+	font-weight: normal;	
+	font-size: 14px;
+	line-height: 25px;
+}
+.dispatch_container_left{
+	width: 70%;
+	margin: 0 auto;
+}
+#video_add{
+	width: 67.5%;
+	margin: 1% auto;
+}
+.p1{
+	padding: 1% 0;
+	line-height: 25px;
+}
+.Design{
+	margin-top: 10%;
+}
+
+@media only screen and (max-width: 414px) {
+	#hrg_logo{
+		width: 30%;}
+	.title{
+		width: 65%;
+		height: 90px;
+		text-align: center;
+		line-height: 90px;
+		font-size: 20px;
+		color: #3B6DDE;
+		margin-left: 32.5%;
+	}
+	.introduce h2{
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		background: #C1CDC1;
+		font-size: 18px;
+		margin-top: 0;
+	}
+	.introduce h3{
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	.introduce_p{
+		width: 95%;
+		margin: 0 auto;
+		font-size: 14px;
+	}
+	.table{
+		width: 95%;
+		margin: 5px auto;
+		font-size: 12px;
+	}
+	#product{
+		display: none;
+	}
+	.introduce_p{
+		width: 95%;
+	}
+	#structure{
+		width: 20%;
+		right: 5%;
+		top: 15%;
+	}
+	#detailed li{
+		height: 100px;
+	}
+	.Design{
+		margin-top: 2%!important;
+	}
+	.detailed_text_p{
+		line-height: 20px;
+	}
+	#video_add{
+		width: 95%;
+	}
+	.p1{
+		padding: 1% 0;
+		line-height: 20px;
+	}
+}
