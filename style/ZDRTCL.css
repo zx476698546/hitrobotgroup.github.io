@@ -22,11 +22,10 @@ a {
     *zoom: 1; }
 /*Collective declaration*/
 html, body {
-    position: relative;
     height: 100%;
 }
 body {
-	background: #f6f5ec;
+	background: #fffef9;
    	font-family: "新宋体";
 }
 .swiper-container {
@@ -47,8 +46,8 @@ body {
 	width: 15%;
 	display: block;
 	position: absolute;
-	left: 2.5%;
-	top: 2.5%; }
+	left: 20px;
+	top: 25px; }
 .ZDCatalog p{
 	width: 55%;
 	margin: 0 auto;
@@ -76,7 +75,7 @@ body {
 .AGV_page p{
 	width: 70%;
 	margin: 0 auto;
-	padding: 5px 0;
+	padding: 2.5px 0;
 	text-indent: 2em;
 }
 .AGV_page h2{
@@ -113,17 +112,24 @@ body {
 .parameter{
 	display: none;
 	font-size: 20px!important;
-	line-height: 45px!important;
-	height: 45px!important;
+	line-height: 30px!important;
+	height: 30px!important;
+	font-size: 16px!important;
 }
 .BlockImg{
 	width: 60%;
 	margin: 10% auto;
 	display: none;
 }
+td{
+	width: 50%;
+	border: 1px solid #e3e3e3;
+	box-sizing: border-box;
+}
 @media only screen and (max-width: 414px) {
 	#hrg_logo{
 		width: 30%;
+		left: 10px;
 		top: 15px;}
 	.control{
 		right: 5%!important;
@@ -170,19 +176,20 @@ body {
 		display: none;
 	}
 	.table{
-		width: 90%!important;
+		width: 85%!important;
 		margin: 0 auto;
 		margin-top: 10px!important;
-	}
+	}		
 	.hide{
 		display: none;
 		width: 100%;
 		height: 100%;
-		background-image: url(../image/bgimg.png);
+		background: #f6f5ec;
 		position: absolute;
 		left: 0;
 		top: 0;
 		z-index: 999;
+		font-size: 12px;
 	}
 	.button{
 		width: 30%!important;

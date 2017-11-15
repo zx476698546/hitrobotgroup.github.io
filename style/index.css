@@ -22,12 +22,10 @@ a {
     *zoom: 1; }
 /*Collective declaration*/
 html, body {
-    position: relative;
     height: 100%;
 }
 body {
-    background: #f6f5ec;
-    font-size: 14px;    
+    background: #fffef9;
    	font-family: "新宋体";
 }
 .swiper-container {
@@ -44,8 +42,8 @@ body {
 	background-color: #3B6DDE;
 }
 #hrgLogo{
-	width: 15%;
-	margin: 2.5% 2.5%;
+	width: 20%;
+	margin: 25px 25px;
 }
 #CorporateNameE{
 	width: 22.5%;	
@@ -240,14 +238,10 @@ body {
 	top: 20%;
 	transition: all 0.53s linear; 
 }
-
-
-
-
-
 @media only screen and (max-width: 800px) {
 	#hrgLogo{
 		width: 30%;
+		margin: 15px 15px;
 	}
 	#CorporateNameE{
 		width: 45%;
@@ -350,6 +344,10 @@ body {
 	}
 }
 @media only screen and (max-width: 414px) {
+	#hrgLogo{
+		width: 45%;
+		margin: 15px 15px;
+	}
 	#CorporateNameE{
 		width: 45%;
 	}	

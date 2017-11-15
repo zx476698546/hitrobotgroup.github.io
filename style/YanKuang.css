@@ -22,11 +22,10 @@ a {
     *zoom: 1; }
 /*Collective declaration*/
 html, body {
-    position: relative;
     height: 100%;
 }
 body {
-    background: #f6f5ec;
+    background: #fffef9;
    	font-family: "新宋体";
 }
 .swiper-container {
@@ -40,8 +39,8 @@ body {
 	width: 15%;
 	display: block;
 	position: absolute;
-	left: 2.5%;
-	top: 2.5%; }
+	left: 20px;
+	top: 25px; }
 #product{
 	width: 20%;
 	margin: 0 auto;
@@ -202,15 +201,21 @@ body {
 	margin-top: 10%;
 }
 
+td{
+	width: 50%;
+	border: 1px solid #e3e3e3;
+	box-sizing: border-box;
+}
 @media only screen and (max-width: 414px) {
 	#hrg_logo{
 		width: 30%;
+		left: 10px;
 		top: 15px;}
 	.title{
 		width: 65%;
-		height: 90px;
+		height: 80px;
 		text-align: center;
-		line-height: 90px;
+		line-height: 80px;
 		font-size: 20px;
 		color: #3B6DDE;
 		margin-left: 32.5%;
@@ -227,7 +232,7 @@ body {
 		width: 100%;
 		height: 25px;
 		line-height: 25px;
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.introduce_p{
 		width: 95%;
@@ -264,7 +269,9 @@ body {
 		width: 95%;
 	}
 	.p1{
-		padding: 1% 0;
-		line-height: 20px;
+		line-height: 17.5px!important;
+	}
+	#structure{
+		display: none;
 	}
 }

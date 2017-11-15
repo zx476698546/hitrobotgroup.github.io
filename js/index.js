@@ -1,10 +1,10 @@
 //当浏览器窗口变化时触发，间隔一秒刷新页面
-function refurbish(){ 
-	window.location.reload(); 
-} 
-$(window).resize(function(){
-    setTimeout("refurbish()",1000);
-});
+//function refurbish(){ 
+//	window.location.reload(); 
+//} 
+//$(window).resize(function(){
+//  setTimeout("refurbish()",1000);
+//});
 $(function (){
 //  Initialize Swiper
 	var swiper = new Swiper('.swiper-container', {

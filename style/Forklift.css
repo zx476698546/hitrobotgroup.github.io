@@ -22,11 +22,10 @@ a {
     *zoom: 1; }
 /*Collective declaration*/
 html, body {
-    position: relative;
     height: 100%;
 }
 body {
-	background: #f6f5ec;
+	background: #fffef9;
    	font-family: "新宋体";
 }
 .swiper-container {
@@ -39,8 +38,8 @@ body {
 	width: 15%;
 	display: block;
 	position: absolute;
-	left: 2.5%;
-	top: 2.5%; }
+	left: 20px;
+	top: 25px; }
 #forklift_logo{
 	width: 20%;
 	display: block;
@@ -113,7 +112,14 @@ body {
 	display: block;
 	margin-left: 30%;
 	margin-top: 10px;
-	text-align: center; }
+	text-align: center;
+	position: relative; }
+.enlarge{
+	width: 3%;
+	position: absolute;
+	top: 15px;
+	right: 12.5px;
+}
 .Boot{
 	width: 20%;
 	display: block;
@@ -139,7 +145,7 @@ body {
 	padding-top: 2.5%;
 }	*/
 .table{
-	width: 70%;
+	width: 65%;
 	margin: 5px auto;
 	color: #3B6DDE;
 }
@@ -150,9 +156,15 @@ body {
 .forklift_information{
 	text-indent: 2em;
 }
-@media only screen and (max-width: 414px) {
+td{
+	width: 50%;
+	border: 1px solid #e3e3e3;
+	box-sizing: border-box;
+}
+@media only screen and (max-width: 414px) {	
 	#hrg_logo{
 		width: 30%;
+		left: 10px;
 		top: 15px;}
 	#agv_logo{
 		width: 40%;
@@ -194,8 +206,16 @@ body {
 		margin-left: 35%;
 		margin-top: 5px;   }
 	#display_pictures{
-		background-size: 95%;}	
+		background-size: 95%;}			
+	.table{
+		width: 80%;
+	}
 	.table tr td{		
 		font-size: 12px!important;
 	}
+	.enlarge{
+		width: 4%;
+		top: 7.5px;
+		right: 5px;
+	}		
 }
