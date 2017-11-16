@@ -26,7 +26,7 @@ html, body {
 }
 body {
     background: #fffef9;
-   	font-family: "新宋体";
+   	font-family: "微软雅黑";
 }
 .swiper-container {
     width: 100%;
@@ -52,15 +52,14 @@ body {
 	margin-top: 200px;
 }
 #CorporateNameZ{
-	color: #FFFFFF;
-	font-size: 48px;
+	width: 579px;
+	height: 194px;
 }
 #option{
 	width: 550px;
 	height: 120px;
 	position: relative;
 	margin-top: 25px;
-	font-family: "微软雅黑";
 }
 .optionLeft{
 	width: 50%;
@@ -184,7 +183,6 @@ body {
 	margin: 15px 0;
 }
 .slogan{
-	font-family: "微软雅黑";
 	color: #FFFFFF;
 	font-size: 50px;
 	font-weight: 600;
@@ -294,18 +292,11 @@ body {
 .swiper-pagination{
 	right: 25px!important;
 }
-@media only screen and (max-width: 414px) {
+@media (max-width: 414px) {
 	#hrgLogo{
 		width: 42.5%;
 		margin-left: 10px;
 		margin-top: 20px;
-	}
-	#CorporateNameZ{
-		width: 300px;
-		margin: 0 auto;
-		margin-top: 25px;
-		font-size: 24px;
-		margin-left: 0;
 	}
 	#AGVBox, #YKBox, #ForkliftBox{
 		width: 300px;
@@ -374,6 +365,33 @@ body {
 	}
 	#AGVProduct, #ForkliftProduct, #YKProduct{
 		display: none;
+	}
+}
+@media (max-width: 980px) {
+	#hrgLogo{
+		width: 159px!important;
+		height: 20px!important;
+		margin-top: 20px!important;
+		margin-left: 10px!important;
+	}
+	#CorporateNameZ{
+		width: 300px!important;
+		height: 100px!important;
+	}	
+	#AGVProduct, #ForkliftProduct, #YKProduct{
+		display: none;
+	}
+}
+@media (max-width: 1500px) {
+	#hrgLogo{
+		width: 239px;
+		height: 30px;
+		margin-top: 25px;
+		margin-left: 20px;
+	}
+	#CorporateNameZ{
+		width: 500px;
+		height: 167px;
 	}
 }
 
