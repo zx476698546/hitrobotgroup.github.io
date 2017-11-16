@@ -11,7 +11,7 @@ ul, ol {
 a {
     text-decoration: none;
     color: #3B6DDE; 
-    font-weight: 600;}
+    font-weight: 400;}
 .clear::after {
     content: ".";
     height: 0;
@@ -37,53 +37,85 @@ body {
 .zhongdao{
 	background-image: url(../image/earth.jpg);
 	background-position: center center;
-	background-size: 100% 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-color: #3B6DDE;
+	background-color: #468ef4;
 }
 #hrgLogo{
-	width: 20%;
-	margin: 25px 25px;
-}
-#CorporateNameE{
-	width: 22.5%;	
-	margin: 10% 0 0 7.5%;
+	width: 326px;
+	height: 41px;
+	margin-top: 35px;
+	margin-left: 50px;
 }
 #CorporateNameZ{
-	margin: 2.5% 0 0 7.5%;
+	margin-left: 215px;
+	margin-top: 250px;
 	color: #FFFFFF;
 	font-size: 48px;
 }
-.CompanyProfile{
-	width: 60%;
-	margin: 2.5% 0 0 7.5%;
-	text-indent: 2em;
-	color: #FFFFFF;
-	font-size: 24px;
+#option{
+	width: 600px;
+	height: 120px;
+	margin-left: 215px;
+	position: relative;
+	margin-top: 25px;
+	font-family: "微软雅黑";
+}
+.optionLeft{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.optionLeft li{
+	height: 60px;
+	line-height: 60px;
+	font-size: 22px;
+	color: #FFFFFF;	
+}
+.circular{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: #FFFFFF;
+	margin-top: 22.5px;
+	border-radius: 50%;
+}
+.optionRight{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.optionRight li{
+	height: 60px;
+	line-height: 60px;
+	font-size: 22px;
+	color: #FFFFFF;	
 }
 #zhongdaoMore{
-	width: 100px;
-	height: 30px;
+	width: 178px;
+	height: 55px;
 	background: #FFFFFF;
 	color: #3B6DDE;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
+	border-top-left-radius: 27.5px;
+	border-top-right-radius: 27.5px;
+	border-bottom-left-radius: 27.5px;
+	border-bottom-right-radius: 27.5px;
 	border: 1px solid #3B6DDE;
-	margin: 2.5% 0 0 20%;	
+	margin-left: 215px;	
 	text-align: center;
-	line-height: 30px;
+	line-height: 55px;
+	margin-top: 25px;
 	transition: all 0.5s linear;
-	font-size: 18px;
+	font-size: 26px;
 	font-weight: 600;
 }
 #zhongdaoMore:hover{
 	background: #3B6DDE;
 	color: #FFFFFF;
-}
-.AGVDetails{
-	/*background: url(../image/bgimg.png);*/
 }
 #AGVNameE{
 	width: 30%;
@@ -108,7 +140,7 @@ body {
 	font-size: 24px;
 }
 #AGVMore{
-	width: 100px;
+	width: 115px;
 	height: 30px;
 	background: #FFFFFF;
 	color: #3B6DDE;
@@ -138,7 +170,7 @@ body {
 .ForkliftDetails{
 	background-image: url(../image/indexPart3.jpg);
 	background-position: center center;
-	background-size: 100% 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 #ForkliftNameE{
@@ -150,9 +182,17 @@ body {
 	color: #FFFFFF;
 	font-size: 48px;
 }
+.slogan{
+	margin-left: 215px;
+	font-family: "微软雅黑";
+	color: #FFFFFF;
+	font-size: 50px;
+	font-weight: 600;
+	margin-top: 15px;
+}
 .ForkliftProfile{
-	width: 30%;
-	margin: 2.5% 0 0 7.5%;
+	width: 45%;
+	margin: 1% 0 0 7.5%;
 	color: #FFFFFF;
 	font-size: 40px;
 }
@@ -164,7 +204,7 @@ body {
 	font-size: 24px;
 }
 #ForkliftMore{
-	width: 100px;
+	width: 115px;
 	height: 30px;
 	background: #FFFFFF;
 	color: #3B6DDE;
@@ -211,7 +251,7 @@ body {
 	font-size: 24px;
 }
 #YKMore{
-	width: 100px;
+	width: 115px;
 	height: 30px;
 	background: #FFFFFF;
 	color: #3B6DDE;
@@ -238,158 +278,92 @@ body {
 	top: 20%;
 	transition: all 0.53s linear; 
 }
-@media only screen and (max-width: 800px) {
-	#hrgLogo{
-		width: 30%;
-		margin: 15px 15px;
-	}
-	#CorporateNameE{
-		width: 45%;
-		margin: 0 auto;
-		margin-top: 15%;
-	}	
-	#CorporateNameZ{
-		font-size: 40px;
-		margin: 2.5% auto;
-		text-align: center;
-	}
-	.CompanyProfile{
-		width: 60%;	
-		margin: 2.5% auto;
-	}
-	.CompanyProfiles{
-		width: 60%;	
-		margin: 2.5% auto;
-	}
-	#zhongdaoMore{
-		margin: 5% auto;
-	}
-	#AGVNameE{
-		width: 50%;
-		margin: 0 auto;
-		margin-top: 5%;
-	}	
-	#AGVNameZ{
-		font-size: 40px;
-		margin: 2.5% auto;
-		text-align: center;
-	}
-	.AGVProfile{
-		width: 60%;
-		margin: 2.5% auto;
-		text-align: center;
-	}	
-	.AGVProfiles{
-		width: 80%;
-		margin: 2.5% auto;
-		font-size: 20px;
-	}
-	#AGVMore{
-		margin: 5% auto;
-	}
-	#AGVProduct{
-		width: 40%;
-		left: 30%!important;
-	}
-	#ForkliftNameE{
-		width: 50%;
-		margin: 0 auto;
-		margin-top: 5%;
-	}	
-	#ForkliftNameZ{
-		font-size: 40px;
-		margin: 2.5% auto;
-		text-align: center;
-	}
-	.ForkliftProfile{
-		text-align: center;
-		width: 60%;
-		margin: 2.5% auto;
-	}
-	.ForkliftProfiles{
-		width: 80%;
-		margin: 2.5% auto;
-		font-size: 20px;
-	}	
-	#ForkliftMore{
-		margin: 5% auto;
-	}
-	#ForkliftProduct{
-		width: 40%;
-		left: 30%!important;
-	}
-	#YKNameE{
-		width: 50%;
-		margin: 0 auto;
-		margin-top: 5%;
-	}	
-	#YKNameZ{
-		font-size: 40px;
-		margin: 2.5% auto;
-		text-align: center;
-	}
-	.YKProfile{
-		width: 60%;
-		margin: 2.5% auto;
-	}	
-	#YKMore{
-		margin: 5% auto;
-	}
-	#YKProduct{
-		width: 40%;
-		left: 30%!important;
-	}
-	.zhongdao, .ForkliftDetails{
-		background-size: auto 100%;
-	}
+.indexBar{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: calc(50% - 50px);
+    z-index: 999;
+    background-image: url(../image/icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.indexBar:hover{	
+    background-image: url(../image/icon_hover.png);
+}
+.swiper-pagination{
+	right: 25px!important;
 }
 @media only screen and (max-width: 414px) {
 	#hrgLogo{
-		width: 45%;
-		margin: 15px 15px;
+		width: 42.5%;
+		margin-left: 10px;
+		margin-top: 20px;
 	}
-	#CorporateNameE{
-		width: 45%;
-	}	
 	#CorporateNameZ{
-		font-size: 30px;
+		width: 300px;
+		margin: 0 auto;
+		margin-top: 25px;
+		font-size: 24px;
 	}
-	.CompanyProfile{
-		width: 75%;
+	.zhongdao{
+		background-size: auto;
+	}
+	.slogan{		
+		width: 300px;
+		margin: 0 auto;
+		font-size: 26px;
+		margin-top: 25px;
+	}
+	#zhongdaoMore{
+		width: 100px;
+		height: 35px;
+		line-height: 35px;
+		margin-top: 15px;
+		margin-left: 40px;
+		f
+	#AGVNameE, #ForkliftNameE, #YKNameE{
+		width: 275px;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	#AGVNameZ, #ForkliftNameZ, #YKNameZ{
+		width: 275px;
+		margin: 0 auto;
+		font-size: 26px;
+		font-weight: 600;
+	}
+	.AGVProfile, .ForkliftProfile, .YKProfile{
+		width: 275px;
+		margin: 0 auto;
+		font-size: 22px;
+	}
+	.AGVProfiles, .ForkliftProfiles{
+		width: 275px;
+		margin: 0 auto;
+		font-size: 16px;
+	}
+	#AGVMore, #ForkliftMore, #YKMore{
+		margin: 0 auto;
+		margin-top: 25px;
 		font-size: 18px;
 	}
-	#AGVNameE{
-		width: 50%;
-		margin-top: 10%;
-	}	
-	#AGVNameZ{
-		font-size: 34px;
+	#option{
+		width: 300px;
+		height: 60px;
+		margin: 0 auto;
+		margin-top: 30px;
 	}
-	.AGVProfile{
-		width: 75%;
-		font-size: 18px;
+	#option li{
+		height: 30px;
+		line-height: 30px;
+		font-size: 12px;
 	}
-	#ForkliftNameE{
-		width: 50%;
-		margin-top: 10%;
-	}	
-	#ForkliftNameZ{
-		font-size: 30px;
-	}
-	.ForkliftProfile{
-		width: 75%;
-		font-size: 18px;
-	}
-	#YKNameE{
-		width: 50%;
-		margin-top: 10%;
-	}	
-	#YKNameZ{
-		font-size: 34px;
-	}
-	.YKProfile{
-		width: 80%;
-		font-size: 20px;
+	.circular{
+		width: 10px;
+		height: 10px;
+		margin-top: 10px;
 	}
 	#AGVProduct, #ForkliftProduct, #YKProduct{
 		display: none;
