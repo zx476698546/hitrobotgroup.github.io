@@ -47,16 +47,17 @@ body {
 	margin-top: 35px;
 	margin-left: 50px;
 }
-#CorporateNameZ{
+#box{
 	margin-left: 215px;
-	margin-top: 250px;
+	margin-top: 200px;
+}
+#CorporateNameZ{
 	color: #FFFFFF;
 	font-size: 48px;
 }
 #option{
-	width: 600px;
+	width: 550px;
 	height: 120px;
-	margin-left: 215px;
 	position: relative;
 	margin-top: 25px;
 	font-family: "微软雅黑";
@@ -105,7 +106,6 @@ body {
 	border-bottom-left-radius: 27.5px;
 	border-bottom-right-radius: 27.5px;
 	border: 1px solid #3B6DDE;
-	margin-left: 215px;	
 	text-align: center;
 	line-height: 55px;
 	margin-top: 25px;
@@ -117,24 +117,26 @@ body {
 	background: #3B6DDE;
 	color: #FFFFFF;
 }
+#AGVBox, #YKBox{
+	position: absolute;
+	right: 10%;
+	top: 150px;
+	width: 660px;
+}
 #AGVNameE{
-	width: 30%;
-	margin: 10% 0 0 50%; 
+	width: 400px;
 }
 #AGVNameZ{
 	color: #3B6DDE;
 	font-size: 48px;
-	margin: 2.5% 0 0 50%; 
+	margin: 15px 0;
 }
 .AGVProfile{
 	width: 30%;
-	margin: 2.5% 0 0 50%;
 	color: #3B6DDE;
-	font-size: 40px;
+	font-size: 36px;
 }
 .AGVProfiles{
-	width: 45%;
-	margin: 1% 0 0 50%;
 	text-indent: 2em;
 	color: #3B6DDE;
 	font-size: 24px;
@@ -149,12 +151,12 @@ body {
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	border: 1px solid #3B6DDE;
-	margin: 2.5% 0 0 60%;	
 	text-align: center;
 	line-height: 30px;
 	transition: all 0.5s linear;
 	font-size: 18px;
 	font-weight: 600;
+	margin-top: 25px;
 }
 #AGVMore:hover{
 	background: #3B6DDE;
@@ -174,31 +176,31 @@ body {
 	background-repeat: no-repeat;
 }
 #ForkliftNameE{
-	width: 22.5%;	
-	margin: 10% 0 0 7.5%;
+	width: 400px;
 }
 #ForkliftNameZ{
-	margin: 2.5% 0 0 7.5%;
 	color: #FFFFFF;
 	font-size: 48px;
+	margin: 15px 0;
 }
 .slogan{
-	margin-left: 215px;
 	font-family: "微软雅黑";
 	color: #FFFFFF;
 	font-size: 50px;
 	font-weight: 600;
-	margin-top: 15px;
+	margin: 15px 0;
+}
+#ForkliftBox{
+	position: absolute;
+	left: 10%;
+	top: 150px;
+	width: 660px;
 }
 .ForkliftProfile{
-	width: 45%;
-	margin: 1% 0 0 7.5%;
 	color: #FFFFFF;
-	font-size: 40px;
+	font-size: 36px;
 }
 .ForkliftProfiles{
-	width: 50%;
-	margin: 1% 0 0 7.5%;
 	text-indent: 2em;
 	color: #FFFFFF;
 	font-size: 24px;
@@ -213,12 +215,12 @@ body {
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	border: 1px solid #3B6DDE;
-	margin: 2.5% 0 0 20%;	
 	text-align: center;
 	line-height: 30px;
 	transition: all 0.5s linear;
 	font-size: 18px;
 	font-weight: 600;
+	margin-top: 25px;
 }
 #ForkliftMore:hover{
 	background: #3B6DDE;
@@ -235,17 +237,14 @@ body {
 	background: #FFFFFF;
 }
 #YKNameE{
-	width: 30%;
-	margin: 10% 0 0 50%; 
+	width: 400px;
 }
 #YKNameZ{
 	color: #3B6DDE;
 	font-size: 48px;
-	margin: 2.5% 0 0 50%; 
+	margin: 15px 0;
 }
 .YKProfile{
-	width: 45%;
-	margin: 2.5% 0 0 50%;
 	text-indent: 2em;
 	color: #3B6DDE;
 	font-size: 24px;
@@ -260,12 +259,12 @@ body {
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	border: 1px solid #3B6DDE;
-	margin: 2.5% 0 0 60%;	
 	text-align: center;
 	line-height: 30px;
 	transition: all 0.5s linear;
 	font-size: 18px;
 	font-weight: 600;
+	margin-top: 25px;
 }
 #YKMore:hover{
 	background: #3B6DDE;
@@ -306,9 +305,24 @@ body {
 		margin: 0 auto;
 		margin-top: 25px;
 		font-size: 24px;
+		margin-left: 0;
+	}
+	#AGVBox, #YKBox, #ForkliftBox{
+		width: 300px;
+		top: 50px;
 	}
 	.zhongdao{
-		background-size: auto;
+		background-size: cover;
+	}
+	.slogan{
+		margin-left: 0!important;
+	}
+	#option{
+		margin-left: 0!important;
+	}
+	#box{
+		margin-left: 50px;
+		margin-top: 50px;
 	}
 	.slogan{		
 		width: 300px;
@@ -321,33 +335,26 @@ body {
 		height: 35px;
 		line-height: 35px;
 		margin-top: 15px;
-		margin-left: 40px;
-		f
+		font-size: 18px;
+	}
 	#AGVNameE, #ForkliftNameE, #YKNameE{
-		width: 275px;
-		margin: 0 auto;
-		margin-top: 50px;
+		width: 300px;
 	}
 	#AGVNameZ, #ForkliftNameZ, #YKNameZ{
-		width: 275px;
-		margin: 0 auto;
 		font-size: 26px;
 		font-weight: 600;
 	}
 	.AGVProfile, .ForkliftProfile, .YKProfile{
-		width: 275px;
-		margin: 0 auto;
 		font-size: 22px;
 	}
 	.AGVProfiles, .ForkliftProfiles{
-		width: 275px;
-		margin: 0 auto;
 		font-size: 16px;
 	}
 	#AGVMore, #ForkliftMore, #YKMore{
 		margin: 0 auto;
 		margin-top: 25px;
 		font-size: 18px;
+		margin-left: 0!important;
 	}
 	#option{
 		width: 300px;
