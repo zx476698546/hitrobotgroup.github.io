@@ -107,7 +107,7 @@ body {
 .content p{
 	width: 70%;
 	margin: 0 auto;
-	padding-top: 5px;
+	padding-top: 1px;
 	font-size: 18px;
 	color: #848484; }
 .content_three_show{
@@ -181,20 +181,20 @@ body {
 	#agv_logo{
 		width: 40%;
 		left: 30%;
-		top: 175px;}
+		top: 130px;}
 	#agv_title{
 		height: 60px;
 		font-size: 26px;
 		line-height: 60px;
-		top: 350px; }
+		top: 280px; }
 	#agv_English_title{
 		font-size: 14px;
-		top: 400px; }
+		top: 330px; }
 	#agv_text{
 		font-size: 26px;
-		top: 425px; }
+		top: 380px; }
 	.content h1{
-		width: 45%;
+		width: 85%;
 		height: 30px;
 		line-height: 30px;
 		font-size: 18px;
@@ -217,7 +217,7 @@ body {
 	}
 	.content p{
 		width: 85%;
-		font-size: 12px;   }
+		font-size: 14px;  }
 	.content_three_show{
 		width: 55%;
 		margin-left: 22.5%;

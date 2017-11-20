@@ -208,7 +208,7 @@ td{
 	.table{
 		width: 85%!important;
 		margin: 0 auto;
-		margin-top: 10px!important;
+		margin-top: 5px!important;
 	}		
 	.hide{
 		display: none;
@@ -219,7 +219,7 @@ td{
 		left: 0;
 		top: 0;
 		z-index: 999;
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.parameter{
 		width: 40%!important;

@@ -294,7 +294,7 @@ body {
 @media only screen and (max-width: 415px) {
 	#AGVBox, #YKBox, #ForkliftBox{
 		width: 300px;
-		top: 25px;
+		top: 10px!important;
 	}
 	#box{
 		width: 300px!important;
@@ -395,7 +395,7 @@ body {
 	}
 	#AGVProduct, #ForkliftProduct, #YKProduct{
 		width: 30%;
-		top: 55%!important;
+		top: 50%!important;
 		left: 35%;
 	}
 	#box{
