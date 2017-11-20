@@ -25,7 +25,6 @@ html, body {
     height: 100%;
 }
 body {
-    background: #fffef9;
    	font-family: "新宋体";
 }
 .swiper-container {
@@ -33,7 +32,7 @@ body {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-	color: #3B6DDE;
+    color: #848484;
 }
 #hrg_logo{
 	width: 200px;
@@ -53,28 +52,40 @@ body {
 	width: 70%;
 	margin: 0 auto;
 	height: 100px;
+	color: #000000;
 	text-align: center;
 	line-height: 100px;
 	font-size: 42px;
 	margin-top: 2.5%;
-	color: #3B6DDE;
 }
 .introduce h2{
-	width: 70%;
-	height: 35px;
-	line-height: 35px;
-	background: #C1CDC1;
-	text-indent: 0.5em;
-	margin: 0 auto;
+	width: 25%;
+	height: 40px;
+	line-height: 40px;
+	background: #4284e2;
+	margin-left: 15%;
 	margin-top: 2%;
+	color: #FFFFFF;
+}
+#detailed, #detailed_text{
+	width: 70%;
+	margin: 0 auto;
+}
+.Color{
+	display: inline-block;
+	width: 40px;
+	height: 100%;
+	background: #434343;
+	margin-left: 0;
+	margin-right: 10px;
 }
 .introduce h3{
-	width: 70%;
-	height: 35px;
-	line-height: 35px;
-	text-indent: 0.5em;
-	margin: 0 auto;
-	background: #C1CDC1;
+	width: 25%;
+	height: 40px;
+	line-height: 40px;
+	background: #4284e2;
+	margin-left: 15%;
+	color: #FFFFFF;
 }
 .introduce_p{
 	width: 70%;
@@ -87,6 +98,9 @@ body {
 	width: 70%;
 	margin: 10px auto;
 	text-indent: 1em;
+}
+td{
+	background: #eeeeee;
 }
 #structure{
 	display: block;
@@ -102,7 +116,7 @@ body {
 	float: left;
 	margin-left: 2.5%;
 	margin-top: 12.5px;
-	border: 1px solid #3B6DDE;
+	border: 1px solid #999999;
 	box-sizing: border-box;
 	background-position: center center; 
 	background-size: 100%;
@@ -178,7 +192,6 @@ body {
 	width: 30%;
 	float: left;
 	margin-left: 2.5%;
-	color: #3B6DDE;
 }
 .detailed_text_p{
 	font-weight: normal;	
@@ -234,21 +247,27 @@ td{
 		text-align: center;
 		line-height: 80px;
 		font-size: 20px;
-		color: #3B6DDE;
+		color: #000000;
 		margin-left: 32.5%;
 	}
 	.introduce h2{
-		width: 100%;
+		width: 45%;
 		height: 30px;
 		line-height: 30px;
-		background: #C1CDC1;
+		background: #4284e2;
 		font-size: 18px;
+		margin-left: 2.5%;
 		margin-top: 0;
 	}
+	.Color{
+		width: 30px;
+		height: 30px;
+	}
 	.introduce h3{
-		width: 100%;
-		height: 25px;
-		line-height: 25px;
+		width: 45%;
+		height: 30px;
+		margin-left: 2.5%;
+		line-height: 30px;
 		font-size: 14px;
 	}
 	.introduce_p{
@@ -258,7 +277,7 @@ td{
 	}
 	.table{
 		width: 95%;
-		margin: 5px auto;
+		margin: 2.5px auto;
 		font-size: 12px;
 	}
 	#product{
@@ -271,6 +290,9 @@ td{
 		width: 20%;
 		right: 5%;
 		top: 15%;
+	}
+	#detailed, #detailed_text{
+		width: 95%;
 	}
 	#detailed li{
 		height: 100px;

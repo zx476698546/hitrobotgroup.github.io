@@ -25,7 +25,6 @@ html, body {
     height: 100%;
 }
 body {
-	background: #fffef9;
    	font-family: "新宋体";
 }
 .swiper-container {
@@ -38,7 +37,7 @@ body {
 	height: 100%;
 }
 #hrg_logo{
-	width: 275px;
+	width: 200px;
 	display: block;
 	position: absolute;
 	left: 20px;
@@ -61,7 +60,6 @@ body {
 	left: 0;
 	top: 450px;	 
 	overflow: hidden; 
-	color: #3B6DDE;
     text-overflow: ellipsis;
     white-space: nowrap; }
 #agv_English_title{
@@ -72,7 +70,6 @@ body {
 	text-align: center;
 	line-height: 30px;
 	position: absolute;
-	color: #3B6DDE;
 	left: 0;
 	top: 525px;
 	overflow: hidden; 
@@ -83,7 +80,6 @@ body {
 	height: 80px;
 	display: block;
 	font-size: 42px;
-	color: #3B6DDE;
 	font-weight: 900;
 	text-align: center;
 	line-height: 80px;
@@ -91,24 +87,30 @@ body {
 	left: 0;
 	top: 575px;	}
 .content h1{
-	width: 70%;
-	margin: 0 auto;
+	width: 22.5%;
+	margin-left: 15%;
 	font-size: 28px;
 	height: 40px;
 	line-height: 40px;
-	text-indent: 1em;
-	color: #3B6DDE;
-	background: #C1CDC1;}
+	color: #FFFFFF;
+	background: #4284e2;}
+.Color{
+	display: inline-block;
+	width: 40px;
+	height: 100%;
+	background: #434343;
+	margin-left: 0;
+	margin-right: 10px;
+}
 .content h2{
 	width: 70%;
 	margin: 0 auto;
-	color: #3B6DDE;
 	padding: 10px 0;}
 .content p{
 	width: 70%;
 	margin: 0 auto;
-	color: #3B6DDE;
 	padding-top: 5px;
+	color: #848484;
 	font-size: 18px; }
 .content_three_show{
 	width: 40%;
@@ -140,29 +142,21 @@ body {
 	background-position: center center;
 	background-repeat: no-repeat;
 }
-/*#title_content{
-	color: #3B6DDE;
-	width: 100%;
-	text-align: center;
-	font-size: 36px;
-	padding-top: 2.5%;
-}	*/
 .table{
 	width: 65%;
 	margin: 5px auto;
-	color: #3B6DDE;
+	color: #848484;
 }
 .table tr td{
 	text-indent: 1em;
 	font-size: 14px;
-}
-.forklift_information{
-	text-indent: 2em;
-}
-td{
 	width: 50%;
 	border: 1px solid #e3e3e3;
 	box-sizing: border-box;
+	background: #EEEEEE;
+}
+.forklift_information{
+	text-indent: 2em;
 }
 .swiper-pagination{
 	right: 25px!important;
@@ -204,11 +198,11 @@ td{
 		font-size: 26px;
 		top: 425px;}
 	.content h1{
-		width: 100%;
-		border-radius: 0;
-		height: 35px;
-		line-height: 35px;
-		font-size: 20px;
+		width: 45%;
+		height: 30px;
+		line-height: 30px;
+		font-size: 18px;
+		margin-left: 5%;
 		}
 	.content h2{	
 		width: 90%;
@@ -216,7 +210,7 @@ td{
 		padding: 5px 0;
 	}
 	.content p{
-		width: 90%;
+		width: 85%;
 		font-size: 2px;   }
 	.content_three_show{
 		width: 55%;
@@ -229,7 +223,7 @@ td{
 	#display_pictures{
 		background-size: 95%;}			
 	.table{
-		width: 80%;
+		width: 85%;
 	}
 	.table tr td{		
 		font-size: 12px!important;

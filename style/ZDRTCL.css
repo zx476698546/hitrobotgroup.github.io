@@ -10,7 +10,6 @@ ul, ol {
     list-style: none; }
 a {
     text-decoration: none;
-    color: #3B6DDE; 
     font-weight: 600;}
 .clear::after {
     content: ".";
@@ -25,7 +24,6 @@ html, body {
     height: 100%;
 }
 body {
-	background: #fffef9;
    	font-family: "新宋体";
 }
 .swiper-container {
@@ -33,7 +31,6 @@ body {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-	color: #3B6DDE;
 }
 .catalog{
 	width: 100%;
@@ -75,7 +72,8 @@ body {
 .AGV_page p{
 	width: 70%;
 	margin: 0 auto;
-	padding: 2.5px 0;
+	padding: 1px 0;
+	color: #848484;
 	text-indent: 2em;
 }
 .AGV_page h2{
@@ -83,11 +81,20 @@ body {
 	padding-left: 15%;
 }
 .AGV_page h3{
-	width: 70%;
-	margin: 0 auto;
+	width: 15%;
+	margin-left: 15%;
 	height: 35px;
 	line-height: 35px;
-	background: #C1CDC1;
+	background: #4284e2;
+	color: #FFFFFF;
+}
+.Color{
+	display: inline-block;
+	width: 35px;
+	height: 100%;
+	background: #434343;
+	margin-left: 0;
+	margin-right: 10px;
 }
 .font_weight{
 	font-weight: 600;
@@ -106,7 +113,7 @@ body {
 	right: 2.5%!important;
 }
 .padding{
-	padding: 10px 0!important;
+	padding: 5px 0!important;
 }
 
 .parameter{
@@ -125,6 +132,8 @@ td{
 	width: 50%;
 	border: 1px solid #e3e3e3;
 	box-sizing: border-box;
+    color: #848484;
+	background: #EEEEEE;
 }
 .indexBar{
     width: 50px;
@@ -183,14 +192,18 @@ td{
 		padding-left: 5%;
 	}
 	.AGV_page h3{
-		width: 100%;
+		width: 30%;
 		height: 30px;
+		margin-left: 5%;
 		line-height: 30px;
 		font-size: 14px;
-		padding-left: 5%;
+	}
+	.Color{
+		width: 30px;
+		height: 30px;
 	}
 	.agv{
-		display: none;
+		width: 40%!important;
 	}
 	.table{
 		width: 85%!important;
@@ -208,14 +221,17 @@ td{
 		z-index: 999;
 		font-size: 12px;
 	}
+	.parameter{
+		width: 40%!important;
+	}
 	.button{
 		width: 30%!important;
 		text-align: center!important;
 		margin: 5% auto!important;
 		border-radius: 5px;
 		background: #FFFFFF!important;
-		color: #3B6DDE;
-		border: 1px solid #3B6DDE;
+		color: #666666!important;
+		border: 1px solid #848484;
 		padding-left: 0!important;
 		transition: all 0.5s linear;
 	}

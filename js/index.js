@@ -19,7 +19,7 @@ $(function (){
     });
 			
 	var width = $(window).width()
-	if(width >750){
+	if(width >980){
 		$(".AGVDetails").on('mouseover', function () {
 			$("#AGVProduct").css("left", "5%")
 		});
