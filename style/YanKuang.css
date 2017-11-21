@@ -61,7 +61,7 @@ body {
 	top: 0;
 }
 .introduce h2{
-	width: 25%;
+	width: 170px;
 	height: 40px;
 	line-height: 40px;
 	background: #4284e2;
@@ -87,7 +87,7 @@ body {
 	background-repeat: no-repeat;
 }
 .introduce h3{
-	width: 25%;
+	width: 170px;
 	height: 40px;
 	line-height: 40px;
 	background: #4284e2;
@@ -258,12 +258,12 @@ td{
 		display: none;
 	}
 	.introduce h2{
-		width: 90%;
+		width: 100%;
 		height: 25px;
 		line-height: 25px;
 		background: #4284e2;
 		font-size: 16px;
-		margin-left: 5%;
+		margin-left: 0;
 		margin-top: 25px;
 	}
 	.Color{
@@ -271,32 +271,30 @@ td{
 		height: 25px;
 	}
 	.introduce h3{
-		width: 90%;
+		width: 100%;
 		height: 25px;
-		margin-left: 5%;
+		margin-left: 0;
 		line-height: 25px;
 		font-size: 14px;
 	}
 	.introduce_p{
-		width: 90%;
+		width: 97.5%;
 		margin: 0 auto;
 		font-size: 12px;
 		padding-top: 0;
 	}
 	.table{
-		width: 90%;
+		width: 97.5%;
 		font-size: 12px;
 	}
 	#product{
 		display: none;
 	}
 	#structure{
-		width: 20%;
-		right: 5%;
-		top: 8.5%;
+		display: none;
 	}
 	#detailed, #detailed_text{
-		width: 95%;
+		width: 97.5%;
 	}
 	#detailed li{
 		height: 100px;
@@ -309,7 +307,7 @@ td{
 		font-size: 12px;
 	}
 	#video_add{
-		width: 90%;
+		width: 97.5%;
 	}
 	.p1{
 		line-height: 17.5px!important;

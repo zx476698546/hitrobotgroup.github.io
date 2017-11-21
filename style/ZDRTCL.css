@@ -81,7 +81,7 @@ body {
 	padding-left: 15%;
 }
 .AGV_page h3{
-	width: 15%;
+	width: 170px;
 	margin-left: 15%;
 	height: 30px;
 	line-height: 30px;
@@ -129,7 +129,7 @@ body {
 	font-size: 16px!important;
 }
 .BlockImg{
-	width: 60%;
+	width: 50%;
 	margin: 10% auto;
 	display: none;
 }
@@ -165,8 +165,8 @@ td{
 		margin-left: 10px!important;
 	}
 	.catalog{
-		font-size: 28px;
-		margin-top: 75px;
+		font-size: 24px;
+		margin-top: 50px;
 	}
 	.ZDCatalog h2{
 		width: 70%;
@@ -178,14 +178,14 @@ td{
 	}
 	.enterprise_profile{	
 		font-size: 24px;
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 	.ZDDetails p{	
 		width: 85%;
 		font-size: 14px;
 	}
 	.AGV_page p{
-		width: 90%;
+		width: 97.5%;
 		font-size: 12px;
 		padding: 1px 0;
 		text-indent: 1em;
@@ -197,13 +197,13 @@ td{
 		height: 30px;
 		line-height: 30px;
 		font-size: 18px;
-		padding-left: 5%;
+		padding-left: 1.25%;
 	}
 	.AGV_page h3{
-		width: 30%;
+		width: 100%;
 		height: 25px;
 		line-height: 25px;
-		margin-left: 5%;
+		margin-left: 0;
 		font-size: 14px;
 	}
 	.Color{
@@ -216,7 +216,9 @@ td{
 	.table{
 		width: 90%!important;
 		margin: 0 auto;
-		margin-top: 5px!important;
+		margin-top: 0!important;
+		text-indent: 0;
+		font-size: 12px;
 	}		
 	.hide{
 		display: none;
@@ -249,3 +251,4 @@ td{
 		display: block!important;
 	}
 }
+
