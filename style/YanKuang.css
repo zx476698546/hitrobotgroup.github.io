@@ -25,7 +25,7 @@ html, body {
     height: 100%;
 }
 body {
-   	font-family: "新宋体";
+   	font-family: "微软雅黑";
 }
 .swiper-container {
     width: 100%;
@@ -34,12 +34,13 @@ body {
     margin-right: auto;
     color: #848484;
 }
-#hrg_logo{
-	width: 200px;
-	display: block;
-	position: absolute;
-	left: 20px;
-	top: 25px; }
+#hrgLogo{
+	display: inline-block;
+	width: 326px;
+	height: 41px;
+	margin-top: 35px;
+	margin-left: 50px;
+}
 #product{
 	width: 20%;
 	margin: 0 auto;
@@ -49,14 +50,15 @@ body {
 	width: 25%;
 }
 .title{
-	width: 70%;
-	margin: 0 auto;
-	height: 100px;
+	width: 20%;
+	height: 120px;
 	color: #000000;
 	text-align: center;
-	line-height: 100px;
+	line-height: 120px;
 	font-size: 42px;
-	margin-top: 2.5%;
+	position: absolute;
+	left: 400px;
+	top: 0;
 }
 .introduce h2{
 	width: 25%;
@@ -64,8 +66,9 @@ body {
 	line-height: 40px;
 	background: #4284e2;
 	margin-left: 15%;
-	margin-top: 2%;
+	margin-top: 5%;
 	color: #FFFFFF;
+	font-size: 18px;
 }
 #detailed, #detailed_text{
 	width: 70%;
@@ -78,6 +81,10 @@ body {
 	background: #434343;
 	margin-left: 0;
 	margin-right: 10px;
+	background-image: url(../image/down.png);
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 .introduce h3{
 	width: 25%;
@@ -85,18 +92,19 @@ body {
 	line-height: 40px;
 	background: #4284e2;
 	margin-left: 15%;
+	font-size: 16px;
 	color: #FFFFFF;
 }
 .introduce_p{
 	width: 70%;
 	margin: 0 auto;
 	font-size: 16px;
-	padding-top: 5px;
-	text-indent: 2em;
+	padding-top: 10px;
+	text-indent: 1em;
 }
 .table{
 	width: 70%;
-	margin: 10px auto;
+	margin: 0 auto;
 	text-indent: 1em;
 }
 td{
@@ -198,12 +206,8 @@ td{
 	font-size: 14px;
 	line-height: 25px;
 }
-.dispatch_container_left{
-	width: 70%;
-	margin: 0 auto;
-}
 #video_add{
-	width: 67.5%;
+	width: 70%;
 	margin: 1% auto;
 }
 .p1{
@@ -223,7 +227,7 @@ td{
     width: 50px;
     height: 20px;
     position: absolute;
-    right: 5px;
+    right: 0;
     top: calc(50% - 55px);
     z-index: 999;
     background-image: url(../image/icon.png);
@@ -234,62 +238,62 @@ td{
     background-image: url(../image/icon_hover.png);
 }
 .swiper-pagination{
-	right: 25px!important;
+	right: 20px!important;
 }
 @media only screen and (max-width: 414px) {
-	#hrg_logo{
-		width: 30%;
-		left: 10px;
-		top: 15px;}
+	#hrgLogo{
+		width: 159px!important;
+		height: 20px!important;
+		margin-top: 20px!important;
+		margin-left: 10px!important;
+	}
 	.title{
-		width: 65%;
-		height: 80px;
-		text-align: center;
-		line-height: 80px;
-		font-size: 20px;
-		color: #000000;
-		margin-left: 32.5%;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		height: 65px;
+		line-height: 65px;
+		font-size: 24px;
+		width: 120px;
+		display: none;
 	}
 	.introduce h2{
-		width: 45%;
-		height: 30px;
-		line-height: 30px;
+		width: 90%;
+		height: 25px;
+		line-height: 25px;
 		background: #4284e2;
-		font-size: 18px;
-		margin-left: 2.5%;
-		margin-top: 0;
+		font-size: 16px;
+		margin-left: 5%;
+		margin-top: 25px;
 	}
 	.Color{
-		width: 30px;
-		height: 30px;
+		width: 25px;
+		height: 25px;
 	}
 	.introduce h3{
-		width: 45%;
-		height: 30px;
-		margin-left: 2.5%;
-		line-height: 30px;
+		width: 90%;
+		height: 25px;
+		margin-left: 5%;
+		line-height: 25px;
 		font-size: 14px;
 	}
 	.introduce_p{
-		width: 95%;
+		width: 90%;
 		margin: 0 auto;
 		font-size: 12px;
+		padding-top: 0;
 	}
 	.table{
-		width: 95%;
-		margin: 2.5px auto;
+		width: 90%;
 		font-size: 12px;
 	}
 	#product{
 		display: none;
 	}
-	.introduce_p{
-		width: 95%;
-	}
 	#structure{
 		width: 20%;
 		right: 5%;
-		top: 15%;
+		top: 8.5%;
 	}
 	#detailed, #detailed_text{
 		width: 95%;
@@ -298,19 +302,16 @@ td{
 		height: 100px;
 	}
 	.Design{
-		margin-top: 2%!important;
+		margin-top: 0!important;
 	}
 	.detailed_text_p{
 		line-height: 15px;
 		font-size: 12px;
 	}
 	#video_add{
-		width: 95%;
+		width: 90%;
 	}
 	.p1{
 		line-height: 17.5px!important;
-	}
-	#structure{
-		display: none;
 	}
 }

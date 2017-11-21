@@ -40,19 +40,19 @@ body {
 	background-repeat: no-repeat;
 	background-color: #468ef4;
 }
-#hrgLogo{
+#hrgLogo{	
 	width: 326px;
 	height: 41px;
 	margin-top: 35px;
 	margin-left: 50px;
 }
 #box{
+	width: 579px;
 	margin-left: 215px;
 	margin-top: 200px;
 }
 #CorporateNameZ{
-	width: 579px;
-	height: 194px;
+	width: 100%;
 }
 #option{
 	width: 550px;
@@ -108,7 +108,7 @@ body {
 	line-height: 55px;
 	margin-top: 25px;
 	transition: all 0.5s linear;
-	font-size: 26px;
+	font-size: 24px;
 	font-weight: 600;
 }
 #zhongdaoMore:hover{
@@ -181,12 +181,6 @@ body {
 	font-size: 48px;
 	margin: 15px 0;
 }
-.slogan{
-	color: #FFFFFF;
-	font-size: 50px;
-	font-weight: 600;
-	margin: 15px 0;
-}
 #ForkliftBox{
 	position: absolute;
 	left: 10%;
@@ -229,9 +223,6 @@ body {
 	right: -15%;
 	top: 20%;
 	transition: all 0.53s linear; 
-}
-.shandong{
-	background: #FFFFFF;
 }
 #YKNameE{
 	width: 400px;
@@ -278,7 +269,7 @@ body {
     width: 50px;
     height: 20px;
     position: absolute;
-    right: 5px;
+    right: 0;
     top: calc(50% - 50px);
     z-index: 999;
     background-image: url(../image/icon.png);
@@ -289,118 +280,81 @@ body {
     background-image: url(../image/icon_hover.png);
 }
 .swiper-pagination{
-	right: 25px!important;
+	right: 20px!important;
 }
-@media only screen and (max-width: 415px) {
-	#AGVBox, #YKBox, #ForkliftBox{
-		width: 300px;
-		top: 10px!important;
-	}
-	#box{
-		width: 300px!important;
-		margin: 0 auto!important;
-		margin-top: 75px!important;
-	}
-	.zhongdao{
-		background-size: cover;
-	}
-	.slogan{
-		margin-left: 0!important;
-	}
-	#option{
-		margin-left: 0!important;
-	}
-	#box{
-		margin-left: 50px;
-		margin-top: 50px;
-	}
-	.slogan{		
-		width: 300px;
-		margin: 0 auto;
-		font-size: 26px;
-		margin-top: 25px;
-	}
-	#zhongdaoMore{
-		width: 100px;
-		height: 35px;
-		line-height: 35px;
-		margin-top: 15px;
-		font-size: 18px;
-	}
-	#AGVNameE, #ForkliftNameE, #YKNameE{
-		width: 300px;
-	}
-	#AGVNameZ, #ForkliftNameZ, #YKNameZ{
-		font-size: 26px!important;
-		font-weight: 600;
-	}
-	.AGVProfile, .ForkliftProfile{
-		font-size: 22px;
-	}
-	.AGVProfiles, .ForkliftProfiles, .YKProfile{
-		display: none;
-	}
-	#AGVMore, #ForkliftMore, #YKMore{
-		margin: 0 auto;
-		margin-top: 25px;
-		font-size: 18px;
-		margin-left: 0!important;
-	}
-	#option{
-		width: 300px;
-		height: 60px;
-		margin: 0 auto;
-		margin-top: 30px;
-	}
-	#option li{
-		height: 30px;
-		line-height: 30px;
-		font-size: 12px;
-	}
-	.circular{
-		width: 10px;
-		height: 10px;
-		margin-top: 10px;
-	}
-	#AGVBox, #YKBox, #ForkliftBox{
-		width: 300px!important;
-		left: calc(50% - 150px)!important;
-	}
-	#AGVProduct, #ForkliftProduct, #YKProduct{
-		width: 260px!important;
-		left: calc(50% - 130px)!important;
-	}
-}
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 415px) {	
 	#hrgLogo{
 		width: 159px!important;
 		height: 20px!important;
 		margin-top: 20px!important;
 		margin-left: 10px!important;
 	}
-	#CorporateNameZ{
+	#box{
 		width: 300px!important;
-		height: 100px!important;
+		margin-top: 75px!important;
+	}
+	#CorporateNameZ{
+		width: 100%;
 	}	
+	#option{
+		width: 100%;
+		height: 80px;
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+	#option li{
+		height: 40px;
+		line-height: 40px;
+		font-size: 14px;
+	}	
+	.circular{
+		width: 10px;
+		height: 10px;
+		margin-top: 15px;
+	}
+	#zhongdaoMore{
+		width: 100px;
+		height: 35px;
+		line-height: 35px;
+		margin-top: 15px;
+		font-size: 16px;
+	}
+	#AGVNameE, #ForkliftNameE, #YKNameE{
+		width: 100%;
+	}
 	#AGVNameZ, #ForkliftNameZ, #YKNameZ{
-		font-size: 38px;
+		font-size: 24px;
+		font-weight: 600t;
+	}
+	.AGVProfile, .ForkliftProfile{
+		font-size: 18px;
 	}
 	.AGVProfiles, .ForkliftProfiles, .YKProfile{
 		display: none;
 	}
+	#AGVMore, #ForkliftMore, #YKMore{
+		margin-top: 25px;
+		font-size: 16px;
+	}
 	#AGVBox, #YKBox, #ForkliftBox{
-		width: 80%;
-		left: 10%;
-		top: 50px;
+		width: 300px!important;
+		left: calc(50% - 150px)!important;
+		top: 15px!important;
 	}
 	#AGVProduct, #ForkliftProduct, #YKProduct{
-		width: 30%;
-		top: 50%!important;
-		left: 35%;
+		width: 300px;
+		top: 275px!important;
+		left: calc(50% - 150px)!important;
 	}
-	#box{
-		width: 80%;
-		margin: 100px auto;
+}
+@media only screen and (max-width: 980px) {
+	#box{		
+		margin: 0 auto;
+		margin-top: 200px;
+	}
+	#AGVBox, #YKBox, #ForkliftBox{
+		left: calc(50% - 330px);
+		top: 50px;
 	}
 }
 @media only screen and (max-width: 1500px) {
@@ -411,8 +365,7 @@ body {
 		margin-left: 20px;
 	}
 	#CorporateNameZ{
-		width: 500px;
-		height: 167px;
+		width: 100%;
 	}
 }
 

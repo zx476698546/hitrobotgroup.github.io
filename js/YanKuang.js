@@ -12,7 +12,7 @@ $(function(){
         },
     });
     $(".move").on('mouseover', function () {
-    	$("#structure").css("right", "60%")
+    	$("#structure").css("right", "50%")
     })
     $(".move").on('mouseout', function () {
     	$("#structure").css("right", "20%")
@@ -20,7 +20,7 @@ $(function(){
     var width = $(window).width();
     if (width <= 414) {    	
 	    $(".move").on('mouseover', function () {
-	    	$("#structure").css("right", "35%")
+	    	$("#structure").css("right", "30%")
 	    })
 	    $(".move").on('mouseout', function () {
 	    	$("#structure").css("right", "5%")
