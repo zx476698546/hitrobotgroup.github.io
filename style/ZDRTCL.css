@@ -214,7 +214,7 @@ td{
 		width: 35%!important;
 	}
 	.table{
-		width: 90%!important;
+		width: 97.5%!important;
 		margin: 0 auto;
 		margin-top: 0!important;
 		text-indent: 0;
@@ -232,7 +232,7 @@ td{
 		font-size: 14px;
 	}
 	.parameter{
-		width: 40%!important;
+		width: 100%!important;
 		height: 25px!important;
 		line-height: 25px!important;
 	}

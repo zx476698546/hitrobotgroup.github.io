@@ -285,7 +285,8 @@ td{
 	}
 	.table{
 		width: 97.5%;
-		font-size: 12px;
+		font-size: 10px;
+		text-indent: 0;
 	}
 	#product{
 		display: none;
