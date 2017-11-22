@@ -19,7 +19,7 @@ $(function (){
     });
 			
 	var width = $(window).width()
-	if(width >980){
+	if(width >1200){
 		$(".AGVDetails").on('mouseover', function () {
 			$("#AGVProduct").css("left", "5%")
 		});
@@ -38,9 +38,5 @@ $(function (){
 	    	$(".shandong").on('mouseout', function () {
 				$("#YKProduct").css("left", "-15%")
 		})       	
-	} else{		
-		$("#AGVProduct").css("top", "70%").css("left", "25%")
-		$("#ForkliftProduct").css("top", "65%").css("left", "25%")
-		$("#YKProduct").css("top", "65%").css("left", "25%")
 	}
 })

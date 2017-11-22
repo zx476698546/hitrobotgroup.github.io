@@ -312,14 +312,46 @@ body {
 		margin-top: 200px;
 	}
 }
-@media (max-width: 980px) {
-	#box{		
+@media (max-width: 1200px) {
+	#box{	
+		width: 450px;	
 		margin: 0 auto;
 		margin-top: 200px;
 	}
 	#AGVBox, #YKBox, #ForkliftBox{
-		left: calc(50% - 330px);
+		width: 450px;
+		left: calc(50% - 225px);
 		top: 50px;
+	}			
+	#AGVProduct{
+		width: 300px;
+		top: 62.5%;
+		left: calc(50% - 150px);		
+	} 
+	#ForkliftProduct, #YKProduct{
+		width: 330px;
+		top: 58%;
+		left: calc(50% - 165px);
+	}
+}
+@media (max-width: 980px) {
+	#box{	
+		width: 400px;	
+		margin: 0 auto;
+		margin-top: 200px;
+	}
+	#AGVBox, #YKBox, #ForkliftBox{
+		width: 400px;
+		left: calc(50% - 200px);
+		top: 50px;
+	}	
+	.AGVProfiles, .ForkliftProfiles, .YKProfile{
+		font-size: 20px;
+	}		
+	#AGVProduct, #ForkliftProduct, #YKProduct{
+		width: 300px;
+		top: 50%;
+		left: calc(50% - 200px);
 	}
 }
 @media (max-width: 680px){

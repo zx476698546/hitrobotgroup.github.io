@@ -184,6 +184,13 @@ body {
 .swiper-pagination-bullet-active{
 	background: #007AFF;
 }
+@media only screen and (max-width: 1000px) {
+	#hrgLogo{
+		width: 220px;
+		margin-left: 20px;
+		margin-top: 30px;
+	}
+}
 @media only screen and (max-width: 680px) {
 	#hrgLogo{
 		width: 180px;
