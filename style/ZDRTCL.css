@@ -144,8 +144,8 @@ td{
     width: 50px;
     height: 20px;
     position: absolute;
-    right: 0;
-    top: calc(50% - 95px);
+    right: 20px;
+    top: calc(50% - 130px);
     z-index: 999;
     background-image: url(../image/icon.png);
     background-position: center;
@@ -155,7 +155,39 @@ td{
     background-image: url(../image/icon_hover.png);
 }
 .swiper-pagination{
-	right: 20px!important;
+	right: 40px!important;
+}
+.swiper-pagination-bullet{
+	width: 10px;
+	height: 10px;
+	margin: 10px 0!important;
+	background: #dcdcdc;
+	opacity: 1;
+}
+.swiper-pagination-bullet-active{
+	background: #007AFF;
+}
+@media only screen and (max-width: 680px) {
+	#hrgLogo{
+		width: 180px;
+		margin-left: 15px;
+		margin-top: 25px;
+	}
+	.catalog{
+		font-size: 32px;
+	}
+	.ZDCatalog h2{
+		font-size: 24px;
+	}
+	.ZDCatalog p{
+		font-size: 20px;
+	}
+	.enterprise_profile{
+		font-size: 32px;
+	}
+	.ZDDetails p{
+		font-size: 20px;
+	}
 }
 @media only screen and (max-width: 415px) {
 	#hrgLogo{
@@ -249,6 +281,12 @@ td{
 	}
 	.BlockImg{
 		display: block!important;
+	}
+	.indexBar{
+	    right: 0;
+	}
+	.swiper-pagination{
+		right: 20px!important;
 	}
 }
 
