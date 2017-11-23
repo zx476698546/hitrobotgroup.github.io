@@ -7,36 +7,44 @@
 //});
 $(function (){
 //  Initialize Swiper
-	var swiper = new Swiper('.swiper-container', {
+    var swiper1 = new Swiper('.swiper1', {
+       slidesPerView: 6,
+       spaceBetween: 1,
+       loop: true,
+       autoplay: {
+        delay: 2000,
+        disableOnInteraction : false,
+      }
+    });
+	var swiper2 = new Swiper('.swiper2', {
         direction: 'vertical',
         slidesPerView: 1,
         mousewheel: true,
-//      pagination: '.swiper-pagination',
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
         },
+        on:{
+	      init: function(){
+	        swiperAnimateCache(this); //隐藏动画元素 
+	        swiperAnimate(this); //初始化完成开始动画
+	      }, 
+	      slideChangeTransitionEnd: function(){ 
+	        swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+	      } 
+	    }
     });
-			
-	var width = $(window).width()
-	if(width >1200){
-		$(".AGVDetails").on('mouseover', function () {
-			$("#AGVProduct").css("left", "5%")
-		});
-    	$(".AGVDetails").on('mouseout', function () {
-			$("#AGVProduct").css("left", "-20%")
-		})
-	    $(".ForkliftDetails").on('mouseover', function () {
-				$("#ForkliftProduct").css("right", "5%")
-			});
-	    	$(".ForkliftDetails").on('mouseout', function () {
-				$("#ForkliftProduct").css("right", "-15%")
-		})  
-		$(".shandong").on('mouseover', function () {
-				$("#YKProduct").css("left", "5%")
-			});
-	    	$(".shandong").on('mouseout', function () {
-				$("#YKProduct").css("left", "-15%")
-		})       	
-	}
+    var i = 1    
+    $("#boxClick").on('click', function () {
+    	if(i%2 == 1){
+    		$(".swiper1").css("right", 0)   
+    		$("#boxClick").css("background-image", "url(image/right.png)")
+    		$("#boxCover").css("opacity", "0")
+    	} else if(i%2 ==0){
+    		$(".swiper1").css("right", "-80%")
+    		$("#boxCover").css("left", "30px")    	
+    		$("#boxCover").css("opacity", "1")    		
+    	}
+    	i ++    	
+    })
 })
