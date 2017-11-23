@@ -8,7 +8,7 @@
 $(function (){
 //  Initialize Swiper
     var swiper1 = new Swiper('.swiper1', {
-       slidesPerView: 6,
+       slidesPerView: 5,
        spaceBetween: 1,
        loop: true,
        autoplay: {
