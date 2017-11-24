@@ -39,11 +39,11 @@ $(function (){
     	if(i%2 == 1){
     		$(".swiper1").css("right", 0)   
     		$("#boxClick").css("background-image", "url(image/right.png)")
-    		$("#boxCover").css("opacity", "0")
+    		$("#boxCover").css("opacity", "0").css("z-index", 0)
     	} else if(i%2 ==0){
     		$(".swiper1").css("right", "-80%")
     		$("#boxCover").css("left", "30px")    	
-    		$("#boxCover").css("opacity", "1")    		
+    		$("#boxCover").css("opacity", "1").css("z-index", "99")   
     	}
     	i ++    	
     })
