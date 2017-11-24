@@ -163,9 +163,9 @@ body {
 	color: #FFFFFF;
 }
 #AGVProduct{
-	width: 30%;
+	width: 35%;
 	position: absolute;
-	left: 6.5%;
+	left: 5%;
 	top: 20%; 
 }
 .ForkliftDetails{
@@ -221,9 +221,9 @@ body {
 	color: #FFFFFF;
 }
 #ForkliftProduct{
-	width: 30%;
+	width: 40%;
 	position: absolute;
-	right: 6.5%;
+	right: 5%;
 	top: 20%;
 	transition: all 0.53s linear; 
 }
@@ -262,9 +262,9 @@ body {
 	color: #FFFFFF;
 }
 #YKProduct{
-	width: 30%;
+	width: 40%;
 	position: absolute;
-	left: 6.5%;
+	left: 5%;
 	top: 20%;
 	transition: all 0.53s linear; 
 }
@@ -350,8 +350,11 @@ body {
 	font-size: 24px;
 	transition: all 0.3s linear;
 }
-.swiper-wrapper{
+.swiperWrapper{
 	transition-timing-function: step-start!important;
+}
+.swiperWrapper1{
+	transition-timing-function: inherit!important;
 }
 @media (max-width: 1500px) {
 	#hrgLogo{
@@ -367,6 +370,9 @@ body {
 		width: 500px;
 		margin-left: 100px;
 		margin-top: 200px;
+	}
+	#AGVProduct, #ForkliftProduct, #YKProduct{
+		width: 30%;
 	}
 }
 @media (max-width: 1200px) {
