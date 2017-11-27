@@ -8,18 +8,20 @@
 $(function (){
 //  Initialize Swiper
     var swiper1 = new Swiper('.swiper1', {
-       slidesPerView: 5,
-       spaceBetween: 1,
-       loop: true,
-       autoplay: {
-        delay: 2000,
-        disableOnInteraction : false,
+        slidesPerView: 5,
+        spaceBetween: 1,
+        loop: true,
+        speed: 1250,
+        autoplay: {
+       		delay: 2500,
+        	disableOnInteraction : false,
       }
     });
 	var swiper2 = new Swiper('.swiper2', {
         direction: 'vertical',
         slidesPerView: 1,
         mousewheel: true,
+        speed: 300,
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
@@ -40,11 +42,16 @@ $(function (){
     		$(".swiper1").css("right", 0)   
     		$("#boxClick").css("background-image", "url(image/right.png)")
     		$("#boxCover").css("opacity", "0").css("z-index", 0)
+    		$(this).css("background-color", "#64aaff")
     	} else if(i%2 ==0){
     		$(".swiper1").css("right", "-80%")
-    		$("#boxCover").css("left", "30px")    	
-    		$("#boxCover").css("opacity", "1").css("z-index", "99")   
+    		$("#boxClick").css("background-image", "url(image/left.png)")
+    		$("#boxCover").css("left", "20px").css("opacity", "1").css("z-index", "99")
+    		$(this).css("background-color", "#468ef2")
     	}
     	i ++    	
     })
+    var viveHeight = $(".swiper-slide").height();
+    var scrollTop = $(window).scrollTop();
+    console.log(scrollTop)
 })
