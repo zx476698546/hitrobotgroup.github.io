@@ -11,7 +11,7 @@ $(function (){
         slidesPerView: 5,
         spaceBetween: 1,
         loop: true,
-        speed: 1250,
+        speed: 1000,
         autoplay: {
        		delay: 2500,
         	disableOnInteraction : false,
@@ -39,19 +39,16 @@ $(function (){
     var i = 1    
     $("#boxClick").on('click', function () {
     	if(i%2 == 1){
-    		$(".swiper1").css("right", 0)   
-    		$("#boxClick").css("background-image", "url(image/right.png)")
-    		$("#boxCover").css("opacity", "0").css("z-index", 0)
-    		$(this).css("background-color", "#64aaff")
-    	} else if(i%2 ==0){
-    		$(".swiper1").css("right", "-80%")
-    		$("#boxClick").css("background-image", "url(image/left.png)")
-    		$("#boxCover").css("left", "20px").css("opacity", "1").css("z-index", "99")
-    		$(this).css("background-color", "#468ef2")
-    	}
+    		$(".swiper1").css("right", 0);
+    		$("#boxClick").css("background-image", "url(image/right.png)");
+    		$("#boxCover").css("opacity", "0").css("z-index", 0);
+    		$(this).css("background-color", "#64aaff");
+    	} else if(i%2 == 0){
+    		$(".swiper1").css("right", "-80%");
+    		$("#boxClick").css("background-image", "url(image/left.png)");
+    		$("#boxCover").css("left", "20px").css("opacity", "1").css("z-index", "99");
+    		$(this).css("background-color", "#468ef2");
+    	};
     	i ++    	
-    })
-    var viveHeight = $(".swiper-slide").height();
-    var scrollTop = $(window).scrollTop();
-    console.log(scrollTop)
-})
+    });
+});
