@@ -352,9 +352,9 @@ body {
 	font-size: 24px;
 	transition: all 0.3s linear;
 }
-.swiperWrapper{
+/*.swiperWrapper{
 	transition-timing-function: step-start!important;
-}
+}*/
 .swiperWrapper1{
 	transition-timing-function: inherit!important;
 }
