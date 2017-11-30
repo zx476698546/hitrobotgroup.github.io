@@ -111,7 +111,7 @@ body {
 .content p{
 	width: 70%;
 	margin: 0 auto;
-	color: #848484;
+	color: #303030;
 	font-size: 18px; }
 .content_three_show{
 	width: 40%;
@@ -146,7 +146,7 @@ body {
 .table{
 	width: 70%;
 	margin: 5px auto;
-	color: #848484;
+	color: #393939;
 }
 .table tr td{
 	text-indent: 1em;
