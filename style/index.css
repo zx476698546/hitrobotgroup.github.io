@@ -10,7 +10,7 @@ ul, ol {
     list-style: none; }
 a {
     text-decoration: none;
-    color: #3B6DDE; 
+    color: #676767; 
     font-weight: 400;}
 .clear::after {
     content: ".";
@@ -123,23 +123,23 @@ body {
 	width: 660px;
 }
 #AGVNameE{
-	width: 400px;
+	width: 100%;
 }
 #AGVNameZ{
-	color: #3B6DDE;
-	font-size: 36px;
+	color: #676767;
+	font-size: 48px;
 	margin: 15px 0;
 }
 .AGVProfile{
 	display: inline-block;
-	color: #3B6DDE;
+	color: #676767;
 	font-size: 18px;
 	line-height: 60px;
 }
 .AGVProfiles{
 	text-indent: 2em;
-	color: #3B6DDE;
-	font-size: 24px;
+	color: #676767;
+	font-size: 18px;
 }
 #AGVMore{
 	width: 115px;
@@ -175,11 +175,11 @@ body {
 	background-repeat: no-repeat;
 }
 #ForkliftNameE{
-	width: 400px;
+	width: 100%;
 }
 #ForkliftNameZ{
 	color: #FFFFFF;
-	font-size: 36px;
+	font-size: 48px;
 	margin: 15px 0;
 }
 #ForkliftBox{
@@ -197,7 +197,7 @@ body {
 .ForkliftProfiles{
 	text-indent: 2em;
 	color: #FFFFFF;
-	font-size: 24px;
+	font-size: 18px;
 }
 #ForkliftMore{
 	width: 115px;
@@ -221,24 +221,24 @@ body {
 	color: #FFFFFF;
 }
 #ForkliftProduct{
-	width: 40%;
+	width: 37.5%;
 	position: absolute;
 	right: 5%;
-	top: 20%;
+	top: 12.5%;
 	transition: all 0.53s linear; 
 }
 #YKNameE{
-	width: 400px;
+	width: 100%;
 }
 #YKNameZ{
-	color: #3B6DDE;
-	font-size: 36px;
+	color: #676767;
+	font-size: 48px;
 	margin: 15px 0;
 }
 .YKProfile{
 	text-indent: 2em;
-	color: #3B6DDE;
-	font-size: 24px;
+	color: #676767;
+	font-size: 18px;
 }
 #YKMore{
 	width: 115px;
@@ -262,10 +262,10 @@ body {
 	color: #FFFFFF;
 }
 #YKProduct{
-	width: 40%;
+	width: 37.5%;
 	position: absolute;
 	left: 5%;
-	top: 20%;
+	top: 12.5%;
 	transition: all 0.53s linear; 
 }
 .indexBar{
@@ -373,8 +373,19 @@ body {
 		margin-left: 100px;
 		margin-top: 200px;
 	}
-	#AGVProduct, #ForkliftProduct, #YKProduct{
+	#AGVProduct{
 		width: 30%;
+		top: 25%;
+	}
+	#ForkliftProduct{
+		width: 35%;
+		top: 25%;
+		right: 2.5%;
+	}
+	#YKProduct{
+		width: 35%;
+		top: 25%;
+		left: 2.5%;
 	}
 }
 @media (max-width: 1200px) {
