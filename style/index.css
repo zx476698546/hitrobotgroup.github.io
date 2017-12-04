@@ -126,7 +126,7 @@ body {
 	width: 100%;
 }
 #AGVNameZ{
-	color: #676767;
+	color: #000000;
 	font-size: 48px;
 	margin: 15px 0;
 }
@@ -237,7 +237,7 @@ body {
 	width: 100%;
 }
 #YKNameZ{
-	color: #676767;
+	color: #000000;
 	font-size: 48px;
 	margin: 15px 0;
 }
@@ -284,13 +284,16 @@ body {
 }
 #pdfClick{
 	width: 130px;
-	height: 95px;
-	background: #FFFFFF;
+	height: 50px;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+	border-right: 2px solid #4184e2;
 	text-align: left;
-	line-height: 95px;
+	line-height: 50px;
 	font-weight: 600;
 	color: #3B6DDE;
 	position: absolute;
+	top: 22.5px;
 	background-image: url(../image/right.png);
 	background-size: 17.5%;
 	background-position: right;
@@ -302,7 +305,7 @@ body {
 	float: left;
 	margin-left: 10px;
 	background-image: url(../image/pdfLogo.png);
-	background-size: 80%;
+	background-size: 75%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
