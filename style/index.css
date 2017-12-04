@@ -168,6 +168,12 @@ body {
 	left: 5%;
 	top: 20%; 
 }
+.AGVDetails, .shandong{
+	background-image: url(../image/agvbg.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .ForkliftDetails{
 	background-image: url(../image/indexPart3.jpg);
 	background-position: center center;
@@ -267,6 +273,38 @@ body {
 	left: 5%;
 	top: 12.5%;
 	transition: all 0.53s linear; 
+}
+#pdf{
+	width: 130px;
+	height: 95px;
+	margin-top: 15px;
+	overflow: hidden;
+	position: relative;
+	transition: all linear 0.5s;  
+}
+#pdfClick{
+	width: 130px;
+	height: 95px;
+	background: #FFFFFF;
+	text-align: left;
+	line-height: 95px;
+	font-weight: 600;
+	color: #3B6DDE;
+	position: absolute;
+	background-image: url(../image/right.png);
+	background-size: 17.5%;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+#pdf li{
+	width: 95px;
+	height: 95px;
+	float: left;
+	margin-left: 10px;
+	background-image: url(../image/pdfLogo.png);
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 .indexBar{
     width: 50px;
@@ -409,6 +447,9 @@ body {
 		top: 58%;
 		left: calc(50% - 165px);
 	}
+	.AGVDetails, .shandong{
+		background-image: none;
+	}
 	.swiper1{
 		display: none;
 	}
@@ -433,6 +474,9 @@ body {
 		left: calc(50% - 200px);
 	}
 	.swiper1{
+		display: none;
+	}
+	#pdf{
 		display: none;
 	}
 }

@@ -51,4 +51,14 @@ $(function (){
     	};
     	i ++    	
     });
+    $("#pdfClick").on('click', function () {
+    	if(i%2 == 1){  
+	    	$("#pdf").css("width", "100%");
+	    	$(this).text(" ").css("width", "30px").css("background-image", "url(image/left.png)").css("background-size", "75%").css("right", 0)
+    	} else if(i%2 == 0){ 
+	    	$("#pdf").css("width", "130px");
+	    	$(this).text("查看PDF文件").css("width", "130px").css("background-image", "url(image/right.png)").css("background-size", "17.5%")	
+    	};
+    	i ++ 
+    })
 });
