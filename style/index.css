@@ -590,7 +590,7 @@ body {
 		display: none;
 	}
 	#test{
-		display: block;
+		display: block!important;
 	}
 }
 
