@@ -573,7 +573,7 @@ body {
 	#AGVBox, #YKBox, #ForkliftBox{
 		width: 300px!important;
 		left: calc(50% - 150px)!important;
-		top: 15px!important;
+		top: 50px!important;
 	}
 	#AGVProduct, #ForkliftProduct, #YKProduct{
 		width: 250px;
@@ -588,6 +588,9 @@ body {
 	}
 	.swiper1{
 		display: none;
+	}
+	#test{
+		display: block;
 	}
 }
 
