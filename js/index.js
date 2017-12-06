@@ -64,10 +64,10 @@ $(function (){
     $("#wordClick").on('click', function () {
     	if(i%2 == 1){  
 	    	$("#word").css("width", "100%");
-	    	$(this).text(" ").css("width", "20px").css("background-image", "url(image/left.png)").css("background-size", "90%").css("right", 0).css("border", "none").css("border-left", "2px solid #4184e2")
+	    	$(this).text(" ").css("width", "20px").css("background-image", "url(image/left.png)").css("background-size", "90%").css("right", 0)
     	} else if(i%2 == 0){ 
 	    	$("#word").css("width", "80px");
-	    	$(this).text("查看文档").css("width", "80px").css("background-image", "url(image/right.png)").css("background-size", "17.5%").css("border", "none").css("border-right", "2px solid #4184e2")	
+	    	$(this).text("查看文档").css("width", "80px").css("background-image", "url(image/right.png)").css("background-size", "17.5%")
     	};
     	i ++ 
     })
