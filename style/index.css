@@ -309,6 +309,42 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+#word{
+	width: 80px;
+	height: 30px;
+	margin-top: 1px;
+	overflow: hidden;
+	position: relative;
+	transition: all linear 0.5s;  
+	display: none;
+}
+#word li{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 15px;
+	background-image: url(../image/word.png);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#wordClick{
+	width: 80px;
+	height: 30px;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+	border-right: 2px solid #4184e2;
+	text-align: left;
+	line-height: 30px;
+	color: #3B6DDE;
+	position: absolute;
+	top: 0;
+	font-size: 14px;
+	background-image: url(../image/right.png);
+	background-size: 20%;
+	background-position: right;
+	background-repeat: no-repeat;
+}
 .indexBar{
     width: 50px;
     height: 20px;
@@ -591,6 +627,9 @@ body {
 	}
 	#test{
 		display: block!important;
+	}
+	#word{
+		display: block;
 	}
 }
 
