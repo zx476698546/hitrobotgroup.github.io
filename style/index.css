@@ -284,16 +284,14 @@ body {
 }
 #pdfClick{
 	width: 130px;
-	height: 50px;
+	height: 95px;
 	background-color: #FFFFFF;
-	box-sizing: border-box;
-	border-right: 2px solid #4184e2;
 	text-align: left;
-	line-height: 50px;
+	line-height: 95px;
+	box-sizing: border-box;
 	font-weight: 600;
 	color: #3B6DDE;
 	position: absolute;
-	top: 22.5px;
 	background-image: url(../image/right.png);
 	background-size: 17.5%;
 	background-position: right;
@@ -308,6 +306,20 @@ body {
 	background-size: 75%;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+#pdfName{
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	color: #676767;
+}
+#wordName{	
+	height: 20px;
+	line-height: 20px;
+	color: #676767;
+	display: none;
+	font-size: 12px;
 }
 #word{
 	width: 80px;
@@ -333,6 +345,7 @@ body {
 	height: 30px;
 	background-color: #FFFFFF;
 	text-align: left;
+	box-sizing: border-box;
 	line-height: 30px;
 	color: #3B6DDE;
 	position: absolute;
@@ -490,6 +503,9 @@ body {
 	.swiper1{
 		display: none;
 	}
+	#pdf{
+		display: none;
+	}
 }
 @media (max-width: 980px) {
 	#box{	
@@ -517,9 +533,6 @@ body {
 		left: calc(50% - 150px);
 	}
 	.swiper1{
-		display: none;
-	}
-	#pdf{
 		display: none;
 	}
 }
@@ -615,9 +628,14 @@ body {
 		left: calc(50% - 150px)!important;
 		top: 50px!important;
 	}
-	#AGVProduct, #ForkliftProduct, #YKProduct{
+	#AGVProduct, #ForkliftProduct{
 		width: 250px;
 		top: 275px!important;
+		left: calc(50% - 125px)!important;
+	}
+	#YKProduct{
+		width: 250px;
+		top: 290px!important;
 		left: calc(50% - 125px)!important;
 	}
 	.indexBar{
@@ -633,6 +651,9 @@ body {
 		display: block!important;
 	}
 	#word{
+		display: block;
+	}
+	#wordName{
 		display: block;
 	}
 }
