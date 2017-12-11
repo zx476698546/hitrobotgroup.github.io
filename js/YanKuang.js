@@ -11,18 +11,18 @@ $(function(){
           clickable: true,
         },
     });
-    $(".move").on('mouseover', function () {
+    $(".js").on('mouseover', function () {
     	$("#structure").css("right", "50%")
     })
-    $(".move").on('mouseout', function () {
+    $(".js").on('mouseout', function () {
     	$("#structure").css("right", "20%")
     })
     var width = $(window).width();
     if (width <= 414) {    	
-	    $(".move").on('mouseover', function () {
+	    $(".js").on('mouseover', function () {
 	    	$("#structure").css("right", "30%")
 	    })
-	    $(".move").on('mouseout', function () {
+	    $(".js").on('mouseout', function () {
 	    	$("#structure").css("right", "5%")
 	    })
     }
