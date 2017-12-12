@@ -65,7 +65,7 @@ $(function(){
 //  	$("#title_content").text('登录');
     })
      $(".clickagv14").on('click', function () {
-    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/AGV-14.png)");
+    	$("#display_pictures").css("display", "block").css("height", screenHeight).css("background-image", "url(image/forklifton.png)");
 //  	$("#title_content").text('登录');
     })       
     $(".clickagv15").on('click', function () {
