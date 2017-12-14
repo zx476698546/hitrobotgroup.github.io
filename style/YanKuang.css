@@ -148,14 +148,6 @@ body {
 td{
 	background: #eeeeee;
 }
-#structure{
-	display: block;
-	width: 10%;
-	position: absolute;
-	right: 15%;
-	top: 10%;
-	transition:all 1s linear;
-}
 #detailed li{
 	width: 30%;
 	height: 250px;
@@ -242,10 +234,6 @@ td{
 	font-weight: normal;	
 	font-size: 14px;
 	line-height: 25px;
-}
-#video_add{
-	width: 70%;
-	margin: 1% auto;
 }
 .p1{
 	padding: 1% 0;
@@ -427,9 +415,6 @@ td{
 	#product{
 		display: none;
 	}
-	#structure{
-		display: none;
-	}
 	#detailed, #detailed_text{
 		width: 97.5%;
 	}
@@ -442,9 +427,6 @@ td{
 	.detailed_text_p{
 		line-height: 15px;
 		font-size: 12px;
-	}
-	#video_add{
-		width: 97.5%;
 	}
 	.p1{
 		line-height: 17.5px!important;
