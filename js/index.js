@@ -106,7 +106,7 @@ $(function (){
     $(".word4").on('mouseover', function () {
     	$("#wordName").text("自动导引车通用技术条件")
     }) 
-    $(".pword5").on('mouseover', function () {
+    $(".word5").on('mouseover', function () {
     	$("#wordName").text("自动导引车(AGV)设计通则")
     }) 
     $(".word6").on('mouseover', function () {
