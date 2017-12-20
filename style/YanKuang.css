@@ -458,10 +458,14 @@ td{
 	.js p{
 		width: 90%;
 		font-size: 14px;
+		text-indent: 0;
 	}
 	.js h3{
 		width: 95%;
 		font-size: 16px;
+	}
+	.indent p{
+		text-indent: 2em;		
 	}
 	.forklift{
 		width: 50%;
