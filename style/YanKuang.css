@@ -225,15 +225,21 @@ td{
 .introduce3{
 	background-image: url(../image/introduce3.png);
 }
+.introduce4{
+	background-image: url(../image/introduce4.png);
+}
+.introduce5{
+	background-image: url(../image/introduce5.png);
+}
 #detailed_text li{
 	width: 30%;
 	float: left;
 	margin-left: 2.5%;
 }
 .detailed_text_p{
-	font-weight: normal;	
-	font-size: 14px;
-	line-height: 25px;
+	font-weight: normal!important;	
+	font-size: 14px!important;
+	line-height: 25px!important;
 }
 .p1{
 	padding: 1% 0;
@@ -425,8 +431,8 @@ td{
 		margin-top: 0!important;
 	}
 	.detailed_text_p{
-		line-height: 15px;
-		font-size: 12px;
+		line-height: 15px!important;
+		font-size: 12px!important;
 	}
 	.p1{
 		line-height: 17.5px!important;
