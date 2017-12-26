@@ -331,6 +331,9 @@ td{
 	background-position: center;
 	background-repeat: no-repeat;
 }
+.blockword{
+	display: none;
+}
 @media only screen and (max-width: 1000px) {
 	#hrgLogo{
 		width: 220px;
@@ -477,5 +480,11 @@ td{
 	}
 	.introduce_p{
 		text-indent: 0!important;
+	}
+	.blockpdf{
+		display: none;
+	}
+	.blockword{
+		display: block;
 	}
 }
