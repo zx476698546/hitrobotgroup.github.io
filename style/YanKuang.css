@@ -258,7 +258,7 @@ td{
     height: 20px;
     position: absolute;
     right: 20px;
-    top: calc(50% - 130px);
+    top: calc(50% - 140px);
     z-index: 999;
     background-image: url(../image/icon.png);
     background-position: center;
@@ -333,6 +333,28 @@ td{
 }
 .blockword{
 	display: none;
+}
+.SketchMap1{
+	width: 70%;
+	margin: 10px auto;
+}
+.SketchMap1 li{
+	width: 47.5%;
+	height: 100%;
+	float: left;
+	border: 1px solid #CCCCCC;
+	box-sizing: border-box;
+}
+.SketchMap2{
+	width: 70%;
+	margin: 10px auto;
+}
+.SketchMap2 li{
+	width: 30%;
+	height: 100%;
+	float: left;
+	border: 1px solid #CCCCCC;
+	box-sizing: border-box;
 }
 @media only screen and (max-width: 1000px) {
 	#hrgLogo{
@@ -486,5 +508,8 @@ td{
 	}
 	.blockword{
 		display: block;
+	}
+	.SketchMap1, .SketchMap2{
+		width: 95%;
 	}
 }
