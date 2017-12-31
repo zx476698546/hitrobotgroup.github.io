@@ -1,0 +1,596 @@
+html, body, div, nav, section, footer, p, h1, h2, h3, h4, h5, h6, span, img, a, ul, li, ol, dl, dd,
+dt, table, th, tr, td, form, input, select, option, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    vertical-align: top; }
+ul, ol {
+    list-style: none; }
+a {
+    text-decoration: none;
+    color: #3B6DDE; 
+    font-weight: 600;}
+.clear::after {
+    content: ".";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both; }
+.clear {
+    *zoom: 1; }
+/*Collective declaration*/
+html, body {
+    height: 100%;
+}
+body {
+   	font-family: "微软雅黑";
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #303030;
+}
+#hrgLogo{
+	display: block;
+	width: 326px;
+	height: 41px;
+	margin: 0 auto;
+	margin-top: 50%;
+/*	top: calc(50% - 20.5px);*/
+}
+#forklift_logo{
+	display: block;
+	width: 326px;
+/*	height: 41px;*/
+	margin: 0 auto;
+	margin-top: 30%;
+}
+#agv_title{
+	color: #5a5858;
+	width: 100%;
+	height: 80px;
+	display: block;
+	font-size: 21px;
+	text-align: center;
+	line-height: 80px;
+	position: absolute;
+	left: 0;
+	top: 700px;	 
+	overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+#agv_text{
+	color: #5a5858;
+	width: 100%;
+	height: 80px;
+	display: block;
+	font-size: 12px;
+	text-align: center;
+	line-height: 80px;
+	position: absolute;
+	left: 0;
+	top: 630px;	}
+.parts{
+	width: 70%;
+	margin: 0 auto;
+	height: 200px;
+	position: relative;
+}
+.part_1{
+	width: 50%;
+	height: 200px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+		
+}
+.part_2{
+	width: 50%;
+	height: 200px;
+	background: #ccc;
+	position: absolute;
+	right: 0;
+	top: 0;
+		
+}
+.part_21{
+	width: 50%;
+	height: 200px;;
+	background: #00f;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.part_21 li{
+	width: 100%;
+	height: 50%;
+	border: 1px solid #000;
+	box-sizing: border-box;
+}
+.part_22{
+	width: 50%;
+	height: 200px;
+	background: #0f0;
+	position: absolute;
+	right: 0;
+	top: 0;
+		
+}
+.part_22 li{
+	width: 100%;
+	height: 50%;
+	border: 1px solid #000;
+	box-sizing: border-box;
+		
+}
+.assembly_1{
+	width: 10%;
+	position: absolute;
+	top: 37%;
+	left: 10%;
+}
+.assembly_2{
+	width: 10%;
+	position: absolute;
+	top: 28%;
+	left: 80%;
+}
+.assembly_3{
+	width: 15%;
+	position: absolute;
+	top: 55%;
+	left: 10%;
+}
+.assembly_4{
+	width: 10%;
+	position: absolute;
+	top: 50%;
+	left: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#product{
+	width: 20%;
+	margin: 0 auto;
+	transition:all 1s linear;
+}
+#product:hover{
+	width: 25%;
+}
+.title{
+	width: 130px;
+	height: 60px;
+	position: absolute;
+	left: 450px;
+	top: 40px;
+}
+.introduce h2{
+	width: 170px;
+	height: 40px;
+	line-height: 40px;
+	background: #4284e2;
+	margin-left: 15%;
+	margin-top: 5%;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+#detailed, #detailed_text{
+	width: 70%;
+	margin: 0 auto;
+}
+.Color{
+	display: inline-block;
+	width: 40px;
+	height: 100%;
+	background: #434343;
+	margin-left: 0;
+	margin-right: 10px;
+	background-image: url(../image/down.png);
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.introduce h3{
+	width: 190px;
+	height: 40px;
+	line-height: 40px;
+	background: #4284e2;
+	margin-left: 15%;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.introduce_p{
+	width: 70%;
+	margin: 0 auto;
+	font-size: 16px;
+	padding-top: 10px;
+	text-indent: 1em;
+}
+.table{
+	width: 70%;
+	margin: 0 auto;
+	text-indent: 1em;
+}
+td{
+	background: #eeeeee;
+}
+#detailed li{
+	width: 30%;
+	height: 250px;
+	float: left;
+	margin-left: 2.5%;
+	margin-top: 12.5px;
+	border: 1px solid #999999;
+	box-sizing: border-box;
+	background-position: center center; 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	border-radius: 3px;
+}
+.shadow{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	transition:all 0.3s linear;
+	position: absolute;
+	left: -100%;
+	top: 0;
+}
+.shadow1{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	transition:all 0.3s linear;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: -100%;
+}
+.shadow2{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	transition:all 0.3s linear;
+	position: absolute;
+	right: -100%;
+	top: 0;
+}
+.shadow_title{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: center;
+	display: inline-block;
+	transition:all 0.5s linear;
+	position: absolute;
+	top: calc(50% - 15px);
+	left: 0;
+}
+#detailed li:hover .shadow{
+	left: 0;	
+}
+#detailed li:hover .shadow1{
+	top: 0;
+}
+#detailed li:hover .shadow2{
+	right: 0;	
+}
+.introduce1{
+	background-image: url(../image/introduce1.png);
+}
+.introduce2{
+	background-image: url(../image/introduce2.png);
+}
+.introduce3{
+	background-image: url(../image/introduce3.png);
+}
+.introduce4{
+	background-image: url(../image/introduce4.png);
+}
+.introduce5{
+	background-image: url(../image/introduce5.png);
+}
+#detailed_text li{
+	width: 30%;
+	float: left;
+	margin-left: 2.5%;
+}
+.detailed_text_p{
+	font-weight: normal!important;	
+	font-size: 14px!important;
+	line-height: 25px!important;
+}
+.p1{
+	padding: 1% 0;
+	line-height: 25px;
+}
+.Design{
+	margin-top: 10%;
+}
+td{
+	width: 50%;
+	border: 1px solid #e3e3e3;
+	box-sizing: border-box;
+}
+.indexBar{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 140px);
+    z-index: 999;
+    background-image: url(../image/icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.indexBar:hover{	
+    background-image: url(../image/icon_hover.png);
+}
+.swiper-pagination{
+	right: 40px!important;
+}
+.swiper-pagination-bullet{
+	width: 10px;
+	height: 10px;
+	margin: 10px 0!important;
+	background: #dcdcdc;
+	opacity: 1;
+}
+.swiper-pagination-bullet-active{
+	background: #007AFF;
+}
+.catalog{
+	width: 100%;
+	text-align: center;
+	margin: 2.5% 0;
+	margin-top: 5%;
+	font-size: 36px;
+	font-weight: normal;
+}
+.ZDCatalog p{
+	width: 55%;
+	margin: 0 auto;
+	font-size: 22px;
+	margin-top: 5px;
+}
+.js p{
+	width: 65%;
+	margin: 0 auto;
+	font-size: 20px;
+	text-indent: 2em;
+}
+.center{
+	width: 250px;
+	margin-left: 15%;
+	font-size: 14px;
+	height: 24px;
+	line-height: 24px;
+	color: #FFFFFF;
+	background: #4284e2;
+	font-weight: normal;
+}
+.js h3{
+	width: 65%;
+	margin: 0 auto;
+	padding: 2.5px 0;
+}
+.forklift{
+	width: 30%;
+	margin: 20px auto;
+}
+.Color{
+	display: inline-block;
+	width: 24px;
+	height: 100%;
+	background: #434343;
+	margin-left: 0;
+	margin-right: 10px;
+	background-image: url(../image/down.png);
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.blockword{
+	display: none;
+}
+.SketchMap1{
+	width: 70%;
+	margin: 10px auto;
+}
+.SketchMap1 li{
+	width: 47.5%;
+	height: 100%;
+	float: left;
+	border: 1px solid #CCCCCC;
+	box-sizing: border-box;
+}
+.SketchMap2{
+	width: 70%;
+	margin: 10px auto;
+}
+.SketchMap2 li{
+	width: 30%;
+	height: 100%;
+	float: left;
+	border: 1px solid #CCCCCC;
+	box-sizing: border-box;
+}
+/*
+@media only screen and (max-width: 1000px) {
+	#hrgLogo{
+		width: 220px;
+		margin-left: 20px;
+		margin-top: 30px;
+	}	
+	#agv_logo{
+		width: 35%;
+		left: 32.5%;
+	}
+	.title{
+		left: 300px;
+		top: 30px;
+		width: 110px;
+	}
+}
+@media only screen and (max-width: 680px) {
+	#hrgLogo{
+		width: 180px;
+		margin-left: 15px;
+		margin-top: 25px;
+	}
+	#agv_logo{
+		width: 50%;
+		left: 25%;
+		top: 130px;}
+	.title{
+		left: 250px;
+		top: 30px;
+		width: 90px;
+	}
+}
+@media only screen and (max-width: 415px) {
+	#hrgLogo{
+		width: 159px!important;
+		height: 20px!important;
+		margin-top: 20px!important;
+		margin-left: 10px!important;
+	}
+	#agv_title{
+		height: 60px;
+		font-size: 26px;
+		line-height: 60px;
+		top: 300px; }
+	#agv_English_title{
+		font-size: 14px;
+		top: 350px; }
+	#agv_text{
+		font-size: 26px;
+		top: 370px; }
+	.title{
+		left: 200px;
+		top: 20px;
+		width: 70px;
+	}
+	.introduce h2{
+		width: 100%;
+		height: 25px; 
+		line-height: 25px;
+		background: #4284e2;
+		font-size: 16px;
+		margin-left: 0;
+		margin-top: 25px;
+	}
+	.Color{
+		width: 25px;
+		height: 25px;
+	}
+	.introduce h3{
+		width: 100%;
+		height: 25px;
+		margin-left: 0;
+		line-height: 25px;
+		font-size: 14px;
+	}
+	.introduce_p{
+		width: 97.5%;
+		margin: 0 auto;
+		font-size: 12px;
+		padding-top: 0;
+	}
+	.table{
+		width: 97.5%;
+		font-size: 10px;
+		text-indent: 0;
+	}
+	#product{
+		display: none;
+	}
+	#detailed, #detailed_text{
+		width: 97.5%;
+	}
+	#detailed li{
+		height: 100px;
+	}
+	.Design{
+		margin-top: 0!important;
+	}
+	.detailed_text_p{
+		line-height: 15px!important;
+		font-size: 12px!important;
+	}
+	.p1{
+		line-height: 17.5px!important;
+	}	
+	.indexBar{
+	    right: 0;
+	}
+	.swiper-pagination{
+		right: 20px!important;
+	}
+	.catalog{
+		margin: 2.5% 0;
+		margin-top: 5%;
+		font-size: 22px;
+	}
+	.ZDCatalog p{
+		width: 70%;
+		margin: 0 auto;
+		font-size: 16px;
+		margin-top: 5px;
+	}
+	.center{
+		width: 100%;
+		height: 25px;
+		line-height: 25px;
+		font-size: 14px;
+		margin: 0;
+	}
+	.js p{
+		width: 90%;
+		font-size: 14px;
+		text-indent: 0;
+	}
+	.js h3{
+		width: 95%;
+		font-size: 16px;
+	}
+	.indent p{
+		text-indent: 2em;		
+	}
+	.forklift{
+		width: 50%;
+	}
+	.introduce_p{
+		text-indent: 0!important;
+	}
+	.blockpdf{
+		display: none;
+	}
+	.blockword{
+		display: block;
+	}
+	.SketchMap1, .SketchMap2{
+		width: 95%;
+	}
+}*/
