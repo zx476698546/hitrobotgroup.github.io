@@ -73,12 +73,14 @@ body {
 	text-align: center;
 }
 .center{
-	position: absolute;
+	/*position: absolute;*/
 	width: 20%;
 	max-width: 250px;
-	top: 10%;
-	left: 50%;
-	transform: translate(-150%,-50%);
+	margin-top: 10%;
+	margin-left: 15%;
+	/*top: 10%;*/
+	/*left: 50%;*/
+	/*transform: translate(-150%,-50%);*/
 	font-size: 14px;
 	height: 24px;
 	line-height: 24px;
@@ -95,12 +97,12 @@ body {
 	max-width: 600px;
 	left: 50%;
 	transform: translate(-50%,0%);
-	height: 200px;
+	margin-top: 15px;
 	position: relative;
 }
 .part_1{
 	width: 50%;
-	height: 200px;
+	/*height: 200px;*/
 	text-align: center;
 	position: absolute;
 	left: 0;
@@ -109,27 +111,35 @@ body {
 }
 .part_2{
 	width: 50%;
-	height: 200px;
+	/*height: 200px;*/
 	position: absolute;
 	right: 0;
 	top: 0;
 		
 }
 .part_21{
-	width: 50%;
-	height: 200px;;
+	width: 40%;
+	margin-left: 5%;
+	/*height: 200px;*/
 	position: absolute;
 	left: 0;
 	top: 0;
 }
 .part_21 li{
 	width: 100%;
-	height: 50%;
 	box-sizing: border-box;
+	text-align: center;
+}
+.part_21 li p{
+	font-size: 12px;
+}
+.part_22 li p{
+	font-size: 12px;
 }
 .part_22{
-	width: 50%;
-	height: 200px;
+	width: 40%;
+	margin-left: 10%;	
+	/*height: 200px;*/
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -139,6 +149,7 @@ body {
 	width: 100%;
 	height: 50%;
 	box-sizing: border-box;
+	text-align: center;
 		
 }
 .assembly_1{
@@ -191,7 +202,7 @@ body {
 	left: 450px;
 	top: 40px;
 }
-.introduce h2{
+/*.introduce h2{
 	width: 170px;
 	height: 40px;
 	line-height: 40px;
@@ -200,7 +211,7 @@ body {
 	margin-top: 5%;
 	color: #FFFFFF;
 	font-size: 18px;
-}
+}*/
 #detailed, #detailed_text{
 	width: 70%;
 	margin: 0 auto;
