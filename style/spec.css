@@ -75,7 +75,7 @@ body {
 .center{
 	width: 40%;
 	max-width: 250px;
-	margin-top: 5%;
+	margin-top: 10%;
 	margin-left: 15%;
 	font-size: 14px;
 	height: 24px;
@@ -89,7 +89,7 @@ body {
 	max-width: 600px;
 	left: 50%;
 	transform: translate(-50%,0%);
-	margin-top: 15px;
+	margin-top: 70px;
 	position: relative;
 }
 .part_1{
@@ -139,72 +139,82 @@ body {
 .assembly_1{
 	width: 10%;
 	position: absolute;
-	top: 16%;
-	left: 12%;
+	top: 19%;
+	left: 8%;
 	text-align: left;
+	font-size: 12px;
 }
 .assembly_2{
 	width: 10%;
 	position: absolute;
-	top: 4%;
-	left: 80%;
+	top: 9%;
+	left: 85%;
 	text-align: left;
+	font-size: 12px;
 }
 .assembly_3{
 	width: 15%;
 	position: absolute;
-	top: 36.5%;
-	left: 12%;
+	top: 35%;
+	left: 8%;
 	text-align: left;
+	font-size: 12px;
 }
 .assembly_4{
 	width: 10%;
 	position: absolute;
 	top: 31%;
-	left: 80%;
+	left: 85%;
 	text-align: left;
+	font-size: 12px;
 }
 .assembly_5{
-	width: 15%;
+	width: 25%;
 	position: absolute;
 	top: -4%;
-	left: 12%;
+	left: 8%;
 	text-align: left;
+	font-size: 12px;
 }
 .assembly_6{
 	width: 10%;
 	position: absolute;
 	top: -4%;
-	left: 80%;
+	left: 85%;
 	text-align: left;
+	font-size: 12px;
 }
 .assembly_7{
 	width: 15%;
 	position: absolute;
-	top: 30%;
-	left: 12%;
+	top: 20%;
+	left: 8%;
 	text-align: left;
+	font-size: 12px;
 }
 .assembly_8{
 	width: 10%;
 	position: absolute;
-	top: 30%;
-	left: 80%;
+	top: 20%;
+	left: 85%;
 	text-align: left;
+	font-size: 12px;
 }
 .assembly_11{
-	width: 10%;
+	width: 15%;
 	position: absolute;
-	top: 60%;
-	left: 80%;
+	top: 48%;
+	left: 8%;
 	text-align: left;
+	font-size: 12px;
 }
 .assembly_22{
-	width: 10%;
+	width: 25%;
 	position: absolute;
-	top: 60%;
-	left: 80%;
+	top: 92%;
+	left: 8%;
 	text-align: left;
+	font-size: 12px;
 }
 .Color{
 	display: inline-block;
@@ -221,18 +231,20 @@ body {
 #detailed{
 	width: 80%;
 	margin: 0 auto;
+	position: absolute;
+	left: -5%;
+	bottom: 25%;
 	text-align: center;
 }
 .detailed{
 	display: block;
-	width: 15%;
+	width: 22.5%;
 	margin: 10px auto;
 }
 .table{
 	width: 70%;
 	margin: 0 auto;
-	font-size: 14px;
-	text-indent: 1em;
+	font-size: 12px;
 }
 td{
 	background: #eeeeee;
@@ -240,20 +252,14 @@ td{
 .Text_style p{
 	width: 70%;
 	margin: 0 auto;
-	font-size: 14px;
-	text-indent: 2em;
-}
-.Text_style h5{	
-	width: 70%;
-	text-indent: 1em;
-	margin: 0 auto;
+	font-size: 12px;
 }
 .indexBar{
     width: 50px;
     height: 20px;
     position: absolute;
     right: 20px;
-    top: calc(50% - 140px);
+    top: calc(50% - 100px);
     z-index: 999;
     background-image: url(../image/icon.png);
     background-position: center;
