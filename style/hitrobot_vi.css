@@ -38,7 +38,7 @@ html, body {
     height: 20px;
     position: absolute;
     right: 20px;
-    top: calc(50% - 210px);
+    top: calc(50% - 300px);
     z-index: 999;
     background-image: url(../image/icon.png);
     background-position: center;
@@ -48,9 +48,9 @@ html, body {
     background-image: url(../image/icon_hover.png);
 }
 .swiper-pagination-bullet{
-	width: 10px;
-	height: 10px;
-	margin: 10px 0!important;
+	width: 5px;
+	height: 5px;
+	margin: 5px 0!important;
 	background: #dcdcdc;
 	opacity: 1;
 }
@@ -58,7 +58,7 @@ html, body {
 	background: #007AFF;
 }
 .overall_layout p{
-	width: 50%;
+	width: 65%;
 	margin: 0 auto;
 	font-size: 14px;
 	color: #515152;
