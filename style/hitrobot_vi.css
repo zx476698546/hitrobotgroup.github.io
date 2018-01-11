@@ -63,3 +63,13 @@ html, body {
 	font-size: 14px;
 	color: #515152;
 }
+.nav_global_style{
+	width: 70%;
+	margin: 0 auto; 
+	margin-top: 7.5%; 
+	text-align: center;
+}
+.p_global_style{
+	font-size: 18px!important; 
+	margin-top: 20px!important;
+}
