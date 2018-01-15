@@ -49,7 +49,7 @@ html, body {
     height: 20px;
     position: absolute;
     right: 20px;
-    top: calc(50% - 50px);
+    top: calc(50% - 70px);
     z-index: 999;
     background-image: url(../image/icon.png);
     background-position: center;
