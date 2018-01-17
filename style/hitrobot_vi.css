@@ -21,6 +21,7 @@ a {
     *zoom: 1; }
 /*Collective declaration*/
 html, body {
+	width: 100%;
     height: 100%;
     font-family: "微软雅黑";
 	font-size: 62.5%;
@@ -50,7 +51,7 @@ html, body {
     height: 20px;
     position: absolute;
     right: 20px;
-    top: calc(50% - 70px);
+    top: calc(50% - 75px);
     z-index: 999;
     background-image: url(../image/icon.png);
     background-position: center;
@@ -72,8 +73,8 @@ html, body {
 .overall_layout p{
 	width: 61%;
 	margin: 0 auto;
-	font-size: 12px;
-	font-size: 1.2rem;
+	font-size: 14px;
+	font-size: 1.4rem;
 	color: #515152;
 }
 .nav_global_style{
@@ -152,6 +153,15 @@ html, body {
 .OverallSituation_3_1_1{
 	width: 100%;
 	height: 400px;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
 }
 @media (max-width: 415px) {
 	.nav_global_style{
