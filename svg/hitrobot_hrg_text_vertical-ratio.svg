@@ -22,9 +22,9 @@
 <title>hitrobot_hrg_English_chinese_logo_ash</title>
 <g id="图层_2">
 	<g id="图层_1-2">
-		<text transform="matrix(0.95 0 0 1 59.9629 376.2206)" class="st0 st1 st2">■</text>
+		<text transform="matrix(0.95 0 0 1 53.0462 376.2206)" class="st0 st1 st2">■</text>
 		<text transform="matrix(0.95 0 0 1 93.6572 376.2201)" class="st3 st1 st4"> </text>
-		<text transform="matrix(0.95 0 0 1 94.9873 377.3226)" class="st3 st5 st4">标准字体制图</text>
+		<text transform="matrix(0.95 0 0 1 76.3206 375.8034)" class="st3 st5 st4">标准字体制图</text>
 		<path class="st6" d="M86.6,69.3h7.5v20.2H92v-2h-3.4v2.4h-2V69.3z M92,85.5V71.2h-3.4v14.3H92z M105.5,66l-0.5,0.8
 			c2.2,4.1,5,7,8.3,8.6c-0.5,0.7-1.1,1.3-1.6,2c-3.3-2.2-6-5.2-7.9-8.7c-2,3.5-4.7,6.5-8,8.9c-0.5-0.6-0.9-1.2-1.5-1.8
 			c3.7-2.4,6.6-5.8,8.5-9.8H105.5z M97,82.1h13.4v11.7h-2.2v-1.7h-9.1v1.7H97V82.1z M98.1,76.4h11.4v2H98.1V76.4z M108.2,90.1V84
@@ -340,19 +340,18 @@
 		<line class="st10" x1="61.6" y1="66" x2="38" y2="66"/>
 		<line class="st10" x1="61.6" y1="61.3" x2="38" y2="61.3"/>
 		<line class="st10" x1="61.6" y1="56.5" x2="38" y2="56.5"/>
-		<line class="st11" x1="113.3" y1="8.5" x2="85.2" y2="8.5"/>
-		<line class="st11" x1="113.3" y1="26" x2="113.3" y2="0.2"/>
-		<line class="st11" x1="85.2" y1="26.5" x2="85.2" y2="0.7"/>
-		<rect x="93" y="0" class="st12" width="14" height="27.3"/>
+		<line class="st11" x1="113.3" y1="21.7" x2="85.2" y2="21.7"/>
+		<line class="st11" x1="113.3" y1="26.3" x2="113.3" y2="16.5"/>
+		<line class="st11" x1="85.2" y1="26.5" x2="85.2" y2="16.7"/>
 		<line class="st11" x1="203.6" y1="66" x2="203.6" y2="324.5"/>
 		<line class="st11" x1="212" y1="325.5" x2="181" y2="325.5"/>
 		<line class="st11" x1="212" y1="66" x2="181" y2="66"/>
-		<rect x="194.3" y="177.5" class="st12" width="17.3" height="28.2"/>
-		<text transform="matrix(6.123234e-17 1 -1 6.123234e-17 202 186.22)" class="st3 st1 st13">10.5A</text>
+		<rect x="194.3" y="161.5" class="st12" width="17.3" height="44.6"/>
+		<text transform="matrix(6.123234e-17 1 -1 6.123234e-17 202 170.22)" class="st3 st1 st13">10.5A</text>
 		<text transform="matrix(6.123234e-17 1 -1 6.123234e-17 2.0801 60.18)" class="st3 st1 st14">0</text>
 		<text transform="matrix(6.123234e-17 1 -1 6.123234e-17 2.0801 178.38)" class="st3 st1 st14">5</text>
 		<text transform="matrix(6.123234e-17 1 -1 6.123234e-17 2.0801 293.99)" class="st3 st1 st14">10</text>
-		<text transform="matrix(1 0 0 1 92.99 9.5)" class="st3 st1 st4">1.1A</text>
+		<text transform="matrix(1 0 0 1 87.99 9.5)" class="st3 st1 st4">1.1A</text>
 	</g>
 </g>
 </svg>
