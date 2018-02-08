@@ -1,3 +1,15 @@
+# delivery
+
+| Serial No.      | Type            | SSID            | TVID
+| --------------- | --------------- | --------------- | ---------------
+| xxxxx00         | arcturus 1B     | hrg-yancon      | 
+| xxxxx01         | capella 1D      | hrg-yancon      | 
+| xxxxx02         | capella 1D      | hrg-yancon      | 
+| xxxxx03         | capella 1D      | hrg-yancon      | 
+| xxxxx04         | capella 1D      | hrg-yancon      | 
+| xxxxx05         | capella 1D      | hrg-yancon      | 
+| 2bf9800         | arcturus 1C     | hrg-eupro       | 
+| 2bf9801         | capella 1F      | hrg-eupro       | 510990059
 
 # bios settings
 
