@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>中导无人托盘叉车参数参考</title>
+		<title>众导AGV参数参考</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 		<link rel="shortcut icon" type="text/css" href="image/NavigationIcon.png"/>
 		<!--swiper css-->
@@ -14,7 +14,7 @@
 		<!--my js-->
 		<script src="js/YanKuang.js" type="text/javascript"></script>
 		<!--my css-->
-		<link rel="stylesheet" type="text/css" href="style/spec.css"/>
+		<link rel="stylesheet" type="text/css" href="style/AGV_spec.css"/>
 	</head>
 	<body>
 		<!-- Swiper -->
@@ -28,9 +28,10 @@
             		<iframe src="svg/hrg_logo.svg" frameborder="0" width="100%"></iframe>
             	</div></a>
 				<div id="forklift_logo">
-					<iframe src="svg/forklift.svg" frameborder="0" width="100%"></iframe>
+            		<img src="image/AGV.png" width="90%"/>
+					<!--<iframe src="svg/forklift.svg" frameborder="0" width="100%"></iframe>-->
 				</div>
-				<span id="agv_title">无人托盘叉车 使用说明书</span>
+				<span id="agv_title">激光导航AGV 使用说明书</span>
 				<span id="agv_text">使用前请仔细阅读使用说明书，并妥善保管</span>
             </div>
             <div class="swiper-slide">
@@ -40,14 +41,15 @@
             	<h2 class="center"><span class="Color"></span>配件清单</h2>
             	<div class="parts" style="height: 200px; border-bottom: 1px solid #CCCCCC;">
             		<div class="part_1">
-	            		<iframe src="svg/capella_base.svg" frameborder="0" width="100%" height="150px"></iframe>
-	            		<p>叉车</p>
+            			<img src="image/AGV.png" width="50%"/>
+	            		<!--<iframe src="image/AGV.png" frameborder="0" width="100%" height="150px"></iframe>-->
+	            		<p>AGV</p>
             		</div>
             		<div class="part_2" style="height: 200px;">
             			<ul class="part_21">
             				<li>
 			            		<iframe src="svg/forklift_battery.svg" frameborder="0" width="60px" height="60px"></iframe>
-								<p>电池</p>
+								<p>自动充电桩</p>
             				</li>
             				<li>
 			            		<iframe src="svg/forklift_charge.svg" frameborder="0" width="60px" height="60px"></iframe>
@@ -57,25 +59,26 @@
             			<ul class="part_22">
             				<li>
 			            		<iframe src="svg/forklift_package.svg" frameborder="0" width="60px" height="60px"></iframe>
-								<p>随车服务包</p>
+								<p>平板（选配）</p>
             				</li>
             				<li>
 			            		<iframe src="svg/capella_manual.svg" frameborder="0" width="60px" height="60px"></iframe>
-								<p>叉车手册</p>
+								<p>AGV手册</p>
             				</li>
             			</ul>
             		</div>
             	</div>
             	<div class="parts" style="margin-top: 20px;">
             		<div class="part_1">
-	            		<iframe src="svg/capella_body.svg" frameborder="0" width="100%" height="280px"></iframe>
-	            		<p>主支架</p>
+            			<img src="image/AGV.png" width="90%"/>
+	            		<!--<iframe src="image/AGV.png" frameborder="0" width="100%" height="280px"></iframe>-->
+	            		<p>主视图</p>
             		</div>
             		<div class="part_2">
             			<ul class="part_21">
             				<li>
 			            		<iframe src="svg/capella_tail.svg" frameborder="0" width="60px" height="120px"></iframe>
-								<p>底部支架</p>
+								<p>激光雷达</p>
             				</li>
             				<li>
 			            		<iframe src="svg/capella_joystick.svg" frameborder="0" width="60px" height="120px"></iframe>
@@ -99,9 +102,10 @@
 	        	<!--解决iframe对swiper模块滑动时的影响-->
 	        	<div class="container">        		
 	        	</div>
-            	<h2 class="center"><span class="Color"></span>安装提示</h2>
+            	<h2 class="center"><span class="Color"></span>内部展示</h2>
 				<div style="width: 80%; height: 95%; margin: 50px auto; text-align: center; position: relative">
-            		<iframe src="svg/assembly.svg" frameborder="0" width="60%" height="60%"></iframe>
+            		<img src="image/AGV.png" width="60%"/>
+            		<!--<iframe src="svg/assembly.svg" frameborder="0" width="60%" height="60%"></iframe>-->
             		<div class="assembly_1">前盖板</div>
             		<div class="assembly_2">后盖板</div>
             		<div class="assembly_3">固定螺丝</div>
@@ -115,7 +119,8 @@
 	        	</div>
             	<h2 class="center"><span class="Color"></span>功能简介</h2>
            		<div style="width: 80%; height: 40%; margin: 50px auto; text-align: center; position: relative">
-            		<iframe src="svg/electric.svg" frameborder="0" width="100%" height="100%"></iframe>
+            		<!--<iframe src="svg/electric.svg" frameborder="0" width="100%" height="100%"></iframe>-->            		
+            		<img src="image/AGV.png" width="40%"/>
             		<div class="assembly_5">顶部激光雷达</div>
             		<div class="assembly_6">交换机</div>
             		<div class="assembly_7">工控机</div>
@@ -125,15 +130,15 @@
 				<table border="" cellspacing="" cellpadding="" class="table">
 					<tr>
 						<td style="width: 15%; text-align: center;">建图</td>						
-						<td>当叉车处于新环境时，可使用激光雷达进行扫描新环境，进行新地图的创建。</td>									
+						<td>当AGV处于新环境时，可使用激光雷达进行扫描新环境，进行新地图的创建。</td>									
 					</tr>
 					<tr>				
 						<td style="width: 15%; text-align: center;">定位</td>						
-						<td>激光雷达可以对叉车进行定位，以保证实时获得叉车准确的位置信息。</td>	
+						<td>激光雷达可以对AGV进行定位，以保证实时获得AGV准确的位置信息。</td>	
 					</tr>
 					<tr>				
 						<td style="width: 15%; text-align: center;">导航</td>						
-						<td>在叉车运行过程中自动规划运行路径，计算实时速度，控制自身按既定路线运行到目标地点。</td>	
+						<td>在AGV运行过程中自动规划运行路径，计算实时速度，控制自身按既定路线运行到目标地点。</td>	
 					<tr>				
 						<td style="width: 15%; text-align: center;">避障</td>						
 						<td>利用多传感器融合技术，在前方遇到障碍物时会减速直到接近障碍物时停止。</td>	
@@ -142,11 +147,11 @@
 	        </div>
 	        <div class="swiper-slide Text_style">
 				<h2 class="center"><span class="Color"></span>开机及使用</h2>
-				<p>确认叉车在停靠位置，先拔起急停按钮，再打开钥匙电源；观察灯光颜色约60秒后由黄变绿。</p>
-				<p>再次按下拔起急停，观察显示屏未报错即正常开机完成；若有报错请再次按下拔起急停即可。</p>
+				<p>确认AGV开机是否在建图原点，开机后约等待15秒。</p>
+				<p>按下急停后，观察灯带闪烁红色；再次按下急停，观察等待闪烁蓝色即完成开机。</p>
 				<table border="" cellspacing="" cellpadding="" class="table" style="margin-top: 10px;">
 					<tr>
-						<td>主支架灯光</td>
+						<td>灯带灯光</td>
 						<td>熄灭</td>
 						<td>红</td>
 						<td>黄</td>
@@ -162,28 +167,27 @@
 				</table>
 				</br>
 				<span class="detailed">
-					<img class="swiper-lazy" data-src="image/forklifton.png" width="100%"/>
+            			<img src="image/AGV.png" width="90%"/>
+					<!--<img class="swiper-lazy" data-src="image/forklifton.png" width="100%"/>-->
 				</span>
-				<p>1. 叉车急停按钮（紧急情况时按下，叉车会停止当前一切动作；解除紧急情况后拔起，叉车恢复急停前状态；需要终止任务请在触控屏界面操作。）</p>
-				<p>2. 叉车钥匙开关（需要钥匙开启，并请妥善保管钥匙；若不是关机，请不要关闭钥匙。）</p>
-				<p>3. 叉车电量显示（低电量指示时，请注意及时充电或更换电池。）</p>
-            	<h2 class="center" style="margin-top: 50px;"><span class="Color"></span>客户端连接</h2>
-            	
+				<p>1. AGV急停按钮（紧急情况时按下，AGV会停止当前一切动作；解除紧急情况后拔起，AGV恢复急停前状态；需要终止任务请在触控屏界面操作。）</p>
+				<p>2. AGV电源开关</p>
+				<p>3. AGV电量显示（低电量指示时，请注意及时充电。）</p>
+            	<h2 class="center" style="margin-top: 50px;"><span class="Color"></span>客户端连接</h2>            	
 				<p style="padding-top: 5px;">1. 将手机或平板连接wifi热点</p>
 				<p>wifi名称为：hitrobot-***(***为机器人编号，如hitrobot-a23de01)</p>
 				<p>wifi密码为：hitrobot</p>
 				<p>2. 打开客户端（手机、平板或看板）的浏览器</p>
 				<p>推荐谷歌（Chrome）、火狐（Firefox）或ios浏览器（Safari）</p>
 				<p>在地址栏输入机器人地址：10.42.0.1</p>
-				<p>4.连上叉车wifi后具体操作请扫描二维码。</p>
+				<p>4.连上AGVwifi后具体操作请扫描二维码。</p>
 				<div style="width: 100px; height: 100px; position: absolute; right: 25%; bottom: 20%">
 					<img class="swiper-lazy" data-src="svg/code.svg" width="100%">
 				</div>
 	        </div>
 	        <div class="swiper-slide Text_style">
 				<h2 class="center"><span class="Color"></span>关机及充电</h2>
-				<p style="padding-top: 5px;">确认叉车回到停靠位置，先关闭钥匙电源，再按下急停按钮；观察灯光约15秒后熄灭即完成关机。</p>
-				<p> ，a</p>
+				<p style="padding-top: 5px;">确认AGV回到停靠位置，先关闭电源，再按下急停按钮；灯带熄灭即完成关机。</p>
             	<h2 class="center" style="margin-top: 50px;"><span class="Color"></span>维护保养</h2>
 				<p style="padding-top: 5px;">定期用配件专用擦拭布清洁激光雷达，以达到最好的导航效果。</p>
 				<table border="" cellspacing="" cellpadding="" class="table" style="margin-top: 10px;">
@@ -251,29 +255,29 @@
 	        </div>
 	        <div class="swiper-slide Text_style">
             	<h2 class="center"><span class="Color"></span>设备安全</h2>
-				<p style="padding-top: 5px;">1.叉车不能用来运送人。</p>
+				<p style="padding-top: 5px;">1.AGV不能用来运送人。</p>
 				<p>2.运动地面必须保持干燥。</p>
 				<p>3.规划好的路线中不宜出现不必要的物体。</p>
 				<p>4.地面倾斜度不能超过5°。</p>
-				<p>5.叉车不能淋雨或潮湿。</p>
+				<p>5.AGV不能淋雨或潮湿。</p>
 				<p>6.拆卸电控箱前请先关闭主电源。</p>
-				<p>7.叉车部件不能拆开单独使用。</p>
+				<p>7.AGV部件不能拆开单独使用。</p>
 				<p>8.只使用原装充电器和电池。</p>
 				<p>9.环境发生变化后建议更新地图。</p>
-				<p>10.不应当在叉车路径边缘区域操作或用其他方式进行不恰当的操作。</p>
-				<p>11.所有搭载在叉车顶部的配件和载荷要紧固正确，符合规范要求。</p>
-				<p>12.保证负载液体的密封性，防止漏入叉车中。</p>
+				<p>10.不应当在AGV路径边缘区域操作或用其他方式进行不恰当的操作。</p>
+				<p>11.所有搭载在AGV顶部的配件和载荷要紧固正确，符合规范要求。</p>
+				<p>12.保证负载液体的密封性，防止漏入AGV中。</p>
 				<p>13.不要屏蔽激光雷达和其他传感器，这样会降低安全性。</p>
 				<h2 class="center" style="margin-top: 50px;"><span class="Color"></span>注意事项</h2>
 				</br>
-            	<p>操作说明：从网页上（可支持PC，手机以及平板）监控叉车状态，并为用户提供方便和直观的操作界面。</p>
+            	<p>操作说明：从网页上（可支持PC，手机以及平板）监控AGV状态，并为用户提供方便和直观的操作界面。</p>
 				</br>
-            	<p>丢失复位：如果车辆遇到无法到达目的地的情况，用户可以手动控制叉车按照既定路线返回。</p>
+            	<p>丢失复位：如果车辆遇到无法到达目的地的情况，用户可以手动控制AGV按照既定路线返回。</p>
             	<h2 class="center"><span class="Color"></span>产品性能故障表</h2>
-				<p style="padding-top: 5px;">1.如果叉车遇到紧急停车的情况，将其拉至安全区域。</p>
-				<p>2.如果叉车显示路径错误信息，检查目的地是否遭到阻挡或者丢失位置信息。</p>
-				<p>3.确保叉车的目的地与地图上的位置相符。</p>
-				<p>4.确保在操作界面显示中叉车的状态为正常。</p>
+				<p style="padding-top: 5px;">1.如果AGV遇到紧急停车的情况，将其拉至安全区域。</p>
+				<p>2.如果AGV显示路径错误信息，检查目的地是否遭到阻挡或者丢失位置信息。</p>
+				<p>3.确保AGV的目的地与地图上的位置相符。</p>
+				<p>4.确保在操作界面显示中AGV的状态为正常。</p>
 				<p>5.确保车轮没有缠绕异物。</p>
 	        </div>
 	        <div class="swiper-slide Text_style">
