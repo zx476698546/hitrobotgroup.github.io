@@ -10,8 +10,8 @@
 | xxxxx05         | capella 1D      | hrg-yancon      | 
 | 2bf9800         | arcturus 1C     | hrg-eupro       | 
 | 2bf9801         | capella 1F      | hrg-eupro       | 510990059
+| 2c05102         | rigel 4S        | hrg-innolux     | 934675869
 | 2c13200         | arcturus 1D     | hrg-innolux     | 878192267
-| 2c13202         | rigel 4S        | hrg-innolux     | 934675869
 | 2c13299         | arcturus 1D     | hrg-innolux     | 922650891
 
 # bios settings
