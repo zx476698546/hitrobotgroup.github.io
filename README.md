@@ -7,7 +7,7 @@
 | vega            | vega            | hrg-shanghai    |                 | 13370031713
 | vega            | vega            | hrg-kunshan     |                 | 17312116112
 | vega            | vega            | hrg-idle        |                 | 13370233723
-| xxxxx00         | arcturus 1B     | hrg-yancon      |                 | 17717874207
+| xxxxx00         | arcturus 1B     | hrg-yancon      |                 | 13370033783
 | xxxxx01         | capella 1D      | hrg-yancon      | 
 | xxxxx02         | capella 1D      | hrg-yancon      | 
 | xxxxx03         | capella 1D      | hrg-yancon      | 
@@ -15,7 +15,7 @@
 | xxxxx05         | capella 1D      | hrg-yancon      | 
 | 2bf9800         | arcturus 1C     | hrg-eupro       | 514554481       | 17717874307
 | 2bf9801         | capella 1F      | hrg-eupro       | 510990059
-| 2c05102         | rigel 4S        | hrg-innolux     | 934675869       | 13370033783
+| 2c05102         | rigel 4S        | hrg-innolux     | 934675869       | 17717874207
 | 2c05105         | rigel 4T        | hrg-innolux     | 792309666
 | 2c13200         | arcturus 1D     | hrg-innolux     | 878192267
 | 2c13299         | arcturus 1D     | hrg-innolux     | 922650891
