@@ -32,19 +32,22 @@
 |                 | MOLEX 555X      | 5.0A            | 4.2mm           | 0.5mm2 / 20AWG  | 非动力线（含双绞线）
 |                 | MOLEX 555X      | 9.0A            | 4.2mm           | 1.0mm2 / 17AWG  | 动力线
 |                 | XT 90           | 20.0A           | x.xmm           | 2.0mm2 / 14AWG  | 电源线（更大电流另议）
-|                 | XT 90           | 20.0A           | x.xmm           | 2.0mm2 / 14AWG  | 电源线（更大电流另议）
-| --------------- | --------------- | --------------- | --------------- | --------------- | ---------------
-|                 | JST SH1.0       | 0.5A            | 1.0mm           | 0.08mm2 / 28AWG | 北阳电源接口
 
-
-220V	红L	蓝N	黄绿PE
-24V强	红+	黑-
-
-24V强	红+	黑-
-24V弱	棕+	蓝-	黑OUT
-PLC	绿Q	白I	黄SAFTY
-双绞线	绿A+RX	白B-TX	
-
+| Type            | Color           | Remarks
+| --------------- | --------------- | ---------------
+| 220V L          | red             | 红 火
+| 220V N          | blue            | 蓝 零
+| 220V PE         | yellow/green    | 黄绿 地
+| 24V + heavy     | red             | 红 正
+| 24V - heavy     | black           | 黑 负
+| 24V + light     | brown           | 棕 正
+| 24V - light     | blue            | 蓝 负
+| 24V OUT         | black           | 黑 输出
+| RX + A          | green           | 绿 收（设备）
+| TX - B          | white           | 白 发（设备）
+| PLC Q           | green           | 绿 出（控制）
+| PLC I           | white           | 白 入（控制）
+| PLC SAFTY       | yellow          | 黄 安全
 
 插头外壳（5559）插针端子（5558）
 插座外壳（5557）插孔端子（5556）
