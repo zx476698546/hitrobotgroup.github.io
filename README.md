@@ -43,8 +43,8 @@
 | 24V + light     | brown           | 棕 正
 | 24V - light     | blue            | 蓝 负
 | 24V OUT         | black           | 黑 输出
-| RX + A          | green           | 绿 收（设备）
-| TX - B          | white           | 白 发（设备）
+| RX + A twisted  | green           | 绿 收（设备）
+| TX - B twisted  | white           | 白 发（设备）
 | PLC Q           | green           | 绿 出（控制）
 | PLC I           | white           | 白 入（控制）
 | PLC SAFTY       | yellow          | 黄 安全
