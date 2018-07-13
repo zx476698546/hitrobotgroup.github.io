@@ -35,14 +35,20 @@
 
 | Type            | Color           | Remarks
 | --------------- | --------------- | ---------------
-| 220V L          | red             | 红 火
-| 220V N          | blue            | 蓝 零
-| 220V PE         | yellow/green    | 黄绿 地
-| 24V + heavy     | red             | 红 正
-| 24V - heavy     | black           | 黑 负
-| 24V + light     | brown           | 棕 正
-| 24V - light     | blue            | 蓝 负
-| 24V OUT         | black           | 黑 输出
+| AC L            | red             | 红 火
+| AC N            | blue            | 蓝 零
+| AC U            | red             | 黄 U
+| AC V            | blue            | 绿 V
+| AC W            | blue            | 红 W
+| PE AC/DC        | yellow/green    | 黄绿 地
+| DC + heavy      | red             | 红 正
+| DC - heavy      | black           | 黑 负
+| DC U            | red             | 黄 U
+| DC V            | black           | 绿 V
+| DC W            | black           | 蓝 W
+| DC + light      | brown           | 棕 正
+| DC - light      | blue            | 蓝 负
+| DC OUT          | black           | 黑 输出
 | RX + A twisted  | green           | 绿 收（设备）
 | TX - B twisted  | white           | 白 发（设备）
 | PLC Q           | green           | 绿 出（控制）
