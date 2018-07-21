@@ -18,7 +18,8 @@
 | 2c13200         | arcturus 1D     | hrg-innolux     | 878192267       | 17717874207
 | 2c05102         | rigel 4S        | hrg-innolux     | 934675869
 | 2c05105         | rigel 4T        | hrg-innolux     | 792309666
-| 2c1f008         | rigel 4T        | hrg-innolux     | 1060983589
+| 2c19301         | rigel 4T        | hrg-innolux     | 
+| 2c19308         | rigel 4T        | hrg-innolux     | 1060983589
 | 2c13299         | arcturus 1D     | hrg-innolux     | 922650891
 
 # standard
