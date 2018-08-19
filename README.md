@@ -7,7 +7,7 @@
 | vega            | vega            | hrg-shanghai    |                 | 13370031713
 | vega            | vega            | hrg-kunshan     |                 | 17312116112
 | vega            | vega            | hrg-idle        |                 | 17717874307
-| 29ae700         | arcturus 1B     | hrg-yancon      | 216351583       | 13188804046/13370233723
+| 29ae700         | arcturus 1B     | hrg-yancon      | 216351583       | 13370233723
 | 29ae701         | capella 1D      | hrg-yancon      | 186677463
 | 29ae702         | capella 1D      | hrg-yancon      | 115129885
 | 29ae703         | capella 1D      | hrg-yancon      | 970186345
