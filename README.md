@@ -2,42 +2,38 @@
 
 | Serial No.      | Type            | SSID            | TVID            | SIM No.
 | --------------- | --------------- | --------------- | --------------- | ---------------
-| vega            | vega            | ouiyeah-mercury | 795902791       | 17717876087
-| vega            | vega            | ouiyeah-venus   |                 | 17312116312
-| vega            | vega            | hrg-shanghai    |                 | 13370031713
-| vega            | vega            | hrg-kunshan     |                 | 17312116112
-| vega            | vega            | hrg-idle        |                 | 17717874307
-| 29ae700         | arcturus 1B     | hrg-yancon      | 216351583       | 13370233723
-| 29ae701*        | capella 1D      | hrg-yancon      | 186677463*
-| 29ae702         | capella 1D      | hrg-yancon      | 115129885
-| 29ae703         | capella 1D      | hrg-yancon      | 970186345
-| 29ae704         | capella 1D      | hrg-yancon      | 125976047
-| 29ae705         | capella 1D      | hrg-yancon      | 125941387
-| 2bf9800         | arcturus 1C     | hrg-eupro       | 514554481       | 1905360888/13370033783
-| 2bf9801         | capella 1F      | hrg-eupro       | 510990059
 | 2c13200         | arcturus 1D     | hrg-innolux     | 878192267       | 17717874207
 | 2c05102         | rigel 4S        | hrg-innolux     | 934675869
 | 2c05105         | rigel 4T        | hrg-innolux     | 792309666
 | 2c19301         | rigel 4T        | hrg-innolux     | 
 | 2c19308         | rigel 4T        | hrg-innolux     | 1060983589
 | 2c13299         | arcturus 1D     | hrg-innolux     | 922650891
+| 2bf9800         | arcturus 1C     | hrg-eupro       | 514554481       | 1905360888/13370033783
+| 2bf9801         | capella 1F      | hrg-eupro       | 510990059
+| 29ae700         | arcturus 1B     | hrg-yancon      | 216351583       | 13370233723
+| 29ae701         | capella 1D      | hrg-yancon      | 1041913709
+| 29ae702         | capella 1D      | hrg-yancon      | 115129885
+| 29ae703         | capella 1D      | hrg-yancon      | 970186345
+| 29ae704         | capella 1D      | hrg-yancon      | 125976047
+| 29ae705         | capella 1D      | hrg-yancon      | 125941387
+| vega            | vega            | ouiyeah-mercury | 795902791       | 17717876087
+| vega            | vega            | ouiyeah-venus   |                 | 17312116312
+| vega            | vega            | hrg-shanghai    |                 | 13370031713
+| vega            | vega            | hrg-kunshan     |                 | 17312116112
+| vega            | vega            | hrg-idle        |                 | 17717874307
 
 # standard
 
 ## electric
 
-| Model           | Type            | Rated Current   | Pin Spacing     | Section Size    | Remarks
-| --------------- | --------------- | --------------- | --------------- | --------------- | ---------------
-|                 | JST SH1.0       | 0.5A            | 1.0mm           | 0.08mm2 / 28AWG | 北阳电源接口
-|                 | JST XH2.54      | 0.5A            | 2.5mm           | 0.08mm2 / 28AWG | 杜邦线（测试）
-|                 | JST XH2.54      | 3.0A            | 2.5mm           | 0.25mm2 / 23AWG | 红白排线（调试）
-|                 | MOLEX 555X      | 5.0A            | 4.2mm           | 0.5mm2 / 20AWG  | 非动力线（含双绞线）
-|                 | MOLEX 555X      | 9.0A            | 4.2mm           | 1.0mm2 / 17AWG  | 动力线
-|                 | XT 90           | 20.0A           | x.xmm           | 2.0mm2 / 14AWG  | 电源线（更大电流另议）
-
-XT60 XT90
-线束0.5m之内按9倍计算
-0.5m以上按5倍计算
+| Type            | Rated Current   | Pin Spacing     | Section Size    | Remarks
+| --------------- | --------------- | --------------- | --------------- | ---------------
+| JST SH1.0       | 0.5A            | 1.0mm           | 0.08mm2 / 28AWG | 北阳电源接口
+| JST XH2.54      | 0.5A            | 2.5mm           | 0.08mm2 / 28AWG | 杜邦线（测试）
+| JST XH2.54      | 3.0A            | 2.5mm           | 0.25mm2 / 23AWG | 红白排线（调试）
+| MOLEX 555X      | 5.0A            | 4.2mm           | 0.5mm2 / 20AWG  | 非动力线（含双绞线）
+| MOLEX 555X      | 9.0A            | 4.2mm           | 1.0mm2 / 17AWG  | 动力线
+| XT 60 / 90      | 20.0A           | x.xmm           | 2.0mm2 / 14AWG  | 电源线（更大电流另议）
 
 半定制为主，尽量较少自己的冷压、焊接工作
 
