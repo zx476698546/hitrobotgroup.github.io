@@ -6,7 +6,7 @@
 | 2c0cc01         | rigel 4T        | hrg-harman      | 841414351       | 192.168.0.201
 | 2c0cc02         | rigel 4T        | hrg-harman      | 289024766       | 192.168.0.202
 | router          | huawei 4G       | hrg-innolux     | 17717874207     | 10.63.151.96
-| 2c13200         | arcturus 1D     | hrg-innolux     | 878192267       | 
+| 2c13200         | arcturus 1D     | hrg-innolux     | 878192267       | 10.63.155.11
 | 2c05102         | rigel 4S        | hrg-innolux     | 934675869
 | 2c05105         | rigel 4T        | hrg-innolux     | 792309666
 | 2c19301         | rigel 4T        | hrg-innolux     | 
