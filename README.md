@@ -1,24 +1,28 @@
 # delivery
 
-| Serial No.      | Type            | SSID            | TVID            | SIM No.
+| Serial No.      | Type            | SSID            | TVID            | IP
 | --------------- | --------------- | --------------- | --------------- | ---------------
-| vega            | vega            | hrg-harman      |                 | 17717874307
-| 2c0cc01         | rigel 4T        | hrg-harman      | 841414351
-| 2c0cc02         | rigel 4T        | hrg-harman      | 289024766
-| 2c13200         | arcturus 1D     | hrg-innolux     | 878192267       | 17717874207
+| router          | huawei 4G       | hrg-harman      | 17717874307     | 192.168.0.200
+| 2c0cc01         | rigel 4T        | hrg-harman      | 841414351       | 192.168.0.201
+| 2c0cc02         | rigel 4T        | hrg-harman      | 289024766       | 192.168.0.202
+| router          | huawei 4G       | hrg-innolux     | 17717874207     | 10.63.151.xx
+| 2c13200         | arcturus 1D     | hrg-innolux     | 878192267       | 
 | 2c05102         | rigel 4S        | hrg-innolux     | 934675869
 | 2c05105         | rigel 4T        | hrg-innolux     | 792309666
 | 2c19301         | rigel 4T        | hrg-innolux     | 
 | 2c19308         | rigel 4T        | hrg-innolux     | 1060983589
 | 2c13299         | arcturus 1D     | hrg-innolux     | 922650891
-| 2bf9800         | arcturus 1C     | hrg-eupro       | 514554481       | 1905360888/13370033783
-| 2bf9801         | capella 1F      | hrg-eupro       | 510990059
-| 29ae700         | arcturus 1B     | hrg-yancon      | 216351583       | 13370233723
-| 29ae701         | capella 1D      | hrg-yancon      | 1041913709
-| 29ae702         | capella 1D      | hrg-yancon      | 115129885
-| 29ae703         | capella 1D      | hrg-yancon      | 970186345
-| 29ae704         | capella 1D      | hrg-yancon      | 125976047
-| 29ae705         | capella 1D      | hrg-yancon      | 125941387
+| router          | huawei 4G       | hrg-eupro       | 1905360888/13370033783     | 192.168.8.1
+| 2bf9800         | arcturus 1C     | hrg-eupro       | 514554481       | 192.168.8.200
+| 2bf9801         | capella 1F      | hrg-eupro       | 510990059       | 192.168.8.201
+| router          | huawei 4G       | hrg-yancon      | 13370233723     | 192.168.8.1
+| router          | tplink wifi5G   | hrg-yancon      |                 | 192.168.8.2
+| 29ae700         | arcturus 1B     | hrg-yancon      | 216351583       | 192.168.8.200
+| 29ae701         | capella 1D      | hrg-yancon      | 1041913709      | 192.168.8.211
+| 29ae702         | capella 1D      | hrg-yancon      | 115129885       | 192.168.8.212
+| 29ae703         | capella 1D      | hrg-yancon      | 970186345       | 192.168.8.213
+| 29ae704         | capella 1D      | hrg-yancon      | 125976047       | 192.168.8.214
+| 29ae705         | capella 1D      | hrg-yancon      | 125941387       | 192.168.8.215
 | 29ae7xx *       | arcturus *      | hrg-yancon      | 1036959340
 | vega            | vega            | ouiyeah-mercury | 795902791       | 17717876087
 | vega            | vega            | ouiyeah-venus   |                 | 17312116112
