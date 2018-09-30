@@ -21,9 +21,9 @@
 | 29ae705         | capella 1D      | hrg-yancon      | 125941387
 | 29ae7xx *       | arcturus *      | hrg-yancon      | 1036959340
 | vega            | vega            | ouiyeah-mercury | 795902791       | 17717876087
-| vega            | vega            | ouiyeah-venus   |                 | 17312116312
+| vega            | vega            | ouiyeah-venus   |                 | 17312116112
 | vega            | vega            | hrg-shanghai    |                 | 13370031713
-| vega            | vega            | hrg-kunshan     |                 | 17312116112
+| vega            | vega            | hrg-kunshan     |                 | 17312116312
 
 # standard
 
