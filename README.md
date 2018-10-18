@@ -84,31 +84,31 @@
 | AC V            | I1.0            | I1/AI3          | 转向辅助
 | AC V            | I1.1            | I2/AI4          | 无
 | AC V            | I1.2            | I3              | 急停
-| AC V            | I1.3            | I4              | 钥匙/自保
-| AC V            | I1.4            | I5              | 
-| AC V            | I1.5            | I6              | 
+| AC V            | I1.3            | I4              | 钥匙/启动
+| AC V            | I1.4            | I5              | 安全触边
+| AC V            | I1.5            | I6              | 接近传感器
 | AC V            | AI0             | I7/AI1          | 前后
 | AC V            | AI1             | I8/AI2          | 转向
-| AC V            | I0.0/AIW0       | I11             | 
-| AC V            | I0.1/AIW1       | I12             | 
+| AC V            | I0.0/AIW0       | I11             | 光电1
+| AC V            | I0.1/AIW1       | I12             | 光电2
 | AC V            | I0.2            | I13             | 使能
 | AC V            | I0.3            | I14             | 喇叭
 | AC V            | I0.4            | I15             | 下降
 | AC V            | I0.5            | I16             | 上升
-| AC V            | I0.6            | I17             | 
-| AC V            | I0.7            | I18             | 
+| AC V            | I0.6            | I17             | 光电3
+| AC V            | I0.7            | I18             | 光电4
 | AC L            | Q1.0            | Q1              | 右转灯/绿
 | AC N            | Q1.1            | Q2              | 左转灯/黄
 | AC U            | Q0.6            | Q3              | 刹车灯/红
-| AC V            | Q0.7            | Q4              | 自保关闭
-| AC L            | Q0.0/AQW0       | Q11             | 
-| AC N            | Q0.1/AQW1       | Q12             | 
+| AC V            | Q0.7            | Q4              | 关闭/电池
+| AC L            | Q0.0/AQW0       | Q11             | 动作1
+| AC N            | Q0.1/AQW1       | Q12             | 动作2
 | AC V            | Q0.2            | Q13             | 使能
 | AC V            | Q0.3            | Q14             | 喇叭
 | AC V            | Q0.4            | Q15             | 下降
 | AC V            | Q0.5            | Q16             | 上升
-| AC V            |                 | Q17             | 
-| AC V            |                 | Q18             | 
+| AC V            |                 | Q17             | 动作3
+| AC V            |                 | Q18             | 动作4
 | AC L            | AQ0             | AQ1             | 前后
 | AC N            | AQ1             | AQ2             | 转向
 | AC U            | AQ2             | AQ3             | 转向辅助
