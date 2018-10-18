@@ -95,12 +95,12 @@
 | led right / g   |                 | Q0.7            |                 | Q2              | 右转灯/绿
 | led brake / r   |                 | Q1.0            |                 | Q3              | 刹车灯/红
 | battery relay   |                 | Q1.1            |                 | Q4              | 电池继电器
-| steering acc    | I1.0            | AQ2             | I1/AI3          | AQ3             | 转向辅助
+| steering acc    | I1.0 (null)     | AQ2             | I1/AI3          | AQ3             | 转向辅助
 | null            | I1.1            |                 | I2/AI4          | AQ4             | 无
 | estop           | I1.2            |                 | I3              |                 | 急停
 | power           | I1.3            |                 | I4              |                 | 钥匙/按钮
-| bumper          | I1.4            |                 | I5              |                 | 安全触边
-|                 | I1.5            |                 | I6              |                 | 接近传感器
+| bumper front    | I1.4            |                 | I5              |                 | 前避障
+| sensor back     | I1.5            |                 | I6              |                 | 后避障
 | motion          | AI0             | AQ0             | I7/AI1          | AQ1             | 前后
 | steering        | AI1             | AQ1             | I8/AI2          | AQ2             | 转向
 
