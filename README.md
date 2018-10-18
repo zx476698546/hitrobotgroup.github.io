@@ -29,6 +29,8 @@
 | vega            | vega            | hrg-shanghai    |                 | 13370031713
 | vega            | vega            | hrg-kunshan     |                 | 17312116312
 
+***
+
 # standard
 
 ## electric
@@ -81,33 +83,28 @@
 
 | PLC             | PLC-S7 IN       | PLC-S7 OUT      | LOGO! IN        | LOGO! OUT       | Remarks
 | --------------- | --------------- | --------------- | --------------- | --------------- | ---------------
-| AC V            | I0.0/AIW0       | Q0.0/AQW0       | I1/9            | Q1/9            | 保留1
-| AC V            | I0.1/AIW1       | Q0.1/AQW1       | I2/10           | Q2/10           | 保留2
+| null            | I0.0/AIW0       | Q0.0/AQW0       | I1/9            | Q1/9            | 无
+| null            | I0.1/AIW1       | Q0.1/AQW1       | I2/10           | Q2/10           | 无
 | enable          | I0.2            | Q0.2            | I3/11           | Q3/11           | 使能
 | buzzer          | I0.3            | Q0.3            | I4/12           | Q4/12           | 喇叭
 | lift down       | I0.4            | Q0.4            | I5/13           | Q5/13           | 下降
 | lift up         | I0.5            | Q0.5            | I6/14           | Q6/14           | 上升
-| AC V            | I0.6            |                 | I7/15           | Q7/15           | 光电3
-| AC V            | I0.7            |                 | I8/16           | Q8/16           | 光电4
-|                 |                 | Q0.6            |                 | Q1              | 左转灯/黄/蓝
-|                 |                 | Q0.7            |                 | Q2              | 右转灯/绿
-|                 |                 | Q1.0            |                 | Q3              | 刹车灯/红
-|                 |                 | Q1.1            |                 | Q4              | 关闭/电池
-| AC V            | I1.0            | I1/AI3          | AQ1             | 转向辅助
-| AC V            | I1.1            | I2/AI4          | 无
-| AC V            | I1.2            | I3              | 急停
-| AC V            | I1.3            | I4              | 钥匙/启动
-| AC V            | I1.4            | I5              | 安全触边
-| AC V            | I1.5            | I6              | 接近传感器
-| AC V            | AI0             | I7/AI1          | 前后
-| AC V            | AI1             | I8/AI2          | 转向
-| AC V            | 动作3
-| AC V            | 动作4
-| AC L            | AQ0             | 前后
-| AC N            | AQ1             | AQ2             | 转向
-| AC U            | AQ2             | AQ3             | 转向辅助
-| AC V            |                 | AQ4             | 无
+| joystick        | I0.6            |                 | I7/15           | Q7/15           | 手柄
+| pedal           | I0.7            |                 | I8/16           | Q8/16           | 踏板
+| led left / y/b  |                 | Q0.6            |                 | Q1              | 左转灯/黄/蓝
+| led right / g   |                 | Q0.7            |                 | Q2              | 右转灯/绿
+| led brake / r   |                 | Q1.0            |                 | Q3              | 刹车灯/红
+| battery relay   |                 | Q1.1            |                 | Q4              | 电池继电器
+| steering acc    | I1.0            | AQ2             | I1/AI3          | AQ3             | 转向辅助
+| null            | I1.1            |                 | I2/AI4          | AQ4             | 无
+| estop           | I1.2            |                 | I3              |                 | 急停
+| power           | I1.3            |                 | I4              |                 | 钥匙/按钮
+| bumper          | I1.4            |                 | I5              |                 | 安全触边
+|                 | I1.5            |                 | I6              |                 | 接近传感器
+| motion          | AI0             | AQ0             | I7/AI1          | AQ1             | 前后
+| steering        | AI1             | AQ1             | I8/AI2          | AQ2             | 转向
 
+***
 
 # bios settings
 
