@@ -49,15 +49,15 @@
 | --------------- | --------------- | ---------------
 | AC L            | red             | 红 火
 | AC N            | blue            | 蓝 零
-| AC U            | red             | 黄 U
-| AC V            | blue            | 绿 V
-| AC W            | blue            | 红 W
+| AC U            | yellow          | 黄 U
+| AC V            | green           | 绿 V
+| AC W            | red             | 红 W
 | PE AC/DC        | yellow/green    | 黄绿 地
 | DC + heavy      | red             | 红 正
 | DC - heavy      | black           | 黑 负
-| DC U            | red             | 黄 U
-| DC V            | black           | 绿 V
-| DC W            | black           | 蓝 W
+| DC U            | yellow          | 黄 U
+| DC V            | green           | 绿 V
+| DC W            | blue            | 蓝 W
 | DC + light      | brown           | 棕 正
 | DC - light      | blue            | 蓝 负
 | DC OUT          | black           | 黑 输出
