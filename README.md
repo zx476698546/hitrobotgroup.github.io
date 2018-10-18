@@ -81,8 +81,8 @@
 
 | PLC             | S7-200/1200     | LOGO!           | Remarks
 | --------------- | --------------- | --------------- | ---------------
-| AC V            | I0.0            | I1/AI3          | 转向辅助
-| AC V            | I0.1            | I2/AI4          | 无
+| AC V            | I0.0/AIW1       | I1/AI3          | 转向辅助
+| AC V            | I0.1/AIW2       | I2/AI4          | 无
 | AC V            | I0.2            | I3              | 使能
 | AC V            | I0.3            | I4              | 喇叭
 | AC V            | I0.4            | I5              | 下降
@@ -91,15 +91,28 @@
 | AC V            | I0.7            | I8/AI2          | 转向
 | AC V            | I1.0            | I11             | 急停
 | AC V            | I1.1            | I12             | 钥匙
-
+| AC V            | I1.2            | I13             | 钥匙
+| AC V            | I1.3            | I14             | 钥匙
+| AC V            | I1.4            | I15             | 钥匙
+| AC V            | I1.5            | I16             | 钥匙
+| AC V            | AI1             | I17             | 钥匙
+| AC V            | AI2             | I18             | 钥匙
 | AC L            | Q1.1            | Q1              | 自保关
 | AC N            | Q0.6            | Q2              | 刹车灯/红
 | AC U            | Q0.7            | Q3              | 左转灯/黄
 | AC V            | Q1.0            | Q4              | 右转灯/绿
+| AC L            | Q1.1            | Q11             | 
+| AC N            | Q0.6            | Q12             | 
 | AC V            | Q0.2            | Q13             | 使能
 | AC V            | Q0.3            | Q14             | 喇叭
 | AC V            | Q0.4            | Q15             | 下降
 | AC V            | Q0.5            | Q16             | 上升
+| AC V            | Q0.4            | Q17             | 
+| AC V            | Q0.5            | Q18             | 
+| AC L            | Q1.1            | AQ1             | 前后
+| AC N            | Q0.6            | AQ2             | 转向
+| AC U            | Q0.7            | AQ3             | 转向辅助
+| AC V            | Q1.0            | AQ4             | 无
 
 
 # bios settings
