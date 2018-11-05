@@ -84,14 +84,14 @@
 
 | PLC             | PLC-S7 IN       | PLC-S7 OUT      | LOGO! IN        | LOGO! OUT       | Remarks
 | --------------- | --------------- | --------------- | --------------- | --------------- | ---------------
-| null            | I0.0/AIW0       | Q0.0/AQW0       | I1/9            | Q1/9            | 无
-| null            | I0.1/AIW1       | Q0.1/AQW1       | I2/10           | Q2/10           | 无
-| enable          | I0.2            | Q0.2            | I3/11           | Q3/11           | 使能
-| buzzer          | I0.3            | Q0.3            | I4/12           | Q4/12           | 喇叭
-| lift down       | I0.4            | Q0.4            | I5/13           | Q5/13           | 下降
-| lift up         | I0.5            | Q0.5            | I6/14           | Q6/14           | 上升
-| joystick        | I0.6            |                 | I7/15           | Q7/15           | 手柄
-| pedal           | I0.7            |                 | I8/16           | Q8/16           | 踏板
+| null            | I0.0/AIW0       | Q0.0/AQW0       |                 |                 | 无
+| null            | I0.1/AIW1       | Q0.1/AQW1       |                 |                 | 无
+| enable          | I0.2            | Q0.2            | I1/9            | Q1/5            | 使能
+| buzzer          | I0.3            | Q0.3            | I2/10           | Q2/6            | 喇叭
+| lift down       | I0.4            | Q0.4            | I3/11           | Q3/7            | 下降
+| lift up         | I0.5            | Q0.5            | I4/12           | Q4/8            | 上升
+| joystick        | I0.6            |                 |                 |                 | 无
+| pedal           | I0.7            |                 |                 |                 | 无
 | led left / y/b  |                 | Q0.6            |                 | Q1              | 左转灯/黄/蓝
 | led right / g   |                 | Q0.7            |                 | Q2              | 右转灯/绿
 | led brake / r   |                 | Q1.0            |                 | Q3              | 刹车灯/红
@@ -100,8 +100,8 @@
 | null            | I1.1            |                 | I2/AI4          | AQ4             | 无
 | estop           | I1.2            |                 | I3              |                 | 急停
 | power           | I1.3            |                 | I4              |                 | 钥匙/按钮
-| bumper front    | I1.4            |                 | I5              |                 | 前避障
-| sensor back     | I1.5            |                 | I6              |                 | 后避障
+| bumper front    | I1.4            |                 | I5              |                 | 前避障/手柄
+| sensor back     | I1.5            |                 | I6              |                 | 后避障/踏板
 | motion          | AI0             | AQ0             | I7/AI1          | AQ1             | 前后
 | steering        | AI1             | AQ1             | I8/AI2          | AQ2             | 转向
 
