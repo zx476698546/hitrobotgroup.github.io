@@ -3,13 +3,18 @@
 | Serial No.      | Type            | SSID            | TVID            | IP
 | --------------- | --------------- | --------------- | --------------- | ---------------
 | router          | huawei 4G       | hrg-guoxuan     | 18380126235 *   |
+| xxxxx01         | x               | hrg-guoxuan     | x      | 192.168.8.201
+| xxxxx02         | x               | hrg-guoxuan     | 1100363879      | 192.168.8.202
+| xxxxx03         | x               | hrg-guoxuan     | x      | 192.168.8.203
+| xxxxx04         | x               | hrg-guoxuan     | x      | 192.168.8.204
+| xxxxx05         | x               | hrg-guoxuan     | x      | 192.168.8.205
 | xxxxx06         | x               | hrg-guoxuan     | 1106892064      | 192.168.8.206
 | xxxxx07         | x               | hrg-guoxuan     | 1108642630      | 192.168.8.207
 | xxxxx08         | x               | hrg-guoxuan     | 1104621283      | 192.168.8.208
 | xxxxx09         | x               | hrg-guoxuan     | 1107688495      | 192.168.8.209
 | xxxxx10         | x               | hrg-guoxuan     | 1107710419      | 192.168.8.210
-| xxxxx11         | x               | hrg-guoxuan     | 1104621283      | 192.168.8.211
-| xxxxx12         | x               | hrg-guoxuan     | 1104621283      | 192.168.8.212
+| xxxxx11         | x               | hrg-guoxuan     | x      | 192.168.8.211
+| xxxxx12         | x               | hrg-guoxuan     | x      | 192.168.8.212
 | router          | huawei 4G       | hrg-diehl       | 18380126235     |
 | router          | huawei 4G       | hrg-harman      | 17717874307     | 192.168.0.200
 | 2c0cc01         | rigel 4T        | hrg-harman      | 841414351       | 192.168.0.201
