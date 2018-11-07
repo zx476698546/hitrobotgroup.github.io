@@ -5,6 +5,7 @@
 | router          | huawei 4G       | hrg-guoxuan     | 18380126235 *   |
 | xxxxx06         | x               | hrg-guoxuan     | 1106892064      | 192.168.8.206
 | xxxxx07         | x               | hrg-guoxuan     | 1108642630      | 192.168.8.207
+| xxxxx08         | x               | hrg-guoxuan     | 1104621283      | 192.168.8.207
 | router          | huawei 4G       | hrg-diehl       | 18380126235     |
 | router          | huawei 4G       | hrg-harman      | 17717874307     | 192.168.0.200
 | 2c0cc01         | rigel 4T        | hrg-harman      | 841414351       | 192.168.0.201
