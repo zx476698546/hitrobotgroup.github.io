@@ -5,11 +5,15 @@
 | router          | huawei 4G       | hrg-guoxuan     | 18380126235 *   |
 | xxxxx06         | x               | hrg-guoxuan     | 1106892064      | 192.168.8.206
 | xxxxx07         | x               | hrg-guoxuan     | 1108642630      | 192.168.8.207
-| xxxxx08         | x               | hrg-guoxuan     | 1104621283      | 192.168.8.207
+| xxxxx08         | x               | hrg-guoxuan     | 1104621283      | 192.168.8.208
+| xxxxx09         | x               | hrg-guoxuan     | 1107688495      | 192.168.8.209
+| xxxxx10         | x               | hrg-guoxuan     | 1107710419      | 192.168.8.210
+| xxxxx11         | x               | hrg-guoxuan     | 1104621283      | 192.168.8.211
+| xxxxx12         | x               | hrg-guoxuan     | 1104621283      | 192.168.8.212
 | router          | huawei 4G       | hrg-diehl       | 18380126235     |
 | router          | huawei 4G       | hrg-harman      | 17717874307     | 192.168.0.200
 | 2c0cc01         | rigel 4T        | hrg-harman      | 841414351       | 192.168.0.201
-| 2c0cc02         | rigel 4T        | hrg-harman      | 289024766       | 192.168.0.202
+| 2c0cc02         | rigel 4T        | hrg-harman      | 289024766       | 192.168.0.202/203
 | router          | huawei 4G       | hrg-innolux     | 17717874207     | 10.63.151.96
 | 2c13200         | arcturus 1D     | hrg-innolux     | 878192267       | 10.63.155.11
 | 2c05102         | rigel 4S        | hrg-innolux     | 934675869
