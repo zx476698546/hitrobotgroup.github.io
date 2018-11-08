@@ -112,7 +112,7 @@
 | steering acc    | I1.0 (null)     | AQ2             | I1/AI3          | AQ3             | 转向辅助
 | null            | I1.1            |                 | I2/AI4          | AQ4             | 无
 | estop           | I1.2            |                 | I3              |                 | 急停
-| power           | I1.3            |                 | I4              |                 | 钥匙/按钮
+| start           | I1.3            |                 | I4              |                 | 钥匙/按钮
 | bumper front    | I1.4            |                 | I5              |                 | 前避障/手柄
 | sensor back     | I1.5            |                 | I6              |                 | 后避障/踏板
 | motion          | AI0             | AQ0             | I7/AI1          | AQ1             | 前后
