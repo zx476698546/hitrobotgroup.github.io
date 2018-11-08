@@ -103,8 +103,8 @@
 | buzzer          | I0.3            | Q0.3            | I2/10           | Q2/6            | 喇叭
 | lift down       | I0.4            | Q0.4            | I3/11           | Q3/7            | 下降
 | lift up         | I0.5            | Q0.5            | I4/12           | Q4/8            | 上升
-| joystick        | I0.6            |                 |                 |                 | 无
-| pedal           | I0.7            |                 |                 |                 | 无
+| null            | I0.6            |                 |                 |                 | 无
+| null            | I0.7            |                 |                 |                 | 无
 | led left / y/b  |                 | Q0.6            |                 | Q1              | 左转灯/黄/蓝
 | led right / g   |                 | Q0.7            |                 | Q2              | 右转灯/绿
 | led brake / r   |                 | Q1.0            |                 | Q3              | 刹车灯/红
@@ -112,9 +112,9 @@
 | steering acc    | I1.0 (null)     | AQ2             | I1/AI3          | AQ3             | 转向辅助
 | null            | I1.1            |                 | I2/AI4          | AQ4             | 无
 | estop           | I1.2            |                 | I3              |                 | 急停
-| start           | I1.3            |                 | I4              |                 | 钥匙/按钮
-| bumper front    | I1.4            |                 | I5              |                 | 前避障/手柄
-| sensor back     | I1.5            |                 | I6              |                 | 后避障/踏板
+| start           | I1.3            |                 | I4              |                 | 启动
+| stick           | I1.4            |                 | I5              |                 | 手柄
+| pedal           | I1.5            |                 | I6              |                 | 踏板
 | motion          | AI0             | AQ0             | I7/AI1          | AQ1             | 前后
 | steering        | AI1             | AQ1             | I8/AI2          | AQ2             | 转向
 
