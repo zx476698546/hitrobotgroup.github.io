@@ -113,8 +113,8 @@
 | null            | I1.1            |                 | I2/AI4          | AQ4             | 无
 | estop           | I1.2            |                 | I3              |                 | 急停
 | start           | I1.3            |                 | I4              |                 | 启动
-| stick           | I1.4            |                 | I5              |                 | 手柄
-| pedal           | I1.5            |                 | I6              |                 | 踏板
+| pedal           | I1.4            |                 | I5              |                 | 踏板
+| stick           | I1.5            |                 | I6              |                 | 手柄
 | linear_x        | AI0             | AQ0             | I7/AI1          | AQ1             | 前后
 | angular_z       | AI1             | AQ1             | I8/AI2          | AQ2             | 转向
 
