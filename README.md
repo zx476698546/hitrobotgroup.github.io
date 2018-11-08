@@ -109,14 +109,14 @@
 | led right / g   |                 | Q0.7            |                 | Q2              | 右转灯/绿
 | led brake / r   |                 | Q1.0            |                 | Q3              | 刹车灯/红
 | battery relay   |                 | Q1.1            |                 | Q4              | 电池继电器
-| steering acc    | I1.0 (null)     | AQ2             | I1/AI3          | AQ3             | 转向辅助
+| angular_z acc   | I1.0 (null)     | AQ2             | I1/AI3          | AQ3             | 转向辅助
 | null            | I1.1            |                 | I2/AI4          | AQ4             | 无
 | estop           | I1.2            |                 | I3              |                 | 急停
 | start           | I1.3            |                 | I4              |                 | 启动
 | stick           | I1.4            |                 | I5              |                 | 手柄
 | pedal           | I1.5            |                 | I6              |                 | 踏板
-| motion          | AI0             | AQ0             | I7/AI1          | AQ1             | 前后
-| steering        | AI1             | AQ1             | I8/AI2          | AQ2             | 转向
+| linear_x        | AI0             | AQ0             | I7/AI1          | AQ1             | 前后
+| angular_z       | AI1             | AQ1             | I8/AI2          | AQ2             | 转向
 
 ***
 
