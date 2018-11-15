@@ -2,7 +2,7 @@
 
 | Serial No.      | Type            | SSID            | TVID            | IP
 | --------------- | --------------- | --------------- | --------------- | ---------------
-| router          | huawei 4G       | hrg-guoxuan     | 18380126235 *   |
+| router          | huawei 4G       | hrg-guoxuan     | 18380126235 *   | 192.168.8.1
 | xxxxx01         | x               | hrg-guoxuan     | 1099131165      | 192.168.8.201
 | xxxxx02         | x               | hrg-guoxuan     | 1100363879      | 192.168.8.202
 | xxxxx03         | x               | hrg-guoxuan     | 1103446039      | 192.168.8.203
