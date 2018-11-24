@@ -2,7 +2,7 @@
 
 | Serial No.      | Type            | SSID            | TVID            | IP
 | --------------- | --------------- | --------------- | --------------- | ---------------
-| router          | huawei 4G       | hrg-guoxuan     | 17717876087     | 192.168.8.1
+| router          | huawei 4G       | hrg-guoxuan     | 18380126235     | 192.168.8.1
 | xxxxx01         | x               | hrg-guoxuan     | 1099131165      | 192.168.8.201
 | xxxxx02         | x               | hrg-guoxuan     | 1100363879      | 192.168.8.202
 | xxxxx03         | x               | hrg-guoxuan     | 1103446039      | 192.168.8.203
@@ -15,7 +15,7 @@
 | xxxxx10         | x               | hrg-guoxuan     | 1107710419      | 192.168.8.210
 | xxxxx11         | x               | hrg-guoxuan     | 1106940343      | 192.168.8.211
 | xxxxx12         | x               | hrg-guoxuan     | 1100280621      | 192.168.8.212
-| router          | huawei 4G       | hrg-diehl       | 18380126235     |
+| router          | huawei 4G       | hrg-diehl       |                 |
 | router          | huawei 4G       | hrg-harman      | 17717874307     | 192.168.0.200
 | 2c0cc01         | rigel 4T        | hrg-harman      | 841414351       | 192.168.0.201
 | 2c0cc02         | rigel 4T        | hrg-harman      | 289024766       | 192.168.0.202/203
@@ -38,7 +38,7 @@
 | 29ae704         | capella 1D      | hrg-yancon      | 125976047       | 192.168.8.214
 | 29ae705         | capella 1D      | hrg-yancon      | 125941387       | 192.168.8.215
 | 29ae7xx *       | arcturus *      | hrg-yancon      | 1036959340
-| vega            | vega            | ouiyeah-mercury | 795902791       | 17717876087*
+| vega            | vega            | ouiyeah-mercury | 795902791       | 17717876087
 | vega            | vega            | ouiyeah-venus   |                 | 17312116112
 | vega            | vega            | hrg-shanghai    |                 | 13370031713
 | vega            | vega            | hrg-kunshan     |                 | 17312116312
