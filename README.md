@@ -32,6 +32,7 @@
 | router          | huawei 4G       | hrg-yancon      | 13370233723     | 192.168.8.1
 | router          | tplink wifi5G   | hrg-yancon      |                 | 192.168.8.2
 | 29ae700         | arcturus 1B     | hrg-yancon      | 216351583       | 192.168.8.200
+| xxxxx02         | x               | hrg-yancon      | 1090347283      | 192.168.8.202
 | 29ae701         | capella 1D      | hrg-yancon      | 1041913709      | 192.168.8.211
 | 29ae702         | capella 1D      | hrg-yancon      | 115129885       | 192.168.8.212
 | 29ae703         | capella 1D      | hrg-yancon      | 970186345       | 192.168.8.213
