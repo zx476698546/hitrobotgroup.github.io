@@ -2,6 +2,15 @@
 
 | Serial No.      | Type            | SSID            | TVID            | IP
 | --------------- | --------------- | --------------- | --------------- | ---------------
+| router          | huawei 4G       | hrg-eupro       | 1905360888/13370033783     | 192.168.8.1
+| 2bf9800         | arcturus 1C     | hrg-eupro       | 514554481       | 192.168.8.200
+| 2bf9801         | capella 1F      | hrg-eupro       | 510990059       | 192.168.8.201
+| 2c3d701         | capella 1G      | hrg-eupro       | 1097003912      | 192.168.8.211
+| 2c3d702         | capella 1G      | hrg-eupro       | 1097024674      | 192.168.8.212
+| 2c3d703         | capella 1G      | hrg-eupro       |       | 192.168.8.213
+| 2c3d704         | capella 1G      | hrg-eupro       |       | 192.168.8.214
+| 2c3d705         | capella 1G      | hrg-eupro       |       | 192.168.8.215
+
 | 2c3e401         | capella 1G      | hrg-jabil       | 1095248152      | 192.168.43.201
 | router          | huawei 4G       | hrg-guoxuan     | 18380126235     | 192.168.8.1
 | ‭2c25e01         | x               | hrg-guoxuan     | 1099131165      | 192.168.8.201
@@ -27,9 +36,6 @@
 | 2c19301         | rigel 4T        | hrg-innolux     | 
 | 2c19308         | rigel 4T        | hrg-innolux     | 1060983589
 | 2c13299         | arcturus 1D     | hrg-innolux     | 922650891
-| router          | huawei 4G       | hrg-eupro       | 1905360888/13370033783     | 192.168.8.1
-| 2bf9800         | arcturus 1C     | hrg-eupro       | 514554481       | 192.168.8.200
-| 2bf9801         | capella 1F      | hrg-eupro       | 510990059       | 192.168.8.201
 | router          | huawei 4G       | hrg-yancon      | 13370233723     | 192.168.8.1
 | router          | tplink wifi5G   | hrg-yancon      |                 | 192.168.8.2
 | 29ae700         | arcturus 1B     | hrg-yancon      | 216351583       | 192.168.8.200
