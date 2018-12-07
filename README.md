@@ -7,9 +7,9 @@
 | 2bf9801         | capella 1F      | hrg-eupro       | 510990059       | 192.168.8.201
 | 2c3d701         | capella 1G      | hrg-eupro       | 1097003912      | 192.168.8.211
 | 2c3d702         | capella 1G      | hrg-eupro       | 1097024674      | 192.168.8.212
-| 2c3d703         | capella 1G      | hrg-eupro       |       | 192.168.8.213
-| 2c3d704         | capella 1G      | hrg-eupro       |       | 192.168.8.214
-| 2c3d705         | capella 1G      | hrg-eupro       |       | 192.168.8.215
+| 2c3d703         | capella 1G      | hrg-eupro       | 1313423539      | 192.168.8.213
+| 2c3d704         | capella 1G      | hrg-eupro       | 1095758823      | 192.168.8.214
+| 2c3d705         | capella 1G      | hrg-eupro       | 1089135627      | 192.168.8.215
 | 2c3e401         | capella 1G      | hrg-jabil       | 1095248152      | 192.168.43.201
 | router          | huawei 4G       | hrg-guoxuan     | 18380126235     | 192.168.8.1
 | ‭2c25e01         | x               | hrg-guoxuan     | 1099131165      | 192.168.8.201
