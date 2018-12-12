@@ -38,7 +38,7 @@
 | router          | huawei 4G       | hrg-yancon      | 13370233723     | 192.168.8.1
 | router          | tplink wifi5G   | hrg-yancon      |                 | 192.168.8.2
 | 29ae700         | arcturus 1B     | hrg-yancon      | 216351583       | 192.168.8.200
-| 29b3101         | kyl-l500k-gd    | hrg-yancon      |       | 192.168.8.201
+| 29b3101         | kyl-l500k-gd    | hrg-yancon      | 1355230640      | 192.168.8.201
 | 29b3102         | kyl-l500k-gd    | hrg-yancon      | 1090347283      | 192.168.8.202
 | 29b3103         | kyl-l500k-gd    | hrg-yancon      | 1137526472      | 192.168.8.203
 | 29b3104         | kyl-l500k-gd    | hrg-yancon      | 1128732754      | 192.168.8.204
