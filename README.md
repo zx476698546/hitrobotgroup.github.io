@@ -38,14 +38,14 @@
 | router          | huawei 4G       | hrg-yancon      | 13370233723     | 192.168.8.1
 | router          | tplink wifi5G   | hrg-yancon      |                 | 192.168.8.2
 | 29ae700         | arcturus 1B     | hrg-yancon      | 216351583       | 192.168.8.200
-| 29b3101         | kyl-l500k-gd    | hrg-yancon      | 1355230640      | 192.168.8.201
-| 29b3102         | kyl-l500k-gd    | hrg-yancon      | 1090347283      | 192.168.8.202
-| 29b3103         | kyl-l500k-gd    | hrg-yancon      | 1137526472      | 192.168.8.203
-| 29b3104         | kyl-l500k-gd    | hrg-yancon      | 1128732754      | 192.168.8.204
-| 29b3105         | kyl-l500k-lt    | hrg-yancon      | 1130064914      | 192.168.8.205
-| 29b3106         | kyl-l500k-lt    | hrg-yancon      | 1354459849      | 192.168.8.206
-| 29b3107         | kyl-l500k-lt    | hrg-yancon      | 1138313304      | 192.168.8.207
-| 29b3108         | kyl-l500k-lt    | hrg-yancon      | 1135116559      | 192.168.8.208
+| 29b3101         | l500k-gd        | hrg-yancon      | 1355230640      | 192.168.8.201
+| 29b3102         | l500k-gd        | hrg-yancon      | 1090347283      | 192.168.8.202
+| 29b3103         | l500k-gd        | hrg-yancon      | 1137526472      | 192.168.8.203
+| 29b3104         | l500k-gd        | hrg-yancon      | 1128732754      | 192.168.8.204
+| 29b3105         | l500k-lt        | hrg-yancon      | 1130064914      | 192.168.8.205
+| 29b3106         | l500k-lt        | hrg-yancon      | 1354459849      | 192.168.8.206
+| 29b3107         | l500k-lt        | hrg-yancon      | 1138313304      | 192.168.8.207
+| 29b3108         | l500k-lt        | hrg-yancon      | 1135116559      | 192.168.8.208
 | 29ae701         | capella 1D      | hrg-yancon      | 1041913709      | 192.168.8.211
 | 29ae702         | capella 1D      | hrg-yancon      | 115129885       | 192.168.8.212
 | 29ae703         | capella 1D      | hrg-yancon      | 970186345       | 192.168.8.213
