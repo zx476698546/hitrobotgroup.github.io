@@ -41,7 +41,7 @@
 | 2c13299         | arcturus 1D     | hrg-innolux     | 922650891
 | router          | huawei 4G       | hrg-yancon      | 13370233723     | 192.168.8.1
 | router          | tplink wifi5G   | hrg-yancon      |                 | 192.168.8.2
-| 29ae700         | arcturus 1B     | hrg-yancon      | 216351583       | 192.168.8.200
+| 29ae7xx *       | arcturus *      | hrg-yancon      | 1036959340
 | 29b3101         | l500k-gd        | hrg-yancon      | 1355230640      | 192.168.8.201
 | 29b3102         | l500k-gd        | hrg-yancon      | 1090347283      | 192.168.8.202
 | 29b3103         | l500k-gd        | hrg-yancon      | 1137526472      | 192.168.8.203
@@ -50,12 +50,12 @@
 | 29b3106         | l500k-lt        | hrg-yancon      | 1354459849      | 192.168.8.206
 | 29b3107         | l500k-lt        | hrg-yancon      | 1138313304      | 192.168.8.207
 | 29b3108         | l500k-lt        | hrg-yancon      | 1135116559      | 192.168.8.208
+| 29ae700         | arcturus 1B     | hrg-yancon      | 216351583       | 192.168.8.200
 | 29ae701         | capella 1D      | hrg-yancon      | 1041913709      | 192.168.8.211
 | 29ae702         | capella 1D      | hrg-yancon      | 115129885       | 192.168.8.212
 | 29ae703         | capella 1D      | hrg-yancon      | 970186345       | 192.168.8.213
 | 29ae704         | capella 1D      | hrg-yancon      | 125976047       | 192.168.8.214
 | 29ae705         | capella 1D      | hrg-yancon      | 125941387       | 192.168.8.215
-| 29ae7xx *       | arcturus *      | hrg-yancon      | 1036959340
 | vega            | vega            | ouiyeah-mercury | 795902791       | 17717876087
 | vega            | vega            | ouiyeah-venus   |                 | 17312116112
 | vega            | vega            | hrg-shanghai    |                 | 13370031713
