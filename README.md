@@ -41,7 +41,7 @@
 | 2c13299         | arcturus 1D     | hrg-innolux     | 922650891
 | router          | huawei 4G       | hrg-yancon      | 13370233723     | 192.168.8.1
 | router          | tplink wifi5G   | hrg-yancon      |                 | 192.168.8.2
-| 29ae7xx *       | arcturus *      | hrg-yancon      | 1036959340
+| 29b3100         | arcturus *      | hrg-yancon      | 1036959340
 | 29b3101         | l500k-gd        | hrg-yancon      | 1355230640      | 192.168.8.201
 | 29b3102         | l500k-gd        | hrg-yancon      | 1090347283      | 192.168.8.202
 | 29b3103         | l500k-gd        | hrg-yancon      | 1137526472      | 192.168.8.203
