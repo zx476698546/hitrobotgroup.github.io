@@ -2,10 +2,8 @@
 
 | Serial No.      | Type            | SSID            | TVID            | IP
 | --------------- | --------------- | --------------- | --------------- | ---------------
-| 2c3de01         | rigel 4T        | hrg-icbc        |       | 
-| 2c3de02         | rigel 4T        | hrg-icbc        |       | 
-| 2c25701         |                 | hrg-shenzhou    | 1043080077      | 
-| 2c25702         |                 | hrg-shenzhou    | 1018242700      | 
+| 2c3de01         | rigel 4T        | hrg-icbc        |       | 192.168.43.241
+| 2c3de02         | rigel 4T        | hrg-icbc        |       | 192.168.43.242
 | router          | huawei 4G       | hrg-eupro       | 1905360888/13370033783     | 192.168.8.1
 | 2bf9800         | arcturus 1C     | hrg-eupro       | 514554481       | 192.168.8.200
 | 2bf9801         | capella 1F      | hrg-eupro       | 510990059       | 192.168.8.201
@@ -16,22 +14,21 @@
 | 2c3d705         | capella 1G      | hrg-eupro       | 1089135627      | 192.168.8.215
 | 2c3e401         | capella 1G      | hrg-jabil       | 1095248152      | 192.168.43.201
 | router          | huawei 4G       | hrg-guoxuan     | 18380126235     | 192.168.8.1
-| ‭2c25e01         | x               | hrg-guoxuan     | 1099131165      | 192.168.8.201
-| ‭2c25e‬02         | x               | hrg-guoxuan     | 1100363879      | 192.168.8.202
-| 2c25e03         | x               | hrg-guoxuan     | 1103446039      | 192.168.8.203
-| 2c25e04         | x               | hrg-guoxuan     | 1099115702      | 192.168.8.204
-| 2c25e05         | x               | hrg-guoxuan     | 1107075576      | 192.168.8.205
-| 2c25e06         | x               | hrg-guoxuan     | 1106892064      | 192.168.8.206
-| 2c25e07         | x               | hrg-guoxuan     | 1108642630      | 192.168.8.207
-| 2c25e08         | x               | hrg-guoxuan     | 1104621283      | 192.168.8.208
-| 2c25e09         | x               | hrg-guoxuan     | 1107688495      | 192.168.8.209
-| 2c25e10         | x               | hrg-guoxuan     | 1107710419      | 192.168.8.210
+| ‭2c25e01         | LD200-PD        | hrg-guoxuan     | 1099131165      | 192.168.8.201
+| ‭2c25e‬02         | LD200-PD        | hrg-guoxuan     | 1100363879      | 192.168.8.202
+| 2c25e03         | LD200-PD        | hrg-guoxuan     | 1103446039      | 192.168.8.203
+| 2c25e04         | LD200-PD        | hrg-guoxuan     | 1099115702      | 192.168.8.204
+| 2c25e05         | LD200-PD        | hrg-guoxuan     | 1107075576      | 192.168.8.205
+| 2c25e06         | LD500-QF        | hrg-guoxuan     | 1106892064      | 192.168.8.206
+| 2c25e07         | LD500-QF        | hrg-guoxuan     | 1108642630      | 192.168.8.207
+| 2c25e08         | LD500-QF        | hrg-guoxuan     | 1104621283      | 192.168.8.208
+| 2c25e09         | LD500-QF        | hrg-guoxuan     | 1107688495      | 192.168.8.209
+| 2c25e10         | LD500-QF        | hrg-guoxuan     | 1107710419      | 192.168.8.210
 | 2c25e11         | x               | hrg-guoxuan     | 1106940343      | 192.168.8.211
 | 2c25e12         | x               | hrg-guoxuan     | 1100280621      | 192.168.8.212
-| router          | huawei 4G       | hrg-diehl       |                 |
-| router          | huawei 4G       | hrg-harman      | 17717874307     | 192.168.0.200
-| 2c0cc01         | rigel 4T        | hrg-harman      | 841414351       | 192.168.0.201
-| 2c0cc02         | rigel 4T        | hrg-harman      | 289024766       | 192.168.0.202/203
+| router          | huawei 4G       | hrg-diehl       |                 | 
+| 2c25701         |                 | hrg-shenzhou    | 1043080077      | 
+| 2c25702         |                 | hrg-shenzhou    | 1018242700      | 
 | router          | huawei 4G       | hrg-innolux     | 17717874207     | 10.63.151.96
 | 2c13200         | arcturus 1D     | hrg-innolux     | 878192267       | 10.63.155.11
 | 2c05102         | rigel 4S        | hrg-innolux     | 934675869
@@ -39,27 +36,30 @@
 | 2c19301         | rigel 4T        | hrg-innolux     | 
 | 2c19308         | rigel 4T        | hrg-innolux     | 1060983589
 | 2c13299         | arcturus 1D     | hrg-innolux     | 922650891
+| router          | huawei 4G       | hrg-harman      | 17717874307     | 192.168.0.200
+| 2c0cc01         | rigel 4T        | hrg-harman      | 841414351       | 192.168.0.201
+| 2c0cc02         | rigel 4T        | hrg-harman      | 289024766       | 192.168.0.202/203 *
 | router          | huawei 4G       | hrg-yancon      | 13370233723     | 192.168.8.1
-| router          | tplink wifi5G   | hrg-yancon      |                 | 192.168.8.2
-| 29b3100         | arcturus *      | hrg-yancon      | 1036959340
-| 29b3101         | l500k-gd        | hrg-yancon      | 1355230640      | 192.168.8.201
-| 29b3102         | l500k-gd        | hrg-yancon      | 1090347283      | 192.168.8.202
-| 29b3103         | l500k-gd        | hrg-yancon      | 1137526472      | 192.168.8.203
-| 29b3104         | l500k-gd        | hrg-yancon      | 1128732754      | 192.168.8.204
-| 29b3105         | l500k-lt        | hrg-yancon      | 1130064914      | 192.168.8.205
-| 29b3106         | l500k-lt        | hrg-yancon      | 1354459849      | 192.168.8.206
-| 29b3107         | l500k-lt        | hrg-yancon      | 1138313304      | 192.168.8.207
-| 29b3108         | l500k-lt        | hrg-yancon      | 1135116559      | 192.168.8.208
-| 29ae700         | arcturus 1B     | hrg-yancon      | 216351583       | 192.168.8.200
+| router          | tplink wifi 5G  | hrg-yancon      | null            | 192.168.8.2
+| 29b3100         | arcturus *      | hrg-yancon      | 1036959340      | 192.168.8.200 *
+| 29b3101         | L500K-GD        | hrg-yancon      | 1355230640      | 192.168.8.201
+| 29b3102         | L500K-GD        | hrg-yancon      | 1090347283      | 192.168.8.202
+| 29b3103         | L500K-GD        | hrg-yancon      | 1137526472      | 192.168.8.203
+| 29b3104         | L500K-GD        | hrg-yancon      | 1128732754      | 192.168.8.204
+| 29b3105         | L500K-LT        | hrg-yancon      | 1130064914      | 192.168.8.205
+| 29b3106         | L500K-LT        | hrg-yancon      | 1354459849      | 192.168.8.206
+| 29b3107         | L500K-LT        | hrg-yancon      | 1138313304      | 192.168.8.207
+| 29b3108         | L500K-LT        | hrg-yancon      | 1135116559      | 192.168.8.208
+| 29ae700         | arcturus 1B     | hrg-yancon      | 216351583       | 192.168.8.200/210 *
 | 29ae701         | capella 1D      | hrg-yancon      | 1041913709      | 192.168.8.211
 | 29ae702         | capella 1D      | hrg-yancon      | 115129885       | 192.168.8.212
 | 29ae703         | capella 1D      | hrg-yancon      | 970186345       | 192.168.8.213
 | 29ae704         | capella 1D      | hrg-yancon      | 125976047       | 192.168.8.214
 | 29ae705         | capella 1D      | hrg-yancon      | 125941387       | 192.168.8.215
-| vega            | vega            | ouiyeah-mercury | 795902791       | 17717876087
-| vega            | vega            | ouiyeah-venus   |                 | 17312116112
-| vega            | vega            | hrg-shanghai    |                 | 13370031713
-| vega            | vega            | hrg-kunshan     |                 | 17312116312
+| vega            | vega            | ouiyeah-mercury | 17717876087     | 192.168.43.1
+| vega            | vega            | ouiyeah-venus   | 17312116112     | 192.168.43.1
+| vega            | vega            | hrg-shanghai    | 13370031713     | 192.168.8.1
+| vega            | vega            | hrg-kunshan     | 17312116312     | 192.168.8.1
 
 ***
 
