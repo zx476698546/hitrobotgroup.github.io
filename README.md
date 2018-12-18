@@ -7,6 +7,7 @@
 | router          | huawei 4G       | hrg-eupro       | 1905360888/13370033783     | 192.168.8.1
 | 2bf9800         | arcturus 1C     | hrg-eupro       | 514554481       | 192.168.8.200
 | 2bf9801         | capella 1F      | hrg-eupro       | 510990059       | 192.168.8.201
+| 2c3d700         | arcturus 1*     | hrg-eupro       |       | 192.168.8.210*
 | 2c3d701         | capella 1G      | hrg-eupro       | 1097003912      | 192.168.8.211
 | 2c3d702         | capella 1G      | hrg-eupro       | 1097024674      | 192.168.8.212
 | 2c3d703         | capella 1G      | hrg-eupro       | 1313423539      | 192.168.8.213
