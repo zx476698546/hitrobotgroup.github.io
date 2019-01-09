@@ -96,11 +96,12 @@
 | DC + light      | brown           | 棕 正
 | DC - light      | blue            | 蓝 负
 | DC OUT          | black           | 黑 输出
-| RX + A twisted  | green           | 绿 收（设备）
-| TX - B twisted  | white           | 白 发（设备）
-| PLC Q           | green           | 绿 出（控制）
-| PLC I           | white           | 白 入（控制）
-| PLC SAFTY       | yellow          | 黄 安全
+| A twisted       | red             | 红
+| B twisted       | white           | 白
+| RX +            | yellow          | 黄 收（设备）
+| TX -            | green           | 绿 发（设备）
+| PLC Q           | yellow          | 黄 出（控制）
+| PLC I           | green           | 绿 入（控制）
 
 插头外壳（5559）插针端子（5558）
 插座外壳（5557）插孔端子（5556）
