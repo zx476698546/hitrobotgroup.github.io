@@ -2,10 +2,9 @@
 
 | Serial No.      | Type            | SSID            | TVID            | IP
 | --------------- | --------------- | --------------- | --------------- | ---------------
-| 2e69801         | rigel 5T        | hrg-jabil-gz    |       | 192.168.43.201
+| 2e6ac03         | rigel 5T        | hitrobot-io     | 1171915509      | 192.168.43.203
 | 2e6a402         | rigel 5T        | hrg-jabil-wx    |       | 192.168.43.202
-| 2e6ac03         | rigel 5T        | hitrobot-io     |       | 192.168.43.203
-| 2e6ac04         | rigel 5T        | ouiyeah-io      |       | 192.168.43.204
+| 2e69801         | rigel 5T        | hrg-jabil-gz    |       | 192.168.43.201
 | 2c3de01         | rigel 4T        | hrg-icbc        |       | 192.168.43.241
 | 2c3de02         | rigel 4T        | hrg-icbc        |       | 192.168.43.242
 | router          | huawei 4G       | hrg-eupro       | 1905360888/13370033783     | 192.168.8.1
