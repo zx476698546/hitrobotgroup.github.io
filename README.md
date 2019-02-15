@@ -68,24 +68,11 @@
 
 ***
 
-# standard
-
-## electric
-
-| Type            | Rated Current   | Pin Spacing     | Section Size    | Remarks
-| --------------- | --------------- | --------------- | --------------- | ---------------
-| JST SH1.0       | 0.5A            | 1.0mm           | 0.08mm2 / 28AWG | 北阳电源接口
-| JST XH2.54      | 0.5A            | 2.5mm           | 0.08mm2 / 28AWG | 杜邦线（测试）
-| JST XH2.54      | 3.0A            | 2.5mm           | 0.25mm2 / 23AWG | 红白排线（调试）
-| MOLEX 555X      | 5.0A            | 4.2mm           | 0.5mm2 / 20AWG  | 非动力线（含双绞线）
-| MOLEX 555X      | 9.0A            | 4.2mm           | 1.0mm2 / 17AWG  | 动力线
-| XT 60 / 90      | 20.0A           | x.xmm           | 2.0mm2 / 14AWG  | 电源线（更大电流另议）
-
-半定制为主，尽量较少自己的冷压、焊接工作
-
+# electrics
 
 | Type            | Color           | Remarks
 | --------------- | --------------- | ---------------
+| UL 10368        | 18 AWG          | 动力线
 | AC L            | red             | 红 火
 | AC N            | blue            | 蓝 零
 | AC U            | yellow          | 黄 U
@@ -97,31 +84,20 @@
 | DC U            | yellow          | 黄 U
 | DC V            | green           | 绿 V
 | DC W            | blue            | 蓝 W
+| DC + under      | orange          | 橙 低压
+| UL 10368 / 3302 | 28 AWG          | 信号线
 | DC + light      | brown           | 棕 正
 | DC - light      | blue            | 蓝 负
 | DC OUT          | black           | 黑 输出
-| A twisted       | red             | 红
-| B twisted       | white           | 白
+| A twisted       | red             | 红 A
+| B twisted       | white           | 白 B
 | RX +            | yellow          | 黄 收（设备）
 | TX -            | green           | 绿 发（设备）
 | PLC Q           | yellow          | 黄 出（控制）
 | PLC I           | green           | 绿 入（控制）
-
-插头外壳（5559）插针端子（5558）
-插座外壳（5557）插孔端子（5556）
-1007 量大
-1015 芯多 较粗
-1332 高温 太硬 较细
-1430 高温
-1571 低压 较细
-3302 低压 很细
-3385 高温 较细
-10368 高温 很细
-双绞线	（带屏蔽） 暖色系+HA 冷色系+LB
-
-电子线	标准待定（UL1430）最低标准
-
-网线	参照profinet标准
+| H + A           | purple          | 紫（暖色系）
+| L + B           | grey            | 灰（冷色系）
+| UL 2xxx         |                 | 双绞线
 
 线长标准：0.1m 0.2m 0.5m 大于0.5m则是0.5m的倍数
 
