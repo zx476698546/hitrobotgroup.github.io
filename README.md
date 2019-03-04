@@ -2,10 +2,20 @@
 
 | Serial No.      | Type            | SSID            | TVID            | IP
 | --------------- | --------------- | --------------- | --------------- | ---------------
+| 2e76101         | tailin 2        | ouiyeah-mercury |       | 192.168.43.201
+| 2e76102         | tailin 2        | ouiyeah-mercury |       | 192.168.43.202
+| 2e76103         | tailin 2        | ouiyeah-mercury |       | 192.168.43.203
+| 2e76104         | tailin 2        | ouiyeah-mercury |       | 192.168.43.204
+| 2e76105         | tailin 2        | ouiyeah-mercury |       | 192.168.43.205
+| 2e76106         | tailin 2        | ouiyeah-mercury |       | 192.168.43.206
+| 2e76107         | tailin 2        | ouiyeah-mercury |       | 192.168.43.207
+| 2e76108         | tailin 2        | ouiyeah-mercury |       | 192.168.43.208
+| 2e76109         | tailin 2        | ouiyeah-mercury |       | 192.168.43.209
+| 2e76110         | tailin 2        | ouiyeah-mercury |       | 192.168.43.210
 | 2e69801         | rigel 5T        | hrg-jabil-gz    | 1169206307      | 192.168.43.201
 | 2e6a402         | rigel 5T        | hrg-jabil-wx    | 1195328755      | 192.168.43.202
 | 2e6ac03         | rigel 5T        | hrg-tdk-zh      | 1171915509      | 192.168.43.203
-| 2e71004         | rigel 5T        | ouiyeah-io      | 1189609434      | 192.168.43.204
+| 2e71004         | rigel 5T        | ouiyeah-mercury | 1189609434      | 192.168.43.204
 | 2c3de01         | rigel 4T        | hrg-icbc        |       | 192.168.43.241
 | 2c3de02         | rigel 4T        | hrg-icbc        |       | 192.168.43.242
 | router          | huawei 4G       | hrg-eupro       | 1905360888/13370033783     | 192.168.8.1
