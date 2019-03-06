@@ -28,17 +28,17 @@
 | 2c3d704         | capella 1G      | hrg-eupro       | 1095758823      | 192.168.8.214
 | 2c3d705         | capella 1G      | hrg-eupro       | 1089135627      | 192.168.8.215
 | 2c3e401         | capella 1G      | hrg-jabil       | 1095248152      | 192.168.43.201
-| router          | huawei 4G       | hrg-guoxuan     | 18380126235     | 192.168.8.1
-| ‭2c25e01         | LD200-PD        | hrg-guoxuan     | 1099131165      | 192.168.8.201
-| ‭2c25e‬02         | LD200-PD        | hrg-guoxuan     | 1100363879      | 192.168.8.202
-| 2c25e03         | LD200-PD        | hrg-guoxuan     | 1103446039      | 192.168.8.203
-| 2c25e04         | LD200-PD        | hrg-guoxuan     | 1099115702      | 192.168.8.204
-| 2c25e05         | LD200-PD        | hrg-guoxuan     | 1107075576      | 192.168.8.205
-| 2c25e06         | LD500-QF        | hrg-guoxuan     | 1106892064      | 192.168.8.206
-| 2c25e07         | LD500-QF        | hrg-guoxuan     | 1108642630      | 192.168.8.207
-| 2c25e08         | LD500-QF        | hrg-guoxuan     | 1104621283      | 192.168.8.208
-| 2c25e09         | LD500-QF        | hrg-guoxuan     | 1107688495      | 192.168.8.209
-| 2c25e10         | LD500-QF        | hrg-guoxuan     | 1107710419      | 192.168.8.210
+| router          | huawei 4G       | hrg-guoxuan     | 18380126235     | 172.17.11.1
+| ‭2c25e01         | LD200-PD        | hrg-guoxuan     | 1099131165      | 172.17.11.152
+| ‭2c25e‬02         | LD200-PD        | hrg-guoxuan     | 1100363879      | 172.17.11.153
+| 2c25e03         | LD200-PD        | hrg-guoxuan     | 1103446039      | 172.17.11.154
+| 2c25e04         | LD200-PD        | hrg-guoxuan     | 1099115702      | 172.17.11.155
+| 2c25e05         | LD200-PD        | hrg-guoxuan     | 1107075576      | 172.17.11.156
+| 2c25e06         | LD500-QF        | hrg-guoxuan     | 1106892064      | 172.17.11.157
+| 2c25e07         | LD500-QF        | hrg-guoxuan     | 1108642630      | 172.17.11.158
+| 2c25e08         | LD500-QF        | hrg-guoxuan     | 1104621283      | 172.17.11.159
+| 2c25e09         | LD500-QF        | hrg-guoxuan     | 1107688495      | 172.17.11.160
+| 2c25e10         | LD500-QF        | hrg-guoxuan     | 1107710419      | 172.17.11.161
 | 2c25e11         | x               | hrg-guoxuan     | 1106940343      | 192.168.8.211
 | 2c25e12         | x               | hrg-guoxuan     | 1100280621      | 192.168.8.212
 | router          | huawei 4G       | hrg-diehl       |                 | 
