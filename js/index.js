@@ -95,7 +95,7 @@ $(function (){
 });
 
 //选中产品
-var imagesArr = ["image/lightAGV.png","image/forklift.png","image/QR-code-robot.png"]
+var imagesArr = ["image/AGV.png","image/forklift.png","image/QR-code-robot.png"]
 // 控制产品显示对应
 function showProduct(param){
   $(".normalBg").hide();
