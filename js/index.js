@@ -7,15 +7,14 @@
 //});
 $(function (){
 //  Initialize Swiper
+
     var swiper1 = new Swiper('.swiper1', {
-        slidesPerView: 5,
-        spaceBetween: 1,
-        loop: true,
+        autoplay: true,
+        slidesPerView: 2,
+        spaceBetween: 0,
+        loop: false,
         speed: 1000,
-        autoplay: {
-       		delay: 2500,
-        	disableOnInteraction : false,
-      }
+        
     });
 	var swiper2 = new Swiper('.swiper2', {
         direction: 'vertical',
@@ -83,4 +82,35 @@ $(function (){
     $("#pdf li").on('mouseout', function () {
     	$("#pdfName").text(" ")
     }) 
+
+    // 鼠标悬浮产品,改变链接
+    $(".productClass li").mouseover(function(){
+      // 对应下标
+      showProduct($(this).index());
+      $("#linkTaobao").attr("href","http://www.taobao.com")
+    })
+
+    //微信浏览器下自动播放
+    document.addEventListener('WeixinJSBridgeReady',  function() {video.play();}, false);
 });
+
+//选中产品
+var imagesArr = ["image/lightAGV.png","image/forklift.png","image/QR-code-robot.png"]
+// 控制产品显示对应
+function showProduct(param){
+  $(".normalBg").hide();
+  $(".productBg").show();
+  switch (param){
+    case 0:
+    $("#productImg").attr("src",imagesArr[param])
+    break;
+
+    case 1:
+    $("#productImg").attr("src",imagesArr[param])
+    break;
+
+    default:
+    $(".normalBg").show();
+    $(".productBg").hide();
+  }
+}
