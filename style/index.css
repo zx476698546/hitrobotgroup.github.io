@@ -518,6 +518,26 @@ body {
 	.enName{
 		display: none
 	}
+	.productsSwiper{
+		position: absolute;
+		bottom: 1.2rem;
+	}
+	.productBg img{
+		width: 94%;
+		margin-top: 1rem;
+	}
+	.indexOne{
+		justify-content: flex-start
+	}
+	.normalBg{
+		margin-top: 35%;
+	}
+	.videoBox{
+		background-position: center !important;
+	}
+	.videoBox{
+		background-size: 90% !important;
+	}
 }
 @media (max-width: 415px) {	
 	#hrgLogo{
@@ -616,12 +636,37 @@ body {
 	.enName{
 		display: none
 	}
+	.productsSwiper{
+		position: absolute;
+		bottom: 1.2rem;
+	}
+	.productBg img{
+		width: 94%;
+		margin-top: 1rem;
+	}
+	.indexOne{
+		justify-content: flex-start
+	}
+	.normalBg{
+		margin-top: 35%;
+	}
+	.videoBox{
+		background-position: center !important;
+	}
+	.videoBox{
+		background-size: 90% !important;
+	}
 }
 
 
 
 
 /* ****************************************** */
+.singleTxt{
+	overflow: hidden;
+	text-overflow:ellipsis;
+ 	 white-space:nowrap;
+}
 .font14{
 	font-size: 0.14rem;
 }
@@ -644,7 +689,7 @@ body {
 .indexOne{
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	align-items: center;
 }
 .productsSwiper{
@@ -654,6 +699,7 @@ body {
 	bottom: 1.2rem; */
 }
 .productBg{
+	text-align: center;
 	display: none;
 }
 .productBg .img{
