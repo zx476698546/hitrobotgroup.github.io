@@ -34,11 +34,11 @@ body {
     margin-right: auto;
 }
 .zhongdao{
-	background-image: url(../image/earth.jpg);
+	/* background-image: url(../image/earth.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-color: #468ef4;
+	background-color: #468ef4; */
 }
 #hrgLogo{	
 	width: 326px;
@@ -308,6 +308,7 @@ body {
 	display: none;
 }
 .indexBar{
+	cursor: pointer;
     width: 50px;
     height: 20px;
     position: absolute;
@@ -332,16 +333,10 @@ body {
 	opacity: 1;
 }
 .swiper-pagination-bullet-active{
-	background: #007AFF;
+	background: #10386b;
 }
 .swiper1{
 	width: 100%;
-	height: 117px;
-	position: absolute;
-	bottom: 100px;
-	right: -80%;
-	background-color: #CCCCCC;
-	transition: all 1s linear;
 }
 .imgSize{ 	
 	text-align: center;
@@ -452,7 +447,7 @@ body {
 		background-image: none;
 	}
 	.swiper1{
-		display: none;
+		/* display: none; */
 	}
 	#pdf{
 		display: none;
@@ -484,7 +479,7 @@ body {
 		left: calc(50% - 150px);
 	}
 	.swiper1{
-		display: none;
+		/* display: none; */
 	}
 }
 @media (max-width: 680px){
@@ -515,7 +510,7 @@ body {
 		left: calc(50% - 150px);
 	}
 	.swiper1{
-		display: none;
+		/* display: none; */
 	}
 }
 @media (max-width: 415px) {	
@@ -596,7 +591,7 @@ body {
 		right: 20px!important;
 	}
 	.swiper1{
-		display: none;
+		/* display: none; */
 	}
 	#test{
 		display: block!important;
@@ -611,3 +606,290 @@ body {
 	}
 }
 
+
+
+
+/* ****************************************** */
+.font14{
+	font-size: 0.14rem;
+}
+.font21{
+	font-size: 0.21rem;
+}
+.font48{
+	font-size: 0.48rem;
+}
+.marginTop8{
+	margin-top: 0.08rem;
+}
+.flex-center{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.indexOne{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+.productsSwiper{
+	width: 100%;
+	margin-bottom: 1.2rem;
+	/* position: absolute;
+	bottom: 1.2rem; */
+}
+.productBg{
+	display: none;
+}
+.productBg .img{
+	width: 1200px;
+}
+.oneLogo{
+	background: url("../image/LOGO.png") no-repeat center;
+	background-size: 100%;
+	width: 1.8rem;
+	height: .48rem;
+}
+.qrcodeBox{
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	width: 1.8rem;
+	height: 1.8rem;
+	background: url("../image/qrcode.jpg") no-repeat center;
+	background-size: 100%;
+	background-color: red;
+}
+.concact{
+	font-size: 0.256rem;
+	color: #10386b;
+}
+.productClass{
+	width: 100%;
+	height: 1.2rem;
+	font-size: 0.22rem;
+	margin-top: 0.5rem;
+}
+.productClass li{
+	/* flex: 1; */
+	height: 100%;
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.productClass li .productSwiperSlide:hover{
+	transform: scale(1.1);
+}
+.productClass li .productSwiperSlide{
+	font-size: 0.18rem;
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	transition:all ease 1s;
+}
+.AGVIcon{
+	width: 0.45rem;
+	height: 0.45rem;
+	background-size: 100%;
+	margin-right: 0.15rem;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.lightAGVIcon{
+	background-image: url("../image/AGV.png");
+}
+.liftAGVIcon{
+	background-image: url("../image/AGVlift.png");
+}
+.AGVJackUpIcon{
+	background-image: url("../image/AGVJack-up.png");
+}
+.AGVMedium{
+	background-image: url("../image/AGVMedium.png");
+}
+.AGVMichael{
+	background-image: url("../image/AGVMichael.png");
+}
+.forklistForward{
+	background-image: url("../image/forklistForward.png");
+}
+
+.chacheBox{
+	background-image: url("../image/chache.jpg")
+}
+.agvBox{
+	background-image: url("../image/agv.jpg")
+}
+
+.bgNone{
+	background-image: none;
+	background-color: #ffffff;
+	color: #10386b;
+}
+.productsItem{
+	position: relative;
+	overflow: hidden;
+}
+.videoBox{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 50%;
+}
+.forkliftItem{
+	background-image: url("../image/forklift.png")
+}
+.agvItem{
+	background-image: url("../image/AGV.png")
+}
+.maskBox{
+	background-color: rgba(0,0,0,.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.itemAgvBox{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+}
+.itemTitle{
+	margin: 0.5rem 0rem 0.3rem 0rem;
+}
+.meritList{
+	margin-top: 0.5rem;
+}
+.meritList li{
+	padding: 0rem 0.15rem;
+	position: relative;
+}
+.meritList li::after{
+	display: block;
+	position: absolute;
+	content: "";
+	width: 0.02rem;
+	height: 0.02rem;
+	background-color: #ffffff;
+	border-radius: 50%;
+	right: 0rem;
+	top: 0.1rem;
+}
+.meritList li:last-child::after{
+	display: none
+}
+.videoBtnBox{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	flex-flow: column;
+}
+.playBtn{
+	width: 0.48rem;
+	height: 0.48rem;
+	background: url("../image/videoStop.png") no-repeat center;
+	background-size: 100%;
+	margin-top: 0.9rem;
+	cursor: pointer;
+}
+.aniBtn{
+	position: relative;
+	margin-top: 0.5rem;
+	overflow: hidden;
+}
+
+@keyframes warn {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;
+	}
+	25% {
+		transform: scale(0);
+		opacity: 0.1;
+	}
+	50% {
+		transform: scale(0.1);
+		opacity: 0.3;
+	}
+	75% {
+		transform: scale(0.5);
+		opacity: 0.5;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 0.0;
+	}
+}
+@-webkit-keyframes warn {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;
+	}
+	25% {
+		-webkit-transform: scale(0);
+		opacity: 0.1;
+	}
+	50% {
+		-webkit-transform: scale(0.1);
+		opacity: 0.3;
+	}
+	75% {
+		-webkit-transform: scale(0.5);
+		opacity: 0.5;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 0.0;
+	}
+}
+ 
+/* 产生动画（向外扩散变大）的圆圈  */
+.anim {
+	position: absolute;
+	width: 1.2rem; 
+	height: 1.2rem;
+	top: -0.4rem;
+	background: rgba(255,255,255,04);
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	z-index: 1;
+	-webkit-animation: warn 3s ease-out;
+	-moz-animation: warn 3s ease-out;
+	animation: warn 3s ease-out;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	cursor: pointer;
+}
+
+
+.moreBtn{
+	width: 1.2rem;
+	height: 0.4rem;
+	border-radius: 0.04rem;
+	border: 0.01rem solid #ffffff;
+	color: #ffffff;
+	cursor: pointer;
+}
