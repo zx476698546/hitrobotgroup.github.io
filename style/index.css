@@ -539,6 +539,9 @@ body {
 	.videoBox{
 		background-size: 90% !important;
 	}
+	.productNameBox{
+		width: 50%;
+	}
 }
 @media (max-width: 415px) {	
 	#hrgLogo{
@@ -656,6 +659,9 @@ body {
 	}
 	.videoBox{
 		background-size: 90% !important;
+	}
+	.productNameBox{
+		width: 50%;
 	}
 }
 
