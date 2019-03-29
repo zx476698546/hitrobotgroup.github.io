@@ -523,14 +523,15 @@ body {
 		bottom: 1.2rem;
 	}
 	.productBg img{
-		width: 94%;
+		width: 94% !important;
 		margin-top: 1rem;
 	}
 	.indexOne{
 		justify-content: flex-start
 	}
 	.normalBg{
-		margin-top: 35%;
+		height: auto !important;
+		margin-top: 35% !important;
 	}
 	.videoBox{
 		background-position: center !important;
@@ -641,15 +642,15 @@ body {
 		bottom: 1.2rem;
 	}
 	.productBg img{
-		width: 94%;
+		width: 94% !important;
 		margin-top: 1rem;
 	}
 	.indexOne{
 		justify-content: flex-start
 	}
 	.normalBg{
-		margin-top: 35%;
-	}
+		height: auto !important;
+		margin-top: 35% !important;	}
 	.videoBox{
 		background-position: center !important;
 	}
@@ -752,10 +753,13 @@ body {
 	justify-content: center;
 	align-items: center;
 	transition:all ease 1s;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .AGVIcon{
-	width: 0.45rem;
-	height: 0.45rem;
+	width: 0.62rem;
+	height: 0.62rem;
 	background-size: 100%;
 	margin-right: 0.15rem;
 	background-repeat: no-repeat;
@@ -941,7 +945,10 @@ body {
 	cursor: pointer;
 }
 
-
+.productBg img{
+	width: 500px;
+	margin-top: 1rem;
+}
 .moreBtn{
 	width: 1.2rem;
 	height: 0.4rem;
@@ -949,4 +956,8 @@ body {
 	border: 0.01rem solid #ffffff;
 	color: #ffffff;
 	cursor: pointer;
+}
+.normalBg{
+	height: 500px;
+	margin-top: 1rem;
 }
