@@ -512,6 +512,9 @@ body {
 	.swiper1{
 		/* display: none; */
 	}
+	.meritList {
+		font-size: 0.1rem;
+	}
 }
 @media (max-width: 415px) {	
 	#hrgLogo{
@@ -603,6 +606,9 @@ body {
 	#word p{
 		font-size: 12px;
 		padding-top: 2.5px;
+	}
+	.meritList {
+		font-size: 0.1rem;
 	}
 }
 
