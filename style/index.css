@@ -515,6 +515,9 @@ body {
 	.meritList {
 		font-size: 0.1rem;
 	}
+	.enName{
+		display: none
+	}
 }
 @media (max-width: 415px) {	
 	#hrgLogo{
@@ -609,6 +612,9 @@ body {
 	}
 	.meritList {
 		font-size: 0.1rem;
+	}
+	.enName{
+		display: none
 	}
 }
 
