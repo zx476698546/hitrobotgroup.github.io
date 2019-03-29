@@ -13,6 +13,8 @@
 		<!--swiper js-->
 		<script src="js/swiper.min.js"></script>
 		<script src="js/swiper.animate1.0.2.min.js"></script>
+		<!-- scale -->
+		<script src="js/scale.js"></script>
 		<!--my js-->
 		<script src="js/index.js" type="text/javascript"></script>
 		<!--my css-->
@@ -22,9 +24,145 @@
 	<!-- Swiper -->
     <div class="swiper-container swiper2">
         <div class="swiper-wrapper swiperWrapper">
-            <div class="swiper-slide zhongdao">
-				<!-- img box Swiper -->
-				<div class="swiper-container swiper1">
+			<!-- 第一页 -->
+            <div class="swiper-slide indexOne">
+				<div class="normalBg">
+					<div class="oneLogo"><a href="http://www.hrgir.cn/" style="display: block; width:100%; height: 100%;"></a></div>
+					<div class="qrcodeBox"></div>
+					<p class="concact">400-100-1000</p>
+				</div>
+				<div class="productBg">
+					<a href="" id="linkTaobao"><img src="image/lightAGV.png" alt="" id="productImg"></a>
+				</div>
+				<div class="productsSwiper ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s">
+					<div class="swiper1">
+					<ul class="swiper-wrapper productClass">
+						<li class="swiper-slide" onclick="showProduct(0)">
+							<div class="productSwiperSlide chacheBox">
+								<div class="AGVIcon lightAGVIcon"></div>
+								<div>
+									<p class="font16">轻载室内激光导航AGV</p>
+									<p class="font14 marginTop8">LIGHT LOAD INDOOR LIDAR NAVIGATION AGV</p>
+								</div>
+							</div>
+						</li>
+						<li class="swiper-slide" onclick="showProduct(1)">
+							<div class="productSwiperSlide chacheBox">
+								<div class="AGVIcon liftAGVIcon"></div>
+								<div>
+									<p class="font16">轻载室内激光导航AGV（顶升式）</p>
+									<p class="font14 marginTop8">LIGHT LOAD INDOOR LIDAR NAVIGATION AGV(Lift function)</p>
+								</div>
+							</div>
+						</li>
+						<li class="swiper-slide" onclick="showProduct(2)">
+							<div class="productSwiperSlide chacheBox">
+								<div class="AGVIcon AGVJackUpIcon"></div>
+								<div>
+									<p class="font16">激光顶升AGV</p>
+									<p class="font14 marginTop8">JACK-UP LASER NAVIGATION AGV</p>
+								</div>
+							</div>
+						</li>
+						<li class="swiper-slide" onclick="showProduct(3)">
+							<div class="productSwiperSlide agvBox">
+								<div class="AGVIcon AGVMedium"></div>
+								<div>
+									<p class="font16">中载激光AGV</p>
+									<p class="font14 marginTop8">MEDIUM LOAD LASER AGV</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="swiper-slide" onclick="showProduct(4)">
+							<div class="productSwiperSlide agvBox">
+									<div class="AGVIcon AGVMichael"></div>
+									<div>
+								<p class="font16">麦克纳姆轮AGV</p>
+								<p class="font14 marginTop8">MICHAEL WHEEL AGV</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="swiper-slide" onclick="showProduct(5)">
+							<div class="productSwiperSlide agvBox">
+									<div class="AGVIcon forklistForward"></div>
+									<div>
+								<p class="font16">前移式对高叉车</p>
+								<p class="font14 marginTop8">FORWARD TYPE STACKING FORKLIFT</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="swiper-slide" onclick="showProduct(6)">
+							<div class="productSwiperSlide agvBox">
+									<div class="AGVIcon lightAGVIcon"></div>
+									<div>
+								<p class="font16">激光SLAM叉车</p>
+								<p class="font14 marginTop8">LIDAR SLAM NAVIGATION FORKLIFT</p>
+								</div>
+							</div>
+						</li>
+						<li class="swiper-slide" onclick="showProduct(7)">
+							<div class="productSwiperSlide agvBox">
+									<div class="AGVIcon lightAGVIcon"></div>
+									<div>
+								<p class="font16">L型堆高叉车</p>
+								<p class="font14 marginTop8">L LIFT FORKLIFT</p>
+								</div>
+							</div>
+						</li>
+						<li class="swiper-slide" onclick="showProduct(8)">
+							<div class="productSwiperSlide agvBox">
+									<div class="AGVIcon lightAGVIcon"></div>
+									<div>
+								<p class="font16">全智能搬运车</p>
+								<p class="font14 marginTop8">INTELLIGENT HANDLING VEHICLE</p>
+								</div>
+							</div>
+						</li>
+						<li class="swiper-slide" onclick="showProduct(9)">
+							<div class="productSwiperSlide agvBox">
+									<div class="AGVIcon lightAGVIcon"></div>
+									<div>
+								<p class="font16">二维码仓储物流机器人系统</p>
+								<p class="font14 marginTop8">TWO-DIMENSIONAL CODE STORAGE LOGISTICS ROBOT SYSTEM</p>
+								</div>
+							</div>
+						</li>
+						<li class="swiper-slide" onclick="showProduct(10)">
+							<div class="productSwiperSlide agvBox">
+									<div class="AGVIcon lightAGVIcon"></div>
+									<div>
+								<p class="font16">快递分拣机器人</p>
+								<p class="font14 marginTop8">EXPRESS SORTING ROBOT</p>
+								</div>
+							</div>
+						</li>
+						<li class="swiper-slide" onclick="showProduct(11)">
+							<div class="productSwiperSlide agvBox">
+									<div class="AGVIcon lightAGVIcon"></div>
+									<div>
+								<p class="font16">潜伏双向牵引AGV</p>
+								<p class="font14 marginTop8">OMNIDIRECTIONAL WHELL AGV</p>
+								</div>
+							</div>
+						</li>
+						<li class="swiper-slide" onclick="showProduct(12)">
+							<div class="productSwiperSlide agvBox">
+									<div class="AGVIcon lightAGVIcon"></div>
+									<div>
+								<p class="font16">医疗物流机器人</p>
+								<p class="font14 marginTop8">MEDICAL LOGISTICS ROBOT</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				</div>
+				
+				<!-- 产品中心 swiper -->
+				<!-- <div class="swiper-container swiper1">
 				  	<div id="boxClick">				  		
 				  	</div>
 				  	<div id="boxCover">
@@ -59,11 +197,13 @@
 				        	医疗物流机器人
 				        </div>
 				    </div>
-				</div>
-            	<div id="hrgLogo">
+				</div> -->
+				<!-- LOGO -->
+            	<!-- <div id="hrgLogo">
             		<img src="image/hrglogo.png" width="100%"/>
-            	</div>
-            	<div id="box">
+				</div> -->
+				<!-- 中间内容 -->
+            	<!-- <div id="box">
             		<div id="CorporateNameZ">
             			<img src="image/slogan.png" width="100%"/>
 	            	</div>
@@ -96,10 +236,35 @@
 	           		<a href="ZDRTCL.html"><div id="zhongdaoMore">
 	           			More >
 	           		</div></a>
-            	</div>
-            </div>
-            <div class="swiper-slide AGVDetails">
-            	<div id="AGVBox">
+            	</div> -->
+			</div>
+
+			<!-- 第二页 -->
+            <div class="swiper-slide productsItem">
+				<div class="videoBox agvItem">
+					<video loop autoplay="auto" muted  style="object-fit: fill;width: 100%;height: 100%;">
+							<!-- <source src="video/agv.mp4" type="video/mp4" /> 
+							<source src="video/agv.ogg" type="video/ogg" />
+							<source src="video/agv.webm" type="video/webm" /> -->
+					</video>
+				</div>
+				<div class="maskBox"></div>
+				<div class="ani itemAgvBox" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s">
+					<div class="font48 itemTitle">轻载室内激光导航AGV</div>
+					<div class="font21">LIGHT LOAD INDOOR LIDAR NAVIGATION AGV</div>
+					<ul class="flex-center font-14 meritList">
+						<li>高精度</li><li>续航久</li><li>负载重</li><li>自动充电</li><li>低成本</li><li>激光导航</li>
+					</ul>
+				</div>
+
+				<div class="ani flex-center videoBtnBox" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s">
+					<!-- <div class="playBtn"></div> -->
+					<div class="aniBtn">
+						<a href="AGV.html"><button class="font14 moreBtn">了解更多</button></a>
+						<div class="anim"></div>
+					</div>
+				</div>
+            	<!-- <div id="AGVBox">
 	            	<div id="AGVNameE">
 	            		<img src="image/AGVDetails.png" width="100%"/>
 	            	</div>
@@ -113,10 +278,35 @@
             	</div>
            		<div id="AGVProduct">
            			<img class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" src="image/AGV.png" width="100%"/>
-           		</div>
-            </div>
-            <div class="swiper-slide ForkliftDetails">
-            	<div id="ForkliftBox">
+           		</div> -->
+			</div>
+			
+			<!-- 第三页 -->
+            <div class="swiper-slide productsItem">
+				<div class="videoBox forkliftItem">
+					<video loop autoplay="auto" muted  style="object-fit: fill;width: 100%;height: 100%;">
+						<!-- <source src="video/forklift.mp4" type="video/mp4" />
+						<source src="video/forklift.ogg" type="video/ogg" />
+						<source src="video/forklift.webm" type="video/webm"> -->
+					</video>
+				</div>
+				<div class="maskBox"></div>
+				<div class="ani itemAgvBox" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s">
+					<div class="font48 itemTitle">轻载室内激光导航AGV</div>
+					<div class="font21">LIGHT LOAD INDOOR LIDAR NAVIGATION AGV</div>
+					<ul class="flex-center font-14 meritList">
+						<li>高精度</li><li>续航久</li><li>负载重</li><li>自动充电</li><li>低成本</li><li>激光导航</li>
+					</ul>
+				</div>
+
+				<div class="ani flex-center videoBtnBox" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s">
+					<!-- <div class="playBtn"></div> -->
+					<div class="aniBtn">
+						<a href="Forklift.html"><button class="font14 moreBtn">了解更多</button></a>
+						<div class="anim"></div>
+					</div>
+				</div>
+            	<!-- <div id="ForkliftBox">
             		<div id="ForkliftNameE">
             		<img src="image/ForkilftDetails.png" width="100%"/>
 	            	</div>
@@ -130,9 +320,9 @@
             	</div>
            		<div id="ForkliftProduct">
            			<img class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" src="image/forklift.png" width="100%"/>
-           		</div>
+           		</div> -->
             </div>
-            <div class="swiper-slide shandong">
+            <!-- <div class="swiper-slide shandong">
             	<div id="YKBox">
 	            	<div id="YKNameE">
 	            		<img src="image/shandongDetails.png" width="100%"/>
@@ -158,12 +348,6 @@
 	           			<div id="pdfClick">
 	           				点击查看文档
 	           			</div>
-	           			<!--<a href="image/1158_T20AP04_D-05_201511(1).pdf"><li class="pdf1"></li></a>
-	           			<a href="image/1158_T20SP_D-02_201110(1).pdf"><li class="pdf2"></li></a>
-	           			<a href="image/1168_L14AP L16AP_D-01_201606(1).pdf"><li class="pdf3"></li></a>
-	           			<a href="image/GBT 20721-2006 自动导引车 通用技术条件.pdf"><li class="pdf4"></li></a>
-	           			<a href="image/GBT 30029-2013 自动导引车(AGV)设计通则.pdf"><li class="pdf5"></li></a>
-	           			<a href="image/GBT 30030-2013 自动导引车(AGV) 术语.pdf"><li class="pdf6"></li></a>-->
 	           			<a href="PDFHtml/T20AP04_D-05.html"><li class="pdf1">文档1</li></a>
 	           			<a href="PDFHtml/T20SP_D-02.html"><li class="pdf2">文档2</li></a>
 	           			<a href="PDFHtml/0L14AP_L16AP_D-01.html"><li class="pdf3">文档3</li></a>
@@ -178,7 +362,7 @@
             	<div id="YKProduct">
 	           		<img class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" src="image/forklift.png" width="100%"/>
 	           	</div>
-            </div>
+            </div> -->
         </div>
         <!-- Add Pagination -->
         <div class="indexBar">
