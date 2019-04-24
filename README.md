@@ -58,6 +58,7 @@
 | router          | huawei 4G       | hrg-harman      | 17717874307     | 192.168.0.200
 | 2c0cc01         | rigel 4T        | hrg-harman      | 841414351       | 192.168.0.201
 | 2c0cc02         | rigel 4T        | hrg-harman      | 289024766       | 192.168.0.202/203 *
+| 29ccc01         | rigel 4S        | ouiyeah-mercury | 406041545       | 192.168.43.233
 | router          | huawei 4G       | hrg-yancon      | 13370233723     | 192.168.8.1
 | router          | tplink wifi 5G  | hrg-yancon      | null            | 192.168.8.2
 | 29b3100         | arcturus *      | hrg-yancon      | 1036959340      | 192.168.8.200 *
