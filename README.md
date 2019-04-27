@@ -18,7 +18,7 @@
 | 2e69801         | rigel 5T        | hrg-jabil-gz    | 1169206307      | 192.168.43.201
 | 2e6a402         | rigel 5T        | hrg-jabil-wx    | 1195328755      | 192.168.43.202
 | 2e6ac03         | rigel 5T        | hrg-tdk-zh      | 1171915509      | 192.168.43.203
-| 2e71004         | rigel 5T        | ouiyeah-mercury | 1189609434      | 192.168.43.204
+| 2e71004         | rigel 5T        | hrg-jabil-wh    | 1189609434      | 192.168.43.204
 | 2e71105         | capella 2D      | hrg-jabil-gz    | 1206604628      | 192.168.43.205
 | 2c3de01         | rigel 4T        | hrg-icbc        |       | 192.168.43.241
 | 2c3de02         | rigel 4T        | hrg-icbc        |       | 192.168.43.242
