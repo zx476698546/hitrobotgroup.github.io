@@ -9,6 +9,8 @@
 | 2e7cf05         | rigel 4*        | ouiyeah-mercury |       | 192.168.43.205
 | 2e7cf06         | rigel 4*        | ouiyeah-mercury |       | 192.168.43.206
 | 2e7cf07         | rigel 4*        | ouiyeah-mercury |       | 192.168.43.207
+| 2e7cf08         | rigel 4*        | ouiyeah-mercury |       | 192.168.43.208
+| 2e7cf09         | rigel 4*        | ouiyeah-mercury |       | 192.168.43.209
 | 2e76101         | tailin 2        | ouiyeah-mercury | 1204276849      | 192.168.43.201
 | 2e76102         | tailin 2        | ouiyeah-mercury | 1208624931      | 192.168.43.202
 | 2e76103         | tailin 2        | ouiyeah-mercury | 1428611927      | 192.168.43.203
