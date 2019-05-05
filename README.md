@@ -10,7 +10,7 @@
 | 2e7cf06         | rigel 4*        | ouiyeah-mercury |       | 192.168.43.206
 | 2e7cf07         | rigel 4*        | ouiyeah-mercury |       | 192.168.43.207
 | 2e7cf08         | rigel 4*        | ouiyeah-mercury |       | 192.168.43.208
-| 2e7cf09         | rigel 4*        | ouiyeah-mercury |       | 192.168.43.209
+| 2e7cf09         | rigel 4*        | ouiyeah-mercury | 1264215277      | 192.168.43.209
 | 2e76101         | tailin 2        | ouiyeah-mercury | 1204276849      | 192.168.43.201
 | 2e76102         | tailin 2        | ouiyeah-mercury | 1208624931      | 192.168.43.202
 | 2e76103         | tailin 2        | ouiyeah-mercury | 1428611927      | 192.168.43.203
@@ -25,6 +25,7 @@
 | 2e6a402         | rigel 5T        | hrg-jabil-wx    | 1195328755      | 192.168.43.202
 | 2e6ac03         | rigel 5T        | hrg-tdk-zh      | 1171915509      | 192.168.43.203
 | 2e71004         | rigel 5T        | hrg-jabil-wh    | 1189609434      | 192.168.43.204
+| 2e82805         | rigel 5U        | hrg-jabil-gz    |       | 192.168.43.205
 | 2e71105         | capella 2D      | hrg-jabil-gz    | 1206604628      | 192.168.43.205
 | 2c3de01         | rigel 4T        | hrg-icbc        |       | 192.168.43.241
 | 2c3de02         | rigel 4T        | hrg-icbc        |       | 192.168.43.242
