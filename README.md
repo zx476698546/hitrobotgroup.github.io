@@ -84,7 +84,7 @@
 | 29ae704         | capella 1D      | hrg-yancon      | 125976047       | 192.168.8.214
 | 29ae705         | capella 1D      | hrg-yancon      | 125941387       | 192.168.8.215
 |                 |                 |                 |                 |
-| 298ef05         | rigel 1S        | ouiyeah-mercury |                 | 192.168.43.233
+| 298ef05         | rigel 1S        | ouiyeah-mercury | 1491337737      | 192.168.43.233
 | vega            | vega            | ouiyeah-mercury | 17717876087     | 192.168.43.1
 | vega            | vega            | ouiyeah-venus   | 17312116112     | 192.168.43.1
 | vega            | vega            | hrg-shanghai    | 13370031713     | 192.168.8.1
