@@ -4,7 +4,7 @@
 | --------------- | --------------- | --------------- | --------------- | ---------------
 | 2e7cf01         | rigel 4S        | ouiyeah-mercury | 1467606344      | 192.168.43.201
 | 2e7cf02         | rigel 4S        | ouiyeah-mercury | 1251343921      | 192.168.43.202
-| 2e7cf03         | rigel 4S        | ouiyeah-mercury |       | 192.168.43.203
+| 2e7cf03         | rigel 4S        | ouiyeah-mercury | 1276703383      | 192.168.43.203
 | 2e7cf04         | rigel 4T        | ouiyeah-mercury | 1264141700      | 192.168.43.204
 | 2e7cf05         | rigel 4*        | ouiyeah-mercury |       | 192.168.43.205
 | 2e7cf06         | rigel 4*        | ouiyeah-mercury |       | 192.168.43.206
