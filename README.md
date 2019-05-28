@@ -11,6 +11,7 @@
 | 2e7cf07         | rigel 4*        | ouiyeah-mercury |       | 192.168.43.207
 | 2e7cf08         | rigel 4*        | ouiyeah-mercury |       | 192.168.43.208
 | 2e7cf09         | rigel 4*        | ouiyeah-mercury | 1264215277      | 192.168.43.209
+|                 |                 |                 |                 |
 | 2e76101         | tailin 2        | ouiyeah-mercury | 1204276849      | 192.168.43.201
 | 2e76102         | tailin 2        | ouiyeah-mercury | 1208624931      | 192.168.43.202
 | 2e76103         | tailin 2        | ouiyeah-mercury | 1428611927      | 192.168.43.203
@@ -21,14 +22,18 @@
 | 2e76108         | tailin 2        | ouiyeah-mercury | 1216102393      | 192.168.43.208
 | 2e76109         | tailin 2        | ouiyeah-mercury | 1214639585      | 192.168.43.209
 | 2e76110         | tailin 2        | ouiyeah-mercury | 1432350207      | 192.168.43.210
+|                 |                 |                 |                 |
 | 2e69801         | rigel 5T        | hrg-jabil-gz    | 1169206307      | 192.168.43.201
 | 2e6a402         | rigel 5T        | hrg-jabil-wx    | 1195328755      | 192.168.43.202
 | 2e6ac03         | rigel 5T        | hrg-tdk-zh      | 1171915509      | 192.168.43.203
 | 2e71004         | rigel 5T        | hrg-jabil-wh    | 1189609434      | 192.168.43.204
 | 2e82805         | rigel 5U        | hrg-jabil-gz    | 1493200192      | 192.168.43.205
 | 2e71105         | capella 2D      | hrg-jabil-gz    | 1206604628      | 192.168.43.205
+| 2c3e401         | capella 1G      | hrg-jabil-wh    | 1095248152      | 192.168.43.201
+|                 |                 |                 |                 |
 | 2c3de01         | rigel 4T        | hrg-icbc        |       | 192.168.43.241
 | 2c3de02         | rigel 4T        | hrg-icbc        |       | 192.168.43.242
+|                 |                 |                 |                 |
 | router          | huawei 4G       | hrg-eupro       | 1905360888/13370033783     | 192.168.8.1
 | 2bf9800         | arcturus 1C     | hrg-eupro       | 514554481       | 192.168.8.200
 | 2bf9801         | capella 1F      | hrg-eupro       | 510990059       | 192.168.8.201
@@ -38,7 +43,7 @@
 | 2c3d703         | capella 1G      | hrg-eupro       | 1313423539      | 192.168.8.213
 | 2c3d704         | capella 1G      | hrg-eupro       | 1095758823      | 192.168.8.214
 | 2c3d705         | capella 1G      | hrg-eupro       | 1089135627      | 192.168.8.215
-| 2c3e401         | capella 1G      | hrg-jabil       | 1095248152      | 192.168.43.201
+|                 |                 |                 |                 |
 | router          | huawei 4G       | hrg-guoxuan     | 18380126235     | 172.17.11.1
 | ‭2c25e01         | LD200-PD        | hrg-guoxuan     | 1099131165      | 172.17.11.152
 | ‭2c25e‬02         | LD200-PD        | hrg-guoxuan     | 1100363879      | 172.17.11.153
@@ -52,9 +57,12 @@
 | 2c25e10         | LD500-QF        | hrg-guoxuan     | 1107710419      | 172.17.11.161
 | 2c25e11         | x               | hrg-guoxuan     | 1106940343      | 192.168.8.211
 | 2c25e12         | x               | hrg-guoxuan     | 1100280621      | 192.168.8.212
+|                 |                 |                 |                 |
 | router          | huawei 4G       | hrg-diehl       |                 | 
+|                 |                 |                 |                 |
 | 2c25701         |                 | hrg-shenzhou    | 1043080077      | 
 | 2c25702         |                 | hrg-shenzhou    | 1018242700      | 
+|                 |                 |                 |                 |
 | router          | huawei 4G       | hrg-innolux     | 17717874207     | 10.63.151.96
 | 2c13200         | arcturus 1D     | hrg-innolux     | 878192267       | 10.63.155.11
 | 2c05102         | rigel 4S        | hrg-innolux     | 934675869
@@ -62,9 +70,11 @@
 | 2c19301         | rigel 4T        | hrg-innolux     | 
 | 2c19308         | rigel 4T        | hrg-innolux     | 1060983589
 | 2c13299         | arcturus 1D     | hrg-innolux     | 922650891
+|                 |                 |                 |                 |
 | router          | huawei 4G       | hrg-harman      | 17717874307     | 192.168.0.200
 | 2c0cc01         | rigel 4T        | hrg-harman      | 841414351       | 192.168.0.201
 | 2c0cc02         | rigel 4T        | hrg-harman      | 289024766       | 192.168.0.202/203 *
+|                 |                 |                 |                 |
 | router          | huawei 4G       | hrg-yancon      | 13370233723     | 192.168.8.1
 | router          | tplink wifi 5G  | hrg-yancon      | null            | 192.168.8.2
 | 29b3100         | arcturus *      | hrg-yancon      | 1036959340      | 192.168.8.200 *
@@ -84,11 +94,14 @@
 | 29ae705         | capella 1D      | hrg-yancon      | 125941387       | 192.168.8.215
 |                 |                 |                 |                 |
 |                 | rigel 4T        | hrg-conti       | 1044134503      |
+|                 |                 |                 |                 |
 | 2c38a01         | rigel 4T        | KSFSK-RGV       | 1271780295      | 192.168.59.111
 | 2c38a02         | rigel 4T        | KSFSK-RGV       | 1095697080      | 192.168.59.112
 | 2c38a03         | rigel 4T        | KSFSK-RGV       | 1028009040      | 192.168.59.113
+|                 |                 |                 |                 |
 | 29ccc01         | rigel 4S        | hrg             | 406041545       | 192.168.3.233
 | 298ef05         | rigel 1S        | ouiyeah-mercury | 1491337737      | 192.168.43.233
+|                 |                 |                 |                 |
 | vega            | vega            | ouiyeah-mercury | 17717876087     | 192.168.43.1
 | vega            | vega            | ouiyeah-venus   | 17312116112     | 192.168.43.1
 | vega            | vega            | hrg-shanghai    | 13370031713     | 192.168.8.1
