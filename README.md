@@ -34,7 +34,7 @@
 | 2c3de01         | rigel 4T        | hrg-icbc        |       | 192.168.43.241
 | 2c3de02         | rigel 4T        | hrg-icbc        |       | 192.168.43.242
 |                 |                 |                 |                 |
-| router          | huawei 4G       | hrg-eupro       | 1905360888/13370033783     | 192.168.8.1
+| router          | huawei 4G       | hrg-eupro       | 13370033783     | 192.168.8.1
 | 2bf9800         | arcturus 1C     | hrg-eupro       | 514554481       | 192.168.8.200
 | 2bf9801         | capella 1F      | hrg-eupro       | 510990059       | 192.168.8.201
 | 2c3d700         | arcturus 1*     | hrg-eupro       |       | 192.168.8.210*
