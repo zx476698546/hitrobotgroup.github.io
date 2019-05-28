@@ -83,6 +83,7 @@
 | 29ae704         | capella 1D      | hrg-yancon      | 125976047       | 192.168.8.214
 | 29ae705         | capella 1D      | hrg-yancon      | 125941387       | 192.168.8.215
 |                 |                 |                 |                 |
+|                 | rigel 4T        | hrg-conti       | 1044134503      |
 | 2c38a01         | rigel 4T        | KSFSK-RGV       | 1271780295      | 192.168.59.111
 | 2c38a02         | rigel 4T        | KSFSK-RGV       | 1095697080      | 192.168.59.112
 | 2c38a03         | rigel 4T        | KSFSK-RGV       | 1028009040      | 192.168.59.113
