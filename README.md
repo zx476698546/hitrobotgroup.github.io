@@ -2,6 +2,14 @@
 
 | Serial No.      | Type            | SSID            | TVID            | IP
 | --------------- | --------------- | --------------- | --------------- | ---------------
+| 2e69801         | rigel 5T        | hrg-jabil-gz    | 1169206307      | 192.168.43.201
+| 2e6a402         | rigel 5T        | hrg-jabil-wx    | 1195328755      | 192.168.43.202
+| 2e6ac03         | rigel 5T        | hrg-tdk-zh      | 1171915509      | 192.168.43.203
+| 2e71004         | rigel 5T        | hrg-jabil-wh    | 1189609434      | 192.168.43.204
+| 2e82805         | rigel 5U        | hrg-jabil-gz    | 1493200192      | 192.168.43.205
+| 2e71105         | capella 2D      | hrg-jabil-gz    | 1206604628      | 192.168.43.205
+| 2c3e401         | capella 1G      | hrg-jabil-wh    | 1095248152      | 192.168.43.201
+|                 |                 |                 |                 |
 | 2e7cf01         | rigel 4S        | ouiyeah-mercury | 1467606344      | 192.168.43.201
 | 2e7cf02         | rigel 4S        | ouiyeah-mercury | 1251343921      | 192.168.43.202
 | 2e7cf03         | rigel 4S        | ouiyeah-mercury | 1276703383      | 192.168.43.203
@@ -23,14 +31,6 @@
 | 2e76109         | tailin 2        | ouiyeah-mercury | 1214639585      | 192.168.43.209
 | 2e76110         | tailin 2        | ouiyeah-mercury | 1432350207      | 192.168.43.210
 |                 |                 |                 |                 |
-| 2e69801         | rigel 5T        | hrg-jabil-gz    | 1169206307      | 192.168.43.201
-| 2e6a402         | rigel 5T        | hrg-jabil-wx    | 1195328755      | 192.168.43.202
-| 2e6ac03         | rigel 5T        | hrg-tdk-zh      | 1171915509      | 192.168.43.203
-| 2e71004         | rigel 5T        | hrg-jabil-wh    | 1189609434      | 192.168.43.204
-| 2e82805         | rigel 5U        | hrg-jabil-gz    | 1493200192      | 192.168.43.205
-| 2e71105         | capella 2D      | hrg-jabil-gz    | 1206604628      | 192.168.43.205
-| 2c3e401         | capella 1G      | hrg-jabil-wh    | 1095248152      | 192.168.43.201
-|                 |                 |                 |                 |
 | 2c3de01         | rigel 4T        | hrg-icbc        |       | 192.168.43.241
 | 2c3de02         | rigel 4T        | hrg-icbc        |       | 192.168.43.242
 |                 |                 |                 |                 |
@@ -43,6 +43,15 @@
 | 2c3d703         | capella 1G      | hrg-eupro       | 1313423539      | 192.168.8.213
 | 2c3d704         | capella 1G      | hrg-eupro       | 1095758823      | 192.168.8.214
 | 2c3d705         | capella 1G      | hrg-eupro       | 1089135627      | 192.168.8.215
+|                 |                 |                 |                 |
+| router          | huawei 4G       | hrg-diehl       |                 | 
+|                 |                 |                 |                 |
+| 2c38a01         | rigel 4T        | KSFSK-RGV       | 1271780295      | 192.168.59.111
+| 2c38a02         | rigel 4T        | KSFSK-RGV       | 1095697080      | 192.168.59.112
+| 2c38a03         | rigel 4T        | KSFSK-RGV       | 1028009040      | 192.168.59.113
+|                 |                 |                 |                 |
+| 2c2a801         | rigel 4T        | hrg-conti       | 1044134503      | 192.168.43.233
+| 2c2a802         | rigel 4S        | hrg-conti       | 1026431999      | 192.168.43.33
 |                 |                 |                 |                 |
 | router          | huawei 4G       | hrg-guoxuan     | 18380126235     | 172.17.11.1
 | ‭2c25e01         | LD200-PD        | hrg-guoxuan     | 1099131165      | 172.17.11.152
@@ -58,8 +67,6 @@
 | 2c25e11         | x               | hrg-guoxuan     | 1106940343      | 192.168.8.211
 | 2c25e12         | x               | hrg-guoxuan     | 1100280621      | 192.168.8.212
 |                 |                 |                 |                 |
-| router          | huawei 4G       | hrg-diehl       |                 | 
-|                 |                 |                 |                 |
 | 2c25701         |                 | hrg-shenzhou    | 1043080077      | 
 | 2c25702         |                 | hrg-shenzhou    | 1018242700      | 
 |                 |                 |                 |                 |
@@ -74,6 +81,8 @@
 | router          | huawei 4G       | hrg-harman      | 17717874307     | 192.168.0.200
 | 2c0cc01         | rigel 4T        | hrg-harman      | 841414351       | 192.168.0.201
 | 2c0cc02         | rigel 4T        | hrg-harman      | 289024766       | 192.168.0.202/203 *
+|                 |                 |                 |                 |
+| 29ccc01         | rigel 4S        | hrg             | 406041545       | 192.168.3.233
 |                 |                 |                 |                 |
 | router          | huawei 4G       | hrg-yancon      | 13370233723     | 192.168.8.1
 | router          | tplink wifi 5G  | hrg-yancon      | null            | 192.168.8.2
@@ -93,14 +102,6 @@
 | 29ae704         | capella 1D      | hrg-yancon      | 125976047       | 192.168.8.214
 | 29ae705         | capella 1D      | hrg-yancon      | 125941387       | 192.168.8.215
 |                 |                 |                 |                 |
-| 2c38a01         | rigel 4T        | KSFSK-RGV       | 1271780295      | 192.168.59.111
-| 2c38a02         | rigel 4T        | KSFSK-RGV       | 1095697080      | 192.168.59.112
-| 2c38a03         | rigel 4T        | KSFSK-RGV       | 1028009040      | 192.168.59.113
-|                 |                 |                 |                 |
-| 2c2a801         | rigel 4T        | hrg-conti       | 1044134503      | 192.168.43.233
-| 2c2a802         | rigel 4S        | hrg-conti       | 1026431999      | 192.168.43.33
-|                 |                 |                 |                 |
-| 29ccc01         | rigel 4S        | hrg             | 406041545       | 192.168.3.233
 | 298ef05         | rigel 1S        | ouiyeah-mercury | 1491337737      | 192.168.43.233
 |                 |                 |                 |                 |
 | vega            | vega            | ouiyeah-mercury | 17717876087     | 192.168.43.1
