@@ -34,9 +34,9 @@
 | 2c3de01         | rigel 4T        | hrg-icbc        |       | 192.168.43.241
 | 2c3de02         | rigel 4T        | hrg-icbc        |       | 192.168.43.242
 |                 |                 |                 |                 |
-| 2c3de01*        | rigel 4T        | hrg-wurth       | 1073476094      | 192.168.43.201
-| 2c3de02*        | rigel 4T        | hrg-wurth       |       | 192.168.43.202
-| 2c3de03*        | rigel 4T        | hrg-wurth       |       | 192.168.43.203
+| 2c3de01         | rigel 4T        | hrg-wurth       | 1073476094      | 192.168.43.201
+| 2c3de02         | rigel 4T        | hrg-wurth       | 1073487910      | 192.168.43.202
+| 2c3de03         | rigel 4T        | hrg-wurth       | 1301723761      | 192.168.43.203
 |                 |                 |                 |                 |
 | router          | huawei 4G       | hrg-eupro       | 13370033783     | 192.168.8.1
 | 2bf9800         | arcturus 1C     | hrg-eupro       | 514554481       | 192.168.8.200
