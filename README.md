@@ -8,6 +8,7 @@
 | 2e71004         | rigel 5T        | hrg-jabil-wh    | 1189609434      | 192.168.43.204
 | 2e82805         | rigel 5T        | hrg-jabil-gz    | 1493200192      | 192.168.43.205
 | 2e89706         | rigel 5T        | hrg-jabil-gz    | 1303841536      | 192.168.43.206
+| 2e90b07         | rigel 5T        | hrg-jabil-gz    | 1295454572      | 192.168.43.207
 | 2e71105         | capella 2D      | hrg-jabil-gz    | 1206604628      | 192.168.43.205
 | 2c3e401         | capella 1G      | hrg-jabil-wh    | 1095248152      | 192.168.43.201
 |                 |                 |                 |                 |
